@@ -39,6 +39,17 @@ def calculateResults(res, multiplier, unit):
     mdian = median(res) * multiplier
     print(f"Average: \t\t{avg} {unit}\nAverage of {k} best: \t{avg_k} {unit}\nMedian: \t\t{mdian} {unit}\n")
 
+def calculateRes(res, multiplier):
+    avg = average(res) * multiplier
+    k = 5
+    avg_k = average_kbest(res, k) * multiplier
+    mdian = median(res) * multiplier
+    return avg_k
+
+def calculateSpeedUp(val, path):
+    divisions = path.split('/')
+    print(divisions)
+
 def main():
     args, other = getopt.getopt(sys.argv[1:], 'pst')
     dictargs = dict(args)
@@ -62,8 +73,15 @@ def main():
             total.append(float(t))
 
         total = sorted(total)
-        print(total)
-        calculateResults(total, 1, "seconds")
+
+        if ("s" in dictargs):
+            threadtimes = re.findall(r"Total threads\s+=\s+([0-9]*)\n", text)
+
+            val = calculateRes(total, 1)
+            calculateSpeedUp(val, path)
+            #print(f"{threadtimes[0]} {val}")
+        else:
+            calculateResults(total, 1, "seconds")
 
 
         

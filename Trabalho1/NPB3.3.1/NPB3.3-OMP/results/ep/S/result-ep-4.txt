@@ -636,3 +636,641 @@ Counts:
 
 
 -----------end-------------
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - EP Benchmark
+
+ Number of random numbers generated:        33554432
+ Number of available threads:                      4
+
+EP Benchmark Results:
+
+CPU Time =    0.2153
+N = 2^   24
+No. Gaussian Pairs =      13176389.
+Sums =    -3.247834652034438D+03   -6.958407078382656D+03
+Counts:
+  0       6140517.
+  1       5865300.
+  2       1100361.
+  3         68546.
+  4          1648.
+  5            17.
+  6             0.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        S
+ Size            =                 33554432
+ Iterations      =                        0
+ Time in seconds =                     0.22
+ Total threads   =                        4
+ Avail threads   =                        4
+ Mop/s total     =                   155.87
+ Mop/s/thread    =                    38.97
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Apr 2020
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp -mcmodel=medium
+    FLINKFLAGS   = -O3 -fopenmp -mcmodel=medium
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - EP Benchmark
+
+ Number of random numbers generated:        33554432
+ Number of available threads:                      4
+
+EP Benchmark Results:
+
+CPU Time =    0.2079
+N = 2^   24
+No. Gaussian Pairs =      13176389.
+Sums =    -3.247834652034438D+03   -6.958407078382656D+03
+Counts:
+  0       6140517.
+  1       5865300.
+  2       1100361.
+  3         68546.
+  4          1648.
+  5            17.
+  6             0.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        S
+ Size            =                 33554432
+ Iterations      =                        0
+ Time in seconds =                     0.21
+ Total threads   =                        4
+ Avail threads   =                        4
+ Mop/s total     =                   161.37
+ Mop/s/thread    =                    40.34
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Apr 2020
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp -mcmodel=medium
+    FLINKFLAGS   = -O3 -fopenmp -mcmodel=medium
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - EP Benchmark
+
+ Number of random numbers generated:        33554432
+ Number of available threads:                      4
+
+EP Benchmark Results:
+
+CPU Time =    0.2053
+N = 2^   24
+No. Gaussian Pairs =      13176389.
+Sums =    -3.247834652034438D+03   -6.958407078382656D+03
+Counts:
+  0       6140517.
+  1       5865300.
+  2       1100361.
+  3         68546.
+  4          1648.
+  5            17.
+  6             0.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        S
+ Size            =                 33554432
+ Iterations      =                        0
+ Time in seconds =                     0.21
+ Total threads   =                        4
+ Avail threads   =                        4
+ Mop/s total     =                   163.42
+ Mop/s/thread    =                    40.86
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Apr 2020
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp -mcmodel=medium
+    FLINKFLAGS   = -O3 -fopenmp -mcmodel=medium
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - EP Benchmark
+
+ Number of random numbers generated:        33554432
+ Number of available threads:                      4
+
+EP Benchmark Results:
+
+CPU Time =    0.2090
+N = 2^   24
+No. Gaussian Pairs =      13176389.
+Sums =    -3.247834652034438D+03   -6.958407078382657D+03
+Counts:
+  0       6140517.
+  1       5865300.
+  2       1100361.
+  3         68546.
+  4          1648.
+  5            17.
+  6             0.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        S
+ Size            =                 33554432
+ Iterations      =                        0
+ Time in seconds =                     0.21
+ Total threads   =                        4
+ Avail threads   =                        4
+ Mop/s total     =                   160.53
+ Mop/s/thread    =                    40.13
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Apr 2020
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp -mcmodel=medium
+    FLINKFLAGS   = -O3 -fopenmp -mcmodel=medium
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - EP Benchmark
+
+ Number of random numbers generated:        33554432
+ Number of available threads:                      4
+
+EP Benchmark Results:
+
+CPU Time =    0.2128
+N = 2^   24
+No. Gaussian Pairs =      13176389.
+Sums =    -3.247834652034438D+03   -6.958407078382656D+03
+Counts:
+  0       6140517.
+  1       5865300.
+  2       1100361.
+  3         68546.
+  4          1648.
+  5            17.
+  6             0.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        S
+ Size            =                 33554432
+ Iterations      =                        0
+ Time in seconds =                     0.21
+ Total threads   =                        4
+ Avail threads   =                        4
+ Mop/s total     =                   157.67
+ Mop/s/thread    =                    39.42
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Apr 2020
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp -mcmodel=medium
+    FLINKFLAGS   = -O3 -fopenmp -mcmodel=medium
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - EP Benchmark
+
+ Number of random numbers generated:        33554432
+ Number of available threads:                      4
+
+EP Benchmark Results:
+
+CPU Time =    0.2129
+N = 2^   24
+No. Gaussian Pairs =      13176389.
+Sums =    -3.247834652034438D+03   -6.958407078382657D+03
+Counts:
+  0       6140517.
+  1       5865300.
+  2       1100361.
+  3         68546.
+  4          1648.
+  5            17.
+  6             0.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        S
+ Size            =                 33554432
+ Iterations      =                        0
+ Time in seconds =                     0.21
+ Total threads   =                        4
+ Avail threads   =                        4
+ Mop/s total     =                   157.64
+ Mop/s/thread    =                    39.41
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Apr 2020
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp -mcmodel=medium
+    FLINKFLAGS   = -O3 -fopenmp -mcmodel=medium
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - EP Benchmark
+
+ Number of random numbers generated:        33554432
+ Number of available threads:                      4
+
+EP Benchmark Results:
+
+CPU Time =    0.2126
+N = 2^   24
+No. Gaussian Pairs =      13176389.
+Sums =    -3.247834652034438D+03   -6.958407078382656D+03
+Counts:
+  0       6140517.
+  1       5865300.
+  2       1100361.
+  3         68546.
+  4          1648.
+  5            17.
+  6             0.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        S
+ Size            =                 33554432
+ Iterations      =                        0
+ Time in seconds =                     0.21
+ Total threads   =                        4
+ Avail threads   =                        4
+ Mop/s total     =                   157.84
+ Mop/s/thread    =                    39.46
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Apr 2020
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp -mcmodel=medium
+    FLINKFLAGS   = -O3 -fopenmp -mcmodel=medium
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - EP Benchmark
+
+ Number of random numbers generated:        33554432
+ Number of available threads:                      4
+
+EP Benchmark Results:
+
+CPU Time =    0.2025
+N = 2^   24
+No. Gaussian Pairs =      13176389.
+Sums =    -3.247834652034438D+03   -6.958407078382656D+03
+Counts:
+  0       6140517.
+  1       5865300.
+  2       1100361.
+  3         68546.
+  4          1648.
+  5            17.
+  6             0.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        S
+ Size            =                 33554432
+ Iterations      =                        0
+ Time in seconds =                     0.20
+ Total threads   =                        4
+ Avail threads   =                        4
+ Mop/s total     =                   165.69
+ Mop/s/thread    =                    41.42
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Apr 2020
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp -mcmodel=medium
+    FLINKFLAGS   = -O3 -fopenmp -mcmodel=medium
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - EP Benchmark
+
+ Number of random numbers generated:        33554432
+ Number of available threads:                      4
+
+EP Benchmark Results:
+
+CPU Time =    0.2082
+N = 2^   24
+No. Gaussian Pairs =      13176389.
+Sums =    -3.247834652034438D+03   -6.958407078382656D+03
+Counts:
+  0       6140517.
+  1       5865300.
+  2       1100361.
+  3         68546.
+  4          1648.
+  5            17.
+  6             0.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        S
+ Size            =                 33554432
+ Iterations      =                        0
+ Time in seconds =                     0.21
+ Total threads   =                        4
+ Avail threads   =                        4
+ Mop/s total     =                   161.13
+ Mop/s/thread    =                    40.28
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Apr 2020
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp -mcmodel=medium
+    FLINKFLAGS   = -O3 -fopenmp -mcmodel=medium
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - EP Benchmark
+
+ Number of random numbers generated:        33554432
+ Number of available threads:                      4
+
+EP Benchmark Results:
+
+CPU Time =    0.2212
+N = 2^   24
+No. Gaussian Pairs =      13176389.
+Sums =    -3.247834652034438D+03   -6.958407078382656D+03
+Counts:
+  0       6140517.
+  1       5865300.
+  2       1100361.
+  3         68546.
+  4          1648.
+  5            17.
+  6             0.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        S
+ Size            =                 33554432
+ Iterations      =                        0
+ Time in seconds =                     0.22
+ Total threads   =                        4
+ Avail threads   =                        4
+ Mop/s total     =                   151.66
+ Mop/s/thread    =                    37.92
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Apr 2020
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp -mcmodel=medium
+    FLINKFLAGS   = -O3 -fopenmp -mcmodel=medium
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - EP Benchmark
+
+ Number of random numbers generated:        33554432
+ Number of available threads:                      4
+
+EP Benchmark Results:
+
+CPU Time =    0.2412
+N = 2^   24
+No. Gaussian Pairs =      13176389.
+Sums =    -3.247834652034438D+03   -6.958407078382656D+03
+Counts:
+  0       6140517.
+  1       5865300.
+  2       1100361.
+  3         68546.
+  4          1648.
+  5            17.
+  6             0.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        S
+ Size            =                 33554432
+ Iterations      =                        0
+ Time in seconds =                     0.24
+ Total threads   =                        4
+ Avail threads   =                        4
+ Mop/s total     =                   139.11
+ Mop/s/thread    =                    34.78
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              12 Apr 2020
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp -mcmodel=medium
+    FLINKFLAGS   = -O3 -fopenmp -mcmodel=medium
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------

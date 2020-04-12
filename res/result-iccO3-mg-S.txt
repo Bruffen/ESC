@@ -1,8 +1,0 @@
-
-Trabalho1/NPB3.3.1/NPB3.3-SER/results/iccO3/mg/S/result-iccO3-mg.txt
-aa
-[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-Average: 		0.0 seconds
-Average of 5 best: 	0.0 seconds
-Median: 		0.0 seconds
-
