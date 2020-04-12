@@ -1,0 +1,8 @@
+
+Trabalho1/NPB3.3.1/NPB3.3-SER/results/iccO3/bt/S/result-iccO3-bt.txt
+aa
+[0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.08, 0.08, 0.08, 0.08, 0.08, 0.08, 0.08, 0.08, 0.08, 0.08, 0.08, 0.09, 0.09, 0.1, 0.1]
+Average: 		0.07954545454545457 seconds
+Average of 5 best: 	0.07 seconds
+Median: 		0.08 seconds
+

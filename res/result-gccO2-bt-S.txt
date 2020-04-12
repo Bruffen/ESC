@@ -1,0 +1,8 @@
+
+Trabalho1/NPB3.3.1/NPB3.3-SER/results/gccO2/bt/S/result-gccO2-bt.txt
+aa
+[0.06, 0.06, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.08, 0.08, 0.08, 0.08, 0.09, 0.09, 0.09, 0.1, 0.1]
+Average: 		0.0763636363636364 seconds
+Average of 5 best: 	0.066 seconds
+Median: 		0.07 seconds
+

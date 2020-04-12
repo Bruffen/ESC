@@ -1,0 +1,8 @@
+
+Trabalho1/NPB3.3.1/NPB3.3-SER/results/gccO0/ep/S/result-gccO0-ep.txt
+aa
+[2.72, 2.73, 2.74, 2.74, 2.75, 2.75, 2.75, 2.76, 2.77, 2.77, 2.78, 2.8, 2.81, 2.83, 2.84, 2.84, 2.86, 2.88, 2.93, 2.93, 2.96, 3.03]
+Average: 		2.816818181818182 seconds
+Average of 5 best: 	2.736 seconds
+Median: 		2.8049999999999997 seconds
+

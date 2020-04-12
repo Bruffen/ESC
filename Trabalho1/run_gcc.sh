@@ -19,7 +19,7 @@ do
     for test in ep mg bt
     do
         mkdir results/$test_option/$test
-        for class in W A B
+        for class in S #W A B
         do
             mkdir results/$test_option/$test/$class
         done
@@ -33,7 +33,7 @@ do
     echo -n "" > suite.def
     for test in ep mg bt
     do
-        for class in W A B
+        for class in S #W A B
         do
             echo $test $class >> suite.def
         done
@@ -48,7 +48,7 @@ do
 
     for test in ep mg bt
     do
-        for class in W A B
+        for class in S #W A B
         do
             for i in 0 1 2 3 4 5 6 7 8 9 10
             do
