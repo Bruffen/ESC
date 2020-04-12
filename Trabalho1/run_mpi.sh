@@ -1,8 +1,8 @@
-#!/bin/sh
+#!/bin/bash
 
 #PBS -N "npb"
 #PBS -l walltime=2:00:00
-#PBS -l nodes=1:r662:ppn=24
+#PBS -l nodes=4:r662:ppn=24
 #PBS -q mei
 
 module load gcc/5.3.0
@@ -55,9 +55,13 @@ do
         do
             for i in 0 1 2 3 4 5 6 7 8 9 10
             do
-                echo "----------start------------" >> "results/$test/$class/result-$test-$processes.txt"
-                mpirun -np $processes ./bin/$test.$class.$processes >> "results/$test/$class/result-$test-$processes.txt"
-                echo "-----------end-------------" >> "results/$test/$class/result-$test-$processes.txt"
+                if [[ $test == "bt" && $processes == "2" ]]; then
+                    echo ""
+                else
+                    echo "----------start------------" >> "results/$test/$class/result-$test-$processes.txt"
+                    mpirun -np $processes -mca btl self,sm,tcp -oversubscribe --map-by node ./bin/$test.$class.$processes >> "results/$test/$class/result-$test-$processes.txt"
+                    echo "-----------end-------------" >> "results/$test/$class/result-$test-$processes.txt"
+                fi
             done
         done
     done

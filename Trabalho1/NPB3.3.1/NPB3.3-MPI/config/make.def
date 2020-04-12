@@ -46,13 +46,13 @@ FMPI_INC =
 #---------------------------------------------------------------------------
 # Global *compile time* flags for Fortran programs
 #---------------------------------------------------------------------------
-FFLAGS	= -O3 -fastsse
+FFLAGS	= -O3
 
 #---------------------------------------------------------------------------
 # Global *link time* flags. Flags for increasing maximum executable 
 # size usually go here. 
 #---------------------------------------------------------------------------
-FLINKFLAGS = -O3 -fastsse
+FLINKFLAGS = -O3
 
 
 #---------------------------------------------------------------------------
@@ -92,13 +92,13 @@ CMPI_INC =
 #---------------------------------------------------------------------------
 # Global *compile time* flags for C programs
 #---------------------------------------------------------------------------
-CFLAGS	= -O3 -fastsse
+CFLAGS	= -O3
 
 #---------------------------------------------------------------------------
 # Global *link time* flags. Flags for increasing maximum executable 
 # size usually go here. 
 #---------------------------------------------------------------------------
-CLINKFLAGS = -O3 -fastsse
+CLINKFLAGS = -O3
 
 
 #---------------------------------------------------------------------------
@@ -119,7 +119,7 @@ CLINKFLAGS = -O3 -fastsse
 # this compiler go here also; typically there are few flags required; hence 
 # there are no separate macros provided for such flags.
 #---------------------------------------------------------------------------
-CC	= pgcc -g
+CC	= mpicc
 
 
 #---------------------------------------------------------------------------
