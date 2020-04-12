@@ -1,7 +1,28 @@
-FMPI_LIB  = -L../MPI_dummy -lmpi
-FMPI_INC  = -I../MPI_dummy
-CMPI_LIB  = -L../MPI_dummy -lmpi
-CMPI_INC  = -I../MPI_dummy
-default:: ${PROGRAM} libmpi.a
-libmpi.a: 
-	cd ../MPI_dummy; $(MAKE) F77=$(MPIF77) CC=$(MPICC)
+# FMPI_LIB  = -L../MPI_dummy -lmpi
+# FMPI_INC  = -I../MPI_dummy
+# CMPI_LIB  = -L../MPI_dummy -lmpi
+# CMPI_INC  = -I../MPI_dummy
+# default:: ${PROGRAM} libmpi.a
+# libmpi.a: 
+# 	cd ../MPI_dummy; $(MAKE) F77=$(MPIF77) CC=$(MPICC)
+
+# This is for a an SGI Origin 2000 or 3000 with vendor MPI. The Fortran
+# record length is specified, so it can be used for the I/O benchmark.
+# as well
+MPIF77   = f77 
+FMPI_LIB = -lmpi
+FLINK    = f77 -64
+FFLAGS   = -O3 -64
+
+MPICC    = cc
+CMPI_LIB = -lmpi
+CLINK    = cc
+CFLAGS   = -O3 
+
+CC       = cc -g
+BINDIR   = ../bin
+
+RAND   = randi8
+
+CONVERTFLAG = -DFORTRAN_REC_SIZE=4
+
