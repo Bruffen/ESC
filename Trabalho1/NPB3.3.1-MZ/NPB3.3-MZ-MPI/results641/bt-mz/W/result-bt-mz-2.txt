@@ -1,7 +1,0 @@
-----------start------------
-2 total processes failed to start
------------end-------------
-----------start------------
-2 total processes failed to start
------------end-------------
-----------start------------
