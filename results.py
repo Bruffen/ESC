@@ -49,9 +49,40 @@ def calculateRes(res, multiplier):
 def calculateSpeedUp(val, path):
     divisions = path.split('/')
     print(divisions)
+    divisions = divisions.reverse()
+    c = divisions[1]
+    kernel = divisions[2]
+    speedup = 0
+
+    if (kernel == "ep"):
+        if (c == "W"):
+            speedup = 0
+        if (c == "A"):
+            speedup = 0
+        if (c == "B"):
+            speedup = 0
+    if (kernel == "mg"):
+        if (c == "W"):
+            speedup = 0
+        if (c == "A"):
+            speedup = 0
+        if (c == "B"):
+            speedup = 0
+
+    if (kernel == "bt"):
+        if (c == "W"):
+            speedup = 0
+        if (c == "A"):
+            speedup = 0
+        if (c == "B"):
+            speedup = 0
+
+    return speedup/val
+
+    
 
 def main():
-    args, other = getopt.getopt(sys.argv[1:], 'pst')
+    args, other = getopt.getopt(sys.argv[1:], 's')
     dictargs = dict(args)
 
     regex = r".*\nTotal: ([0-9]+.[0-9]*).*\nTime: ([0-9]+.[0-9]*)"
@@ -74,12 +105,12 @@ def main():
 
         total = sorted(total)
 
-        if ("s" in dictargs):
+        if ("-s" in dictargs):
             threadtimes = re.findall(r"Total threads\s+=\s+([0-9]*)\n", text)
 
             val = calculateRes(total, 1)
-            calculateSpeedUp(val, path)
-            #print(f"{threadtimes[0]} {val}")
+            val = calculateSpeedUp(val, filename)
+            print(f"{threadtimes[0]} {val}")
         else:
             calculateResults(total, 1, "seconds")
 
