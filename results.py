@@ -48,8 +48,7 @@ def calculateRes(res, multiplier):
 
 def calculateSpeedUp(val, path):
     divisions = path.split('/')
-    print(divisions)
-    divisions = divisions.reverse()
+    divisions.reverse()
     c = divisions[1]
     kernel = divisions[2]
     speedup = 0
@@ -77,6 +76,8 @@ def calculateSpeedUp(val, path):
         if (c == "B"):
             speedup = 220.346
 
+    #print(f"{kernel}  {c}")
+
     return speedup/val
 
     
@@ -88,34 +89,49 @@ def main():
     regex = r".*\nTotal: ([0-9]+.[0-9]*).*\nTime: ([0-9]+.[0-9]*)"
 
     path = other[0]
-    for filename in glob.glob(os.path.join(path, '*.txt')):
-        text = ""
-     
-        for line in fileinput.input(filename):
-            text += line
+    #files = [f for f in glob.glob(path + "**/*.txt", recursive=True)]
+    for folder in [f for f in glob.glob(path + "**/", recursive=True)]:
+        divisions = folder.split('/')
+        divisions.reverse()
+        c = divisions[1]
+        kernel = divisions[2]
 
-        times = []
-        total = []
+        print(f"{kernel}  {c}")
+        print(f"1 1")
 
-
-        times = re.findall(r"Time in seconds =\s+([0-9]+.[0-9]*)\n", text)
+        filenames = glob.glob(os.path.join(folder, '*.txt'))
+        filenames.sort(key=lambda f: int(re.sub('\D', '', f)))
+        for filename in filenames: 
+            text = ""
         
-        for t in times:
-            total.append(float(t))
+            for line in fileinput.input(filename):
+                text += line
 
-        total = sorted(total)
+            times = []
+            total = []
+            times = re.findall(r"Time in seconds\s+=\s+([0-9]+.[0-9]*)\n", text)
+            
+            for t in times:
+                total.append(float(t))
+            total = sorted(total)
 
-        if ("-s" in dictargs):
-            threadtimes = re.findall(r"Total threads\s+=\s+([0-9]*)\n", text)
+            if (len(total) <= 0):
+                continue;
 
-            val = calculateRes(total, 1)
-            val = calculateSpeedUp(val, filename)
-            print(f"{threadtimes[0]} {val}")
-        else:
-            print(f"\n{filename}")
-            calculateResults(total, 1, "seconds")
+            if ("-s" in dictargs):
+                threadtimes = []
 
+                if ("mpi" in folder):
+                    threadtimes = re.findall(r"Total processes\s+=\s+([0-9]*)\n", text)
+                else:
+                    threadtimes = re.findall(r"Total threads\s+=\s+([0-9]*)\n", text)
 
-        
+                val = calculateRes(total, 1)
+                val = calculateSpeedUp(val, filename)
+                print(f"{threadtimes[0]} " + "{:.4f}".format(val))
+            else:
+                print(f"\n{filename}")
+                calculateResults(total, 1, "seconds")
+        print("\n")
 
 main()
