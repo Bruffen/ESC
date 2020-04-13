@@ -90,14 +90,14 @@ def main():
     path = other[0]
     for filename in glob.glob(os.path.join(path, '*.txt')):
         text = ""
-        print(f"\n{filename}")
+     
         for line in fileinput.input(filename):
             text += line
 
         times = []
         total = []
 
-        print("aa")
+
         times = re.findall(r"Time in seconds =\s+([0-9]+.[0-9]*)\n", text)
         
         for t in times:
@@ -112,6 +112,7 @@ def main():
             val = calculateSpeedUp(val, filename)
             print(f"{threadtimes[0]} {val}")
         else:
+            print(f"\n{filename}")
             calculateResults(total, 1, "seconds")
 
 
