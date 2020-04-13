@@ -1,0 +1,132 @@
+----------start------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./bin/bt.B.32
+Node: compute-641-9
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+16 total processes failed to start
+-----------end-------------
+----------start------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./bin/bt.B.32
+Node: compute-641-9
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+16 total processes failed to start
+-----------end-------------
+----------start------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./bin/bt.B.32
+Node: compute-641-9
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+16 total processes failed to start
+-----------end-------------
+----------start------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./bin/bt.B.32
+Node: compute-641-9
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+16 total processes failed to start
+-----------end-------------
+----------start------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./bin/bt.B.32
+Node: compute-641-9
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+16 total processes failed to start
+-----------end-------------
+----------start------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./bin/bt.B.32
+Node: compute-641-9
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+16 total processes failed to start
+-----------end-------------
+----------start------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./bin/bt.B.32
+Node: compute-641-9
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+16 total processes failed to start
+-----------end-------------
+----------start------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./bin/bt.B.32
+Node: compute-641-9
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+16 total processes failed to start
+-----------end-------------
+----------start------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./bin/bt.B.32
+Node: compute-641-9
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+16 total processes failed to start
+-----------end-------------
+----------start------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./bin/bt.B.32
+Node: compute-641-9
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+16 total processes failed to start
+-----------end-------------
+----------start------------
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./bin/bt.B.32
+Node: compute-641-9
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+16 total processes failed to start
+-----------end-------------

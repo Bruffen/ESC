@@ -1,0 +1,528 @@
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  128x 128x 128  (class W)
+ Iterations:   4
+
+ Initialization time:           0.179 seconds
+
+  iter   1
+  iter   4
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.6467329375339E-05
+ Error is    0.1126351067593E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        W
+ Size            =            128x 128x 128
+ Iterations      =                        4
+ Time in seconds =                     0.14
+ Mop/s total     =                  3601.70
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              13 Apr 2020
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = -O3
+    RAND         = randdp
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  128x 128x 128  (class W)
+ Iterations:   4
+
+ Initialization time:           0.177 seconds
+
+  iter   1
+  iter   4
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.6467329375339E-05
+ Error is    0.1126351067593E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        W
+ Size            =            128x 128x 128
+ Iterations      =                        4
+ Time in seconds =                     0.13
+ Mop/s total     =                  3619.25
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              13 Apr 2020
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = -O3
+    RAND         = randdp
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  128x 128x 128  (class W)
+ Iterations:   4
+
+ Initialization time:           0.176 seconds
+
+  iter   1
+  iter   4
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.6467329375339E-05
+ Error is    0.1126351067593E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        W
+ Size            =            128x 128x 128
+ Iterations      =                        4
+ Time in seconds =                     0.13
+ Mop/s total     =                  3607.15
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              13 Apr 2020
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = -O3
+    RAND         = randdp
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  128x 128x 128  (class W)
+ Iterations:   4
+
+ Initialization time:           0.177 seconds
+
+  iter   1
+  iter   4
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.6467329375339E-05
+ Error is    0.1126351067593E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        W
+ Size            =            128x 128x 128
+ Iterations      =                        4
+ Time in seconds =                     0.14
+ Mop/s total     =                  3597.04
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              13 Apr 2020
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = -O3
+    RAND         = randdp
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  128x 128x 128  (class W)
+ Iterations:   4
+
+ Initialization time:           0.176 seconds
+
+  iter   1
+  iter   4
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.6467329375339E-05
+ Error is    0.1126351067593E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        W
+ Size            =            128x 128x 128
+ Iterations      =                        4
+ Time in seconds =                     0.13
+ Mop/s total     =                  3623.94
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              13 Apr 2020
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = -O3
+    RAND         = randdp
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  128x 128x 128  (class W)
+ Iterations:   4
+
+ Initialization time:           0.177 seconds
+
+  iter   1
+  iter   4
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.6467329375339E-05
+ Error is    0.1126351067593E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        W
+ Size            =            128x 128x 128
+ Iterations      =                        4
+ Time in seconds =                     0.14
+ Mop/s total     =                  3597.60
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              13 Apr 2020
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = -O3
+    RAND         = randdp
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  128x 128x 128  (class W)
+ Iterations:   4
+
+ Initialization time:           0.177 seconds
+
+  iter   1
+  iter   4
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.6467329375339E-05
+ Error is    0.1126351067593E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        W
+ Size            =            128x 128x 128
+ Iterations      =                        4
+ Time in seconds =                     0.14
+ Mop/s total     =                  3546.33
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              13 Apr 2020
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = -O3
+    RAND         = randdp
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  128x 128x 128  (class W)
+ Iterations:   4
+
+ Initialization time:           0.176 seconds
+
+  iter   1
+  iter   4
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.6467329375339E-05
+ Error is    0.1126351067593E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        W
+ Size            =            128x 128x 128
+ Iterations      =                        4
+ Time in seconds =                     0.13
+ Mop/s total     =                  3605.06
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              13 Apr 2020
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = -O3
+    RAND         = randdp
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  128x 128x 128  (class W)
+ Iterations:   4
+
+ Initialization time:           0.177 seconds
+
+  iter   1
+  iter   4
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.6467329375339E-05
+ Error is    0.1126351067593E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        W
+ Size            =            128x 128x 128
+ Iterations      =                        4
+ Time in seconds =                     0.14
+ Mop/s total     =                  3555.43
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              13 Apr 2020
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = -O3
+    RAND         = randdp
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  128x 128x 128  (class W)
+ Iterations:   4
+
+ Initialization time:           0.177 seconds
+
+  iter   1
+  iter   4
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.6467329375339E-05
+ Error is    0.1126351067593E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        W
+ Size            =            128x 128x 128
+ Iterations      =                        4
+ Time in seconds =                     0.14
+ Mop/s total     =                  3586.01
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              13 Apr 2020
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = -O3
+    RAND         = randdp
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  128x 128x 128  (class W)
+ Iterations:   4
+
+ Initialization time:           0.176 seconds
+
+  iter   1
+  iter   4
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.6467329375339E-05
+ Error is    0.1126351067593E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        W
+ Size            =            128x 128x 128
+ Iterations      =                        4
+ Time in seconds =                     0.13
+ Mop/s total     =                  3625.99
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              13 Apr 2020
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = -O3
+    RAND         = randdp
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------

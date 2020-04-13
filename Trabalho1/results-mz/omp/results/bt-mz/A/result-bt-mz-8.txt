@@ -1,0 +1,803 @@
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-MZ-OMP) - BT-MZ OpenMP Benchmark
+
+ Number of zones:   4 x   4
+ Iterations: 200    dt:   0.000800
+
+ Use the default load factors with threads
+ Number of outer-level threads:     8
+ Total number of threads:      8  (  1.0 inner-threads/outer-thread)
+
+ Calculated speedup =      4.87
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5887309627164E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6161408849315E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4493829753649E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5379720762114E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9253203584915E-13
+ Comparison of RMS-norms of solution error
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6621353330580E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4870282163193E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2519492637685E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4939566701506E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8794989497042E-13
+ Verification Successful
+
+
+ BT-MZ Benchmark Completed.
+ Class           =                        A
+ Size            =            128x  128x 16
+ Iterations      =                      200
+ Time in seconds =                     9.73
+ Total o_threads =                        8
+ Total threads   =                        8
+ Mop/s total     =                 15023.57
+ Mop/s/thread    =                  1877.95
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              13 Apr 2020
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp -mcmodel=medium
+    FLINKFLAGS   = -O3 -fopenmp -mcmodel=medium
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-MZ-OMP) - BT-MZ OpenMP Benchmark
+
+ Number of zones:   4 x   4
+ Iterations: 200    dt:   0.000800
+
+ Use the default load factors with threads
+ Number of outer-level threads:     8
+ Total number of threads:      8  (  1.0 inner-threads/outer-thread)
+
+ Calculated speedup =      4.87
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5887309627164E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6143497777078E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4493829753649E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5379720762114E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9236561132424E-13
+ Comparison of RMS-norms of solution error
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6634893930438E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4887738371663E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2521198455314E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4910595635808E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8794989497042E-13
+ Verification Successful
+
+
+ BT-MZ Benchmark Completed.
+ Class           =                        A
+ Size            =            128x  128x 16
+ Iterations      =                      200
+ Time in seconds =                     9.74
+ Total o_threads =                        8
+ Total threads   =                        8
+ Mop/s total     =                 15010.40
+ Mop/s/thread    =                  1876.30
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              13 Apr 2020
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp -mcmodel=medium
+    FLINKFLAGS   = -O3 -fopenmp -mcmodel=medium
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-MZ-OMP) - BT-MZ OpenMP Benchmark
+
+ Number of zones:   4 x   4
+ Iterations: 200    dt:   0.000800
+
+ Use the default load factors with threads
+ Number of outer-level threads:     8
+ Total number of threads:      8  (  1.0 inner-threads/outer-thread)
+
+ Calculated speedup =      4.87
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5887309627164E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6143497777078E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4493829753649E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5379720762114E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9253203584915E-13
+ Comparison of RMS-norms of solution error
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6634893930438E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4887738371663E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2521198455314E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4910595635808E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8794989497042E-13
+ Verification Successful
+
+
+ BT-MZ Benchmark Completed.
+ Class           =                        A
+ Size            =            128x  128x 16
+ Iterations      =                      200
+ Time in seconds =                     9.66
+ Total o_threads =                        8
+ Total threads   =                        8
+ Mop/s total     =                 15132.11
+ Mop/s/thread    =                  1891.51
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              13 Apr 2020
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp -mcmodel=medium
+    FLINKFLAGS   = -O3 -fopenmp -mcmodel=medium
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-MZ-OMP) - BT-MZ OpenMP Benchmark
+
+ Number of zones:   4 x   4
+ Iterations: 200    dt:   0.000800
+
+ Use the default load factors with threads
+ Number of outer-level threads:     8
+ Total number of threads:      8  (  1.0 inner-threads/outer-thread)
+
+ Calculated speedup =      4.87
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5874168311032E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6143497777078E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4493829753649E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5379720762114E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9253203584915E-13
+ Comparison of RMS-norms of solution error
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6621353330580E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4887738371663E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2522904272943E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4939566701506E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8794989497042E-13
+ Verification Successful
+
+
+ BT-MZ Benchmark Completed.
+ Class           =                        A
+ Size            =            128x  128x 16
+ Iterations      =                      200
+ Time in seconds =                     9.67
+ Total o_threads =                        8
+ Total threads   =                        8
+ Mop/s total     =                 15121.11
+ Mop/s/thread    =                  1890.14
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              13 Apr 2020
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp -mcmodel=medium
+    FLINKFLAGS   = -O3 -fopenmp -mcmodel=medium
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-MZ-OMP) - BT-MZ OpenMP Benchmark
+
+ Number of zones:   4 x   4
+ Iterations: 200    dt:   0.000800
+
+ Use the default load factors with threads
+ Number of outer-level threads:     8
+ Total number of threads:      8  (  1.0 inner-threads/outer-thread)
+
+ Calculated speedup =      4.87
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5900450943297E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6161408849315E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4495533898417E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5393840764114E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9253203584915E-13
+ Comparison of RMS-norms of solution error
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6634893930438E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4905194580133E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2519492637685E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4925081168657E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8811741857989E-13
+ Verification Successful
+
+
+ BT-MZ Benchmark Completed.
+ Class           =                        A
+ Size            =            128x  128x 16
+ Iterations      =                      200
+ Time in seconds =                     9.77
+ Total o_threads =                        8
+ Total threads   =                        8
+ Mop/s total     =                 14969.26
+ Mop/s/thread    =                  1871.16
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              13 Apr 2020
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp -mcmodel=medium
+    FLINKFLAGS   = -O3 -fopenmp -mcmodel=medium
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-MZ-OMP) - BT-MZ OpenMP Benchmark
+
+ Number of zones:   4 x   4
+ Iterations: 200    dt:   0.000800
+
+ Use the default load factors with threads
+ Number of outer-level threads:     8
+ Total number of threads:      8  (  1.0 inner-threads/outer-thread)
+
+ Calculated speedup =      4.87
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5887309627164E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6143497777078E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4493829753649E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5379720762114E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9253203584915E-13
+ Comparison of RMS-norms of solution error
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6634893930438E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4887738371663E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2521198455314E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4910595635808E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8794989497042E-13
+ Verification Successful
+
+
+ BT-MZ Benchmark Completed.
+ Class           =                        A
+ Size            =            128x  128x 16
+ Iterations      =                      200
+ Time in seconds =                     9.74
+ Total o_threads =                        8
+ Total threads   =                        8
+ Mop/s total     =                 15014.19
+ Mop/s/thread    =                  1876.77
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              13 Apr 2020
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp -mcmodel=medium
+    FLINKFLAGS   = -O3 -fopenmp -mcmodel=medium
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-MZ-OMP) - BT-MZ OpenMP Benchmark
+
+ Number of zones:   4 x   4
+ Iterations: 200    dt:   0.000800
+
+ Use the default load factors with threads
+ Number of outer-level threads:     8
+ Total number of threads:      8  (  1.0 inner-threads/outer-thread)
+
+ Calculated speedup =      4.87
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5887309627164E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6143497777078E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4493829753649E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5379720762114E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9236561132424E-13
+ Comparison of RMS-norms of solution error
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6634893930438E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4887738371663E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2521198455314E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4910595635808E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8794989497042E-13
+ Verification Successful
+
+
+ BT-MZ Benchmark Completed.
+ Class           =                        A
+ Size            =            128x  128x 16
+ Iterations      =                      200
+ Time in seconds =                     9.72
+ Total o_threads =                        8
+ Total threads   =                        8
+ Mop/s total     =                 15037.89
+ Mop/s/thread    =                  1879.74
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              13 Apr 2020
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp -mcmodel=medium
+    FLINKFLAGS   = -O3 -fopenmp -mcmodel=medium
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-MZ-OMP) - BT-MZ OpenMP Benchmark
+
+ Number of zones:   4 x   4
+ Iterations: 200    dt:   0.000800
+
+ Use the default load factors with threads
+ Number of outer-level threads:     8
+ Total number of threads:      8  (  1.0 inner-threads/outer-thread)
+
+ Calculated speedup =      4.87
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5900450943297E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6161408849315E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4493829753649E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5393840764114E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9253203584915E-13
+ Comparison of RMS-norms of solution error
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6634893930438E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4887738371663E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2519492637685E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4925081168657E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8811741857989E-13
+ Verification Successful
+
+
+ BT-MZ Benchmark Completed.
+ Class           =                        A
+ Size            =            128x  128x 16
+ Iterations      =                      200
+ Time in seconds =                     9.68
+ Total o_threads =                        8
+ Total threads   =                        8
+ Mop/s total     =                 15108.08
+ Mop/s/thread    =                  1888.51
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              13 Apr 2020
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp -mcmodel=medium
+    FLINKFLAGS   = -O3 -fopenmp -mcmodel=medium
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-MZ-OMP) - BT-MZ OpenMP Benchmark
+
+ Number of zones:   4 x   4
+ Iterations: 200    dt:   0.000800
+
+ Use the default load factors with threads
+ Number of outer-level threads:     8
+ Total number of threads:      8  (  1.0 inner-threads/outer-thread)
+
+ Calculated speedup =      4.87
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5887309627164E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6143497777078E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4493829753649E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5379720762114E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9236561132424E-13
+ Comparison of RMS-norms of solution error
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6634893930438E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4887738371663E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2521198455314E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4910595635808E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8794989497042E-13
+ Verification Successful
+
+
+ BT-MZ Benchmark Completed.
+ Class           =                        A
+ Size            =            128x  128x 16
+ Iterations      =                      200
+ Time in seconds =                     9.76
+ Total o_threads =                        8
+ Total threads   =                        8
+ Mop/s total     =                 14981.60
+ Mop/s/thread    =                  1872.70
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              13 Apr 2020
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp -mcmodel=medium
+    FLINKFLAGS   = -O3 -fopenmp -mcmodel=medium
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-MZ-OMP) - BT-MZ OpenMP Benchmark
+
+ Number of zones:   4 x   4
+ Iterations: 200    dt:   0.000800
+
+ Use the default load factors with threads
+ Number of outer-level threads:     8
+ Total number of threads:      8  (  1.0 inner-threads/outer-thread)
+
+ Calculated speedup =      4.87
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5887309627164E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6143497777078E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4493829753649E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5379720762114E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9236561132424E-13
+ Comparison of RMS-norms of solution error
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6634893930438E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4887738371663E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2521198455314E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4910595635808E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8794989497042E-13
+ Verification Successful
+
+
+ BT-MZ Benchmark Completed.
+ Class           =                        A
+ Size            =            128x  128x 16
+ Iterations      =                      200
+ Time in seconds =                     9.69
+ Total o_threads =                        8
+ Total threads   =                        8
+ Mop/s total     =                 15094.38
+ Mop/s/thread    =                  1886.80
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              13 Apr 2020
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp -mcmodel=medium
+    FLINKFLAGS   = -O3 -fopenmp -mcmodel=medium
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-MZ-OMP) - BT-MZ OpenMP Benchmark
+
+ Number of zones:   4 x   4
+ Iterations: 200    dt:   0.000800
+
+ Use the default load factors with threads
+ Number of outer-level threads:     8
+ Total number of threads:      8  (  1.0 inner-threads/outer-thread)
+
+ Calculated speedup =      4.87
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5874168311032E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6143497777078E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4493829753649E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5379720762114E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9253203584915E-13
+ Comparison of RMS-norms of solution error
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6621353330580E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4887738371663E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2522904272943E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4939566701506E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8794989497042E-13
+ Verification Successful
+
+
+ BT-MZ Benchmark Completed.
+ Class           =                        A
+ Size            =            128x  128x 16
+ Iterations      =                      200
+ Time in seconds =                     9.71
+ Total o_threads =                        8
+ Total threads   =                        8
+ Mop/s total     =                 15050.30
+ Mop/s/thread    =                  1881.29
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              13 Apr 2020
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp -mcmodel=medium
+    FLINKFLAGS   = -O3 -fopenmp -mcmodel=medium
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------
