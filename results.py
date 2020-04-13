@@ -56,26 +56,26 @@ def calculateSpeedUp(val, path):
 
     if (kernel == "ep"):
         if (c == "W"):
-            speedup = 0
+            speedup = 4.245
         if (c == "A"):
-            speedup = 0
+            speedup = 27.524
         if (c == "B"):
-            speedup = 0
+            speedup = 109.574
     if (kernel == "mg"):
         if (c == "W"):
-            speedup = 0
+            speedup = 0.13
         if (c == "A"):
-            speedup = 0
+            speedup = 1.042
         if (c == "B"):
-            speedup = 0
+            speedup = 4.89
 
     if (kernel == "bt"):
         if (c == "W"):
-            speedup = 0
+            speedup = 2.11
         if (c == "A"):
-            speedup = 0
+            speedup = 50.582
         if (c == "B"):
-            speedup = 0
+            speedup = 220.346
 
     return speedup/val
 
