@@ -5,12 +5,12 @@
 
  Number of zones:   4 x   4
  Iterations: 200    dt:   0.000800
- Number of active processes:     1
+ Number of active processes:     4
 
  Use the default load factors with threads
- Total number of threads:     16  ( 16.0 threads/process)
+ Total number of threads:    256  ( 64.0 threads/process)
 
- Calculated speedup =     16.00
+ Calculated speedup =    255.05
 
  Time step    1
  Time step   20
@@ -26,381 +26,16 @@
  Verification being performed for class A
  accuracy setting for epsilon =  0.1000000000000E-07
  Comparison of RMS-norms of residual
-           1 0.5536703889522E+05 0.5536703889522E+05 0.5966157523957E-13
-           2 0.5077835038405E+04 0.5077835038405E+04 0.6179319921551E-13
-           3 0.1067391361067E+05 0.1067391361067E+05 0.4490421464112E-12
-           4 0.6441179694972E+04 0.6441179694972E+04 0.5407960766115E-13
-           5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
- Comparison of RMS-norms of solution error
-           1 0.6716797714343E+04 0.6716797714343E+04 0.6661975130154E-13
-           2 0.6512687902160E+03 0.6512687902160E+03 0.4992475622484E-13
-           3 0.1332930740128E+04 0.1332930740128E+04 0.2514375184799E-12
-           4 0.7848302089180E+03 0.7848302089180E+03 0.4867139037261E-13
-           5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
- Verification Successful
-
-
- BT-MZ Benchmark Completed.
- Class           =                        A
- Size            =            128x  128x 16
- Iterations      =                      200
- Time in seconds =                     5.59
- Total processes =                        1
- Total threads   =                       16
- Mop/s total     =                 26172.14
- Mop/s/thread    =                  1635.76
- Operation type  =           floating point
- Verification    =               SUCCESSFUL
- Version         =                    3.3.1
- Compile date    =              19 Apr 2020
-
- Compile options:
-    F77          = mpif90
-    FLINK        = $(F77)
-    F_LIB        = -lmpi
-    F_INC        = (none)
-    FFLAGS       = -O3 -fopenmp
-    FLINKFLAGS   = -O3 -fopenmp
-    RAND         = (none)
-
-
- Please send all errors/feedbacks to:
-
- NPB Development Team
- npb@nas.nasa.gov
-
-
------------end-------------
-----------start------------
-
-
- NAS Parallel Benchmarks (NPB3.3-MZ-MPI) - BT-MZ MPI+OpenMP Benchmark
-
- Number of zones:   4 x   4
- Iterations: 200    dt:   0.000800
- Number of active processes:     1
-
- Use the default load factors with threads
- Total number of threads:     16  ( 16.0 threads/process)
-
- Calculated speedup =     16.00
-
- Time step    1
- Time step   20
- Time step   40
- Time step   60
- Time step   80
- Time step  100
- Time step  120
- Time step  140
- Time step  160
- Time step  180
- Time step  200
- Verification being performed for class A
- accuracy setting for epsilon =  0.1000000000000E-07
- Comparison of RMS-norms of residual
-           1 0.5536703889522E+05 0.5536703889522E+05 0.5966157523957E-13
-           2 0.5077835038405E+04 0.5077835038405E+04 0.6179319921551E-13
-           3 0.1067391361067E+05 0.1067391361067E+05 0.4490421464112E-12
-           4 0.6441179694972E+04 0.6441179694972E+04 0.5422080768115E-13
-           5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
- Comparison of RMS-norms of solution error
-           1 0.6716797714343E+04 0.6716797714343E+04 0.6648434530296E-13
-           2 0.6512687902160E+03 0.6512687902160E+03 0.4992475622484E-13
-           3 0.1332930740128E+04 0.1332930740128E+04 0.2514375184799E-12
-           4 0.7848302089180E+03 0.7848302089180E+03 0.4867139037261E-13
-           5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
- Verification Successful
-
-
- BT-MZ Benchmark Completed.
- Class           =                        A
- Size            =            128x  128x 16
- Iterations      =                      200
- Time in seconds =                     5.79
- Total processes =                        1
- Total threads   =                       16
- Mop/s total     =                 25259.67
- Mop/s/thread    =                  1578.73
- Operation type  =           floating point
- Verification    =               SUCCESSFUL
- Version         =                    3.3.1
- Compile date    =              19 Apr 2020
-
- Compile options:
-    F77          = mpif90
-    FLINK        = $(F77)
-    F_LIB        = -lmpi
-    F_INC        = (none)
-    FFLAGS       = -O3 -fopenmp
-    FLINKFLAGS   = -O3 -fopenmp
-    RAND         = (none)
-
-
- Please send all errors/feedbacks to:
-
- NPB Development Team
- npb@nas.nasa.gov
-
-
------------end-------------
-----------start------------
-
-
- NAS Parallel Benchmarks (NPB3.3-MZ-MPI) - BT-MZ MPI+OpenMP Benchmark
-
- Number of zones:   4 x   4
- Iterations: 200    dt:   0.000800
- Number of active processes:     1
-
- Use the default load factors with threads
- Total number of threads:     16  ( 16.0 threads/process)
-
- Calculated speedup =     16.00
-
- Time step    1
- Time step   20
- Time step   40
- Time step   60
- Time step   80
- Time step  100
- Time step  120
- Time step  140
- Time step  160
- Time step  180
- Time step  200
- Verification being performed for class A
- accuracy setting for epsilon =  0.1000000000000E-07
- Comparison of RMS-norms of residual
-           1 0.5536703889522E+05 0.5536703889522E+05 0.5966157523957E-13
-           2 0.5077835038405E+04 0.5077835038405E+04 0.6179319921551E-13
-           3 0.1067391361067E+05 0.1067391361067E+05 0.4490421464112E-12
-           4 0.6441179694972E+04 0.6441179694972E+04 0.5407960766115E-13
-           5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
- Comparison of RMS-norms of solution error
-           1 0.6716797714343E+04 0.6716797714343E+04 0.6661975130154E-13
-           2 0.6512687902160E+03 0.6512687902160E+03 0.4992475622484E-13
-           3 0.1332930740128E+04 0.1332930740128E+04 0.2514375184799E-12
-           4 0.7848302089180E+03 0.7848302089180E+03 0.4852653504412E-13
-           5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
- Verification Successful
-
-
- BT-MZ Benchmark Completed.
- Class           =                        A
- Size            =            128x  128x 16
- Iterations      =                      200
- Time in seconds =                     5.47
- Total processes =                        1
- Total threads   =                       16
- Mop/s total     =                 26722.72
- Mop/s/thread    =                  1670.17
- Operation type  =           floating point
- Verification    =               SUCCESSFUL
- Version         =                    3.3.1
- Compile date    =              19 Apr 2020
-
- Compile options:
-    F77          = mpif90
-    FLINK        = $(F77)
-    F_LIB        = -lmpi
-    F_INC        = (none)
-    FFLAGS       = -O3 -fopenmp
-    FLINKFLAGS   = -O3 -fopenmp
-    RAND         = (none)
-
-
- Please send all errors/feedbacks to:
-
- NPB Development Team
- npb@nas.nasa.gov
-
-
------------end-------------
-----------start------------
-
-
- NAS Parallel Benchmarks (NPB3.3-MZ-MPI) - BT-MZ MPI+OpenMP Benchmark
-
- Number of zones:   4 x   4
- Iterations: 200    dt:   0.000800
- Number of active processes:     1
-
- Use the default load factors with threads
- Total number of threads:     16  ( 16.0 threads/process)
-
- Calculated speedup =     16.00
-
- Time step    1
- Time step   20
- Time step   40
- Time step   60
- Time step   80
- Time step  100
- Time step  120
- Time step  140
- Time step  160
- Time step  180
- Time step  200
- Verification being performed for class A
- accuracy setting for epsilon =  0.1000000000000E-07
- Comparison of RMS-norms of residual
-           1 0.5536703889522E+05 0.5536703889522E+05 0.5966157523957E-13
-           2 0.5077835038405E+04 0.5077835038405E+04 0.6179319921551E-13
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5953016207825E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6161408849315E-13
            3 0.1067391361067E+05 0.1067391361067E+05 0.4490421464112E-12
            4 0.6441179694972E+04 0.6441179694972E+04 0.5407960766115E-13
            5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
  Comparison of RMS-norms of solution error
            1 0.6716797714343E+04 0.6716797714343E+04 0.6648434530296E-13
-           2 0.6512687902160E+03 0.6512687902160E+03 0.4992475622484E-13
-           3 0.1332930740128E+04 0.1332930740128E+04 0.2514375184799E-12
-           4 0.7848302089180E+03 0.7848302089180E+03 0.4852653504412E-13
-           5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
- Verification Successful
-
-
- BT-MZ Benchmark Completed.
- Class           =                        A
- Size            =            128x  128x 16
- Iterations      =                      200
- Time in seconds =                     5.74
- Total processes =                        1
- Total threads   =                       16
- Mop/s total     =                 25480.27
- Mop/s/thread    =                  1592.52
- Operation type  =           floating point
- Verification    =               SUCCESSFUL
- Version         =                    3.3.1
- Compile date    =              19 Apr 2020
-
- Compile options:
-    F77          = mpif90
-    FLINK        = $(F77)
-    F_LIB        = -lmpi
-    F_INC        = (none)
-    FFLAGS       = -O3 -fopenmp
-    FLINKFLAGS   = -O3 -fopenmp
-    RAND         = (none)
-
-
- Please send all errors/feedbacks to:
-
- NPB Development Team
- npb@nas.nasa.gov
-
-
------------end-------------
-----------start------------
-
-
- NAS Parallel Benchmarks (NPB3.3-MZ-MPI) - BT-MZ MPI+OpenMP Benchmark
-
- Number of zones:   4 x   4
- Iterations: 200    dt:   0.000800
- Number of active processes:     1
-
- Use the default load factors with threads
- Total number of threads:     16  ( 16.0 threads/process)
-
- Calculated speedup =     16.00
-
- Time step    1
- Time step   20
- Time step   40
- Time step   60
- Time step   80
- Time step  100
- Time step  120
- Time step  140
- Time step  160
- Time step  180
- Time step  200
- Verification being performed for class A
- accuracy setting for epsilon =  0.1000000000000E-07
- Comparison of RMS-norms of residual
-           1 0.5536703889522E+05 0.5536703889522E+05 0.5966157523957E-13
-           2 0.5077835038405E+04 0.5077835038405E+04 0.6179319921551E-13
-           3 0.1067391361067E+05 0.1067391361067E+05 0.4490421464112E-12
-           4 0.6441179694972E+04 0.6441179694972E+04 0.5407960766115E-13
-           5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
- Comparison of RMS-norms of solution error
-           1 0.6716797714343E+04 0.6716797714343E+04 0.6661975130154E-13
            2 0.6512687902160E+03 0.6512687902160E+03 0.4975019414014E-13
-           3 0.1332930740128E+04 0.1332930740128E+04 0.2512669367170E-12
-           4 0.7848302089180E+03 0.7848302089180E+03 0.4867139037261E-13
-           5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
- Verification Successful
-
-
- BT-MZ Benchmark Completed.
- Class           =                        A
- Size            =            128x  128x 16
- Iterations      =                      200
- Time in seconds =                     5.30
- Total processes =                        1
- Total threads   =                       16
- Mop/s total     =                 27581.22
- Mop/s/thread    =                  1723.83
- Operation type  =           floating point
- Verification    =               SUCCESSFUL
- Version         =                    3.3.1
- Compile date    =              19 Apr 2020
-
- Compile options:
-    F77          = mpif90
-    FLINK        = $(F77)
-    F_LIB        = -lmpi
-    F_INC        = (none)
-    FFLAGS       = -O3 -fopenmp
-    FLINKFLAGS   = -O3 -fopenmp
-    RAND         = (none)
-
-
- Please send all errors/feedbacks to:
-
- NPB Development Team
- npb@nas.nasa.gov
-
-
------------end-------------
-----------start------------
-
-
- NAS Parallel Benchmarks (NPB3.3-MZ-MPI) - BT-MZ MPI+OpenMP Benchmark
-
- Number of zones:   4 x   4
- Iterations: 200    dt:   0.000800
- Number of active processes:     1
-
- Use the default load factors with threads
- Total number of threads:     16  ( 16.0 threads/process)
-
- Calculated speedup =     16.00
-
- Time step    1
- Time step   20
- Time step   40
- Time step   60
- Time step   80
- Time step  100
- Time step  120
- Time step  140
- Time step  160
- Time step  180
- Time step  200
- Verification being performed for class A
- accuracy setting for epsilon =  0.1000000000000E-07
- Comparison of RMS-norms of residual
-           1 0.5536703889522E+05 0.5536703889522E+05 0.5966157523957E-13
-           2 0.5077835038405E+04 0.5077835038405E+04 0.6179319921551E-13
-           3 0.1067391361067E+05 0.1067391361067E+05 0.4490421464112E-12
-           4 0.6441179694972E+04 0.6441179694972E+04 0.5407960766115E-13
-           5 0.4371926324069E+05 0.4371926324069E+05 0.9319773394878E-13
- Comparison of RMS-norms of solution error
-           1 0.6716797714343E+04 0.6716797714343E+04 0.6661975130154E-13
-           2 0.6512687902160E+03 0.6512687902160E+03 0.4992475622484E-13
            3 0.1332930740128E+04 0.1332930740128E+04 0.2514375184799E-12
-           4 0.7848302089180E+03 0.7848302089180E+03 0.4852653504412E-13
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4881624570110E-13
            5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
  Verification Successful
 
@@ -409,11 +44,11 @@
  Class           =                        A
  Size            =            128x  128x 16
  Iterations      =                      200
- Time in seconds =                     4.71
- Total processes =                        1
- Total threads   =                       16
- Mop/s total     =                 31024.19
- Mop/s/thread    =                  1939.01
+ Time in seconds =                    15.35
+ Total processes =                        4
+ Total threads   =                      256
+ Mop/s total     =                  9522.72
+ Mop/s/thread    =                    37.20
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
@@ -443,12 +78,12 @@
 
  Number of zones:   4 x   4
  Iterations: 200    dt:   0.000800
- Number of active processes:     1
+ Number of active processes:     4
 
  Use the default load factors with threads
- Total number of threads:     16  ( 16.0 threads/process)
+ Total number of threads:    256  ( 64.0 threads/process)
 
- Calculated speedup =     16.00
+ Calculated speedup =    255.05
 
  Time step    1
  Time step   20
@@ -464,16 +99,16 @@
  Verification being performed for class A
  accuracy setting for epsilon =  0.1000000000000E-07
  Comparison of RMS-norms of residual
-           1 0.5536703889522E+05 0.5536703889522E+05 0.5966157523957E-13
-           2 0.5077835038405E+04 0.5077835038405E+04 0.6179319921551E-13
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5953016207825E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6161408849315E-13
            3 0.1067391361067E+05 0.1067391361067E+05 0.4490421464112E-12
            4 0.6441179694972E+04 0.6441179694972E+04 0.5407960766115E-13
            5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
  Comparison of RMS-norms of solution error
            1 0.6716797714343E+04 0.6716797714343E+04 0.6661975130154E-13
-           2 0.6512687902160E+03 0.6512687902160E+03 0.4992475622484E-13
-           3 0.1332930740128E+04 0.1332930740128E+04 0.2512669367170E-12
-           4 0.7848302089180E+03 0.7848302089180E+03 0.4867139037261E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4957563205544E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2514375184799E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4881624570110E-13
            5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
  Verification Successful
 
@@ -482,11 +117,11 @@
  Class           =                        A
  Size            =            128x  128x 16
  Iterations      =                      200
- Time in seconds =                     5.06
- Total processes =                        1
- Total threads   =                       16
- Mop/s total     =                 28911.52
- Mop/s/thread    =                  1806.97
+ Time in seconds =                    14.54
+ Total processes =                        4
+ Total threads   =                      256
+ Mop/s total     =                 10053.21
+ Mop/s/thread    =                    39.27
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
@@ -516,12 +151,12 @@
 
  Number of zones:   4 x   4
  Iterations: 200    dt:   0.000800
- Number of active processes:     1
+ Number of active processes:     4
 
  Use the default load factors with threads
- Total number of threads:     16  ( 16.0 threads/process)
+ Total number of threads:    256  ( 64.0 threads/process)
 
- Calculated speedup =     16.00
+ Calculated speedup =    255.05
 
  Time step    1
  Time step   20
@@ -537,16 +172,16 @@
  Verification being performed for class A
  accuracy setting for epsilon =  0.1000000000000E-07
  Comparison of RMS-norms of residual
-           1 0.5536703889522E+05 0.5536703889522E+05 0.5966157523957E-13
-           2 0.5077835038405E+04 0.5077835038405E+04 0.6179319921551E-13
-           3 0.1067391361067E+05 0.1067391361067E+05 0.4490421464112E-12
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5953016207825E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6161408849315E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4492125608880E-12
            4 0.6441179694972E+04 0.6441179694972E+04 0.5407960766115E-13
-           5 0.4371926324069E+05 0.4371926324069E+05 0.9319773394878E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
  Comparison of RMS-norms of solution error
            1 0.6716797714343E+04 0.6716797714343E+04 0.6648434530296E-13
-           2 0.6512687902160E+03 0.6512687902160E+03 0.4992475622484E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4975019414014E-13
            3 0.1332930740128E+04 0.1332930740128E+04 0.2514375184799E-12
-           4 0.7848302089180E+03 0.7848302089180E+03 0.4852653504412E-13
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4881624570110E-13
            5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
  Verification Successful
 
@@ -555,11 +190,11 @@
  Class           =                        A
  Size            =            128x  128x 16
  Iterations      =                      200
- Time in seconds =                     4.92
- Total processes =                        1
- Total threads   =                       16
- Mop/s total     =                 29692.08
- Mop/s/thread    =                  1855.76
+ Time in seconds =                    19.45
+ Total processes =                        4
+ Total threads   =                      256
+ Mop/s total     =                  7517.77
+ Mop/s/thread    =                    29.37
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
@@ -589,12 +224,12 @@
 
  Number of zones:   4 x   4
  Iterations: 200    dt:   0.000800
- Number of active processes:     1
+ Number of active processes:     4
 
  Use the default load factors with threads
- Total number of threads:     16  ( 16.0 threads/process)
+ Total number of threads:    256  ( 64.0 threads/process)
 
- Calculated speedup =     16.00
+ Calculated speedup =    255.05
 
  Time step    1
  Time step   20
@@ -610,17 +245,90 @@
  Verification being performed for class A
  accuracy setting for epsilon =  0.1000000000000E-07
  Comparison of RMS-norms of residual
-           1 0.5536703889522E+05 0.5536703889522E+05 0.5966157523957E-13
-           2 0.5077835038405E+04 0.5077835038405E+04 0.6179319921551E-13
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5939874891693E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6161408849315E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4492125608880E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5407960766115E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
+ Comparison of RMS-norms of solution error
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6661975130154E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4957563205544E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2514375184799E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4881624570110E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8861998940829E-13
+ Verification Successful
+
+
+ BT-MZ Benchmark Completed.
+ Class           =                        A
+ Size            =            128x  128x 16
+ Iterations      =                      200
+ Time in seconds =                    18.61
+ Total processes =                        4
+ Total threads   =                      256
+ Mop/s total     =                  7855.95
+ Mop/s/thread    =                    30.69
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              19 Apr 2020
+
+ Compile options:
+    F77          = mpif90
+    FLINK        = $(F77)
+    F_LIB        = -lmpi
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = -O3 -fopenmp
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-MZ-MPI) - BT-MZ MPI+OpenMP Benchmark
+
+ Number of zones:   4 x   4
+ Iterations: 200    dt:   0.000800
+ Number of active processes:     4
+
+ Use the default load factors with threads
+ Total number of threads:    256  ( 64.0 threads/process)
+
+ Calculated speedup =    255.05
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5953016207825E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6161408849315E-13
            3 0.1067391361067E+05 0.1067391361067E+05 0.4490421464112E-12
            4 0.6441179694972E+04 0.6441179694972E+04 0.5407960766115E-13
            5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
  Comparison of RMS-norms of solution error
            1 0.6716797714343E+04 0.6716797714343E+04 0.6648434530296E-13
-           2 0.6512687902160E+03 0.6512687902160E+03 0.4992475622484E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4957563205544E-13
            3 0.1332930740128E+04 0.1332930740128E+04 0.2514375184799E-12
-           4 0.7848302089180E+03 0.7848302089180E+03 0.4852653504412E-13
-           5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4881624570110E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8861998940829E-13
  Verification Successful
 
 
@@ -628,11 +336,11 @@
  Class           =                        A
  Size            =            128x  128x 16
  Iterations      =                      200
- Time in seconds =                     4.46
- Total processes =                        1
- Total threads   =                       16
- Mop/s total     =                 32769.16
- Mop/s/thread    =                  2048.07
+ Time in seconds =                    18.62
+ Total processes =                        4
+ Total threads   =                      256
+ Mop/s total     =                  7853.99
+ Mop/s/thread    =                    30.68
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
@@ -662,12 +370,12 @@
 
  Number of zones:   4 x   4
  Iterations: 200    dt:   0.000800
- Number of active processes:     1
+ Number of active processes:     4
 
  Use the default load factors with threads
- Total number of threads:     16  ( 16.0 threads/process)
+ Total number of threads:    256  ( 64.0 threads/process)
 
- Calculated speedup =     16.00
+ Calculated speedup =    255.05
 
  Time step    1
  Time step   20
@@ -683,16 +391,16 @@
  Verification being performed for class A
  accuracy setting for epsilon =  0.1000000000000E-07
  Comparison of RMS-norms of residual
-           1 0.5536703889522E+05 0.5536703889522E+05 0.5966157523957E-13
-           2 0.5077835038405E+04 0.5077835038405E+04 0.6179319921551E-13
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5953016207825E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6161408849315E-13
            3 0.1067391361067E+05 0.1067391361067E+05 0.4490421464112E-12
            4 0.6441179694972E+04 0.6441179694972E+04 0.5407960766115E-13
            5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
  Comparison of RMS-norms of solution error
            1 0.6716797714343E+04 0.6716797714343E+04 0.6648434530296E-13
-           2 0.6512687902160E+03 0.6512687902160E+03 0.4992475622484E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4957563205544E-13
            3 0.1332930740128E+04 0.1332930740128E+04 0.2514375184799E-12
-           4 0.7848302089180E+03 0.7848302089180E+03 0.4867139037261E-13
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4881624570110E-13
            5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
  Verification Successful
 
@@ -701,11 +409,11 @@
  Class           =                        A
  Size            =            128x  128x 16
  Iterations      =                      200
- Time in seconds =                     5.40
- Total processes =                        1
- Total threads   =                       16
- Mop/s total     =                 27096.97
- Mop/s/thread    =                  1693.56
+ Time in seconds =                    18.35
+ Total processes =                        4
+ Total threads   =                      256
+ Mop/s total     =                  7968.53
+ Mop/s/thread    =                    31.13
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
@@ -735,12 +443,12 @@
 
  Number of zones:   4 x   4
  Iterations: 200    dt:   0.000800
- Number of active processes:     1
+ Number of active processes:     4
 
  Use the default load factors with threads
- Total number of threads:     16  ( 16.0 threads/process)
+ Total number of threads:    256  ( 64.0 threads/process)
 
- Calculated speedup =     16.00
+ Calculated speedup =    255.05
 
  Time step    1
  Time step   20
@@ -756,16 +464,16 @@
  Verification being performed for class A
  accuracy setting for epsilon =  0.1000000000000E-07
  Comparison of RMS-norms of residual
-           1 0.5536703889522E+05 0.5536703889522E+05 0.5966157523957E-13
-           2 0.5077835038405E+04 0.5077835038405E+04 0.6179319921551E-13
-           3 0.1067391361067E+05 0.1067391361067E+05 0.4490421464112E-12
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5939874891693E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6161408849315E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4492125608880E-12
            4 0.6441179694972E+04 0.6441179694972E+04 0.5407960766115E-13
            5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
  Comparison of RMS-norms of solution error
            1 0.6716797714343E+04 0.6716797714343E+04 0.6648434530296E-13
-           2 0.6512687902160E+03 0.6512687902160E+03 0.4992475622484E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4975019414014E-13
            3 0.1332930740128E+04 0.1332930740128E+04 0.2514375184799E-12
-           4 0.7848302089180E+03 0.7848302089180E+03 0.4867139037261E-13
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4881624570110E-13
            5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
  Verification Successful
 
@@ -774,11 +482,303 @@
  Class           =                        A
  Size            =            128x  128x 16
  Iterations      =                      200
- Time in seconds =                     4.52
- Total processes =                        1
- Total threads   =                       16
- Mop/s total     =                 32338.77
- Mop/s/thread    =                  2021.17
+ Time in seconds =                    18.31
+ Total processes =                        4
+ Total threads   =                      256
+ Mop/s total     =                  7984.85
+ Mop/s/thread    =                    31.19
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              19 Apr 2020
+
+ Compile options:
+    F77          = mpif90
+    FLINK        = $(F77)
+    F_LIB        = -lmpi
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = -O3 -fopenmp
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-MZ-MPI) - BT-MZ MPI+OpenMP Benchmark
+
+ Number of zones:   4 x   4
+ Iterations: 200    dt:   0.000800
+ Number of active processes:     4
+
+ Use the default load factors with threads
+ Total number of threads:    256  ( 64.0 threads/process)
+
+ Calculated speedup =    255.05
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5953016207825E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6179319921551E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4492125608880E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5407960766115E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
+ Comparison of RMS-norms of solution error
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6648434530296E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4957563205544E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2514375184799E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4881624570110E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
+ Verification Successful
+
+
+ BT-MZ Benchmark Completed.
+ Class           =                        A
+ Size            =            128x  128x 16
+ Iterations      =                      200
+ Time in seconds =                    18.37
+ Total processes =                        4
+ Total threads   =                      256
+ Mop/s total     =                  7957.42
+ Mop/s/thread    =                    31.08
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              19 Apr 2020
+
+ Compile options:
+    F77          = mpif90
+    FLINK        = $(F77)
+    F_LIB        = -lmpi
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = -O3 -fopenmp
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-MZ-MPI) - BT-MZ MPI+OpenMP Benchmark
+
+ Number of zones:   4 x   4
+ Iterations: 200    dt:   0.000800
+ Number of active processes:     4
+
+ Use the default load factors with threads
+ Total number of threads:    256  ( 64.0 threads/process)
+
+ Calculated speedup =    255.05
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5953016207825E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6179319921551E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4492125608880E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5407960766115E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
+ Comparison of RMS-norms of solution error
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6648434530296E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4957563205544E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2514375184799E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4881624570110E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
+ Verification Successful
+
+
+ BT-MZ Benchmark Completed.
+ Class           =                        A
+ Size            =            128x  128x 16
+ Iterations      =                      200
+ Time in seconds =                    17.13
+ Total processes =                        4
+ Total threads   =                      256
+ Mop/s total     =                  8537.58
+ Mop/s/thread    =                    33.35
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              19 Apr 2020
+
+ Compile options:
+    F77          = mpif90
+    FLINK        = $(F77)
+    F_LIB        = -lmpi
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = -O3 -fopenmp
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-MZ-MPI) - BT-MZ MPI+OpenMP Benchmark
+
+ Number of zones:   4 x   4
+ Iterations: 200    dt:   0.000800
+ Number of active processes:     4
+
+ Use the default load factors with threads
+ Total number of threads:    256  ( 64.0 threads/process)
+
+ Calculated speedup =    255.05
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5939874891693E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6161408849315E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4492125608880E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5407960766115E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
+ Comparison of RMS-norms of solution error
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6648434530296E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4957563205544E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2514375184799E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4881624570110E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
+ Verification Successful
+
+
+ BT-MZ Benchmark Completed.
+ Class           =                        A
+ Size            =            128x  128x 16
+ Iterations      =                      200
+ Time in seconds =                    20.44
+ Total processes =                        4
+ Total threads   =                      256
+ Mop/s total     =                  7153.57
+ Mop/s/thread    =                    27.94
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              19 Apr 2020
+
+ Compile options:
+    F77          = mpif90
+    FLINK        = $(F77)
+    F_LIB        = -lmpi
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = -O3 -fopenmp
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+-----------end-------------
+----------start------------
+
+
+ NAS Parallel Benchmarks (NPB3.3-MZ-MPI) - BT-MZ MPI+OpenMP Benchmark
+
+ Number of zones:   4 x   4
+ Iterations: 200    dt:   0.000800
+ Number of active processes:     4
+
+ Use the default load factors with threads
+ Total number of threads:    256  ( 64.0 threads/process)
+
+ Calculated speedup =    255.05
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5953016207825E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6161408849315E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4492125608880E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5407960766115E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
+ Comparison of RMS-norms of solution error
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6648434530296E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4957563205544E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2514375184799E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4881624570110E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
+ Verification Successful
+
+
+ BT-MZ Benchmark Completed.
+ Class           =                        A
+ Size            =            128x  128x 16
+ Iterations      =                      200
+ Time in seconds =                    18.03
+ Total processes =                        4
+ Total threads   =                      256
+ Mop/s total     =                  8107.90
+ Mop/s/thread    =                    31.67
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1

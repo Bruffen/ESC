@@ -10,17 +10,17 @@ source /share/apps/intel/compilers_and_libraries_2017/linux/bin/compilervars.sh 
 
 cd ESC/T1/
 cd "NPB3.3.1/NPB3.3-SER"
-mkdir results
+mkdir results641
 
 for test_option in gccO0 gccO1 gccO2 gccO3 iccO3
 do
-    mkdir results/$test_option
+    mkdir results641/$test_option
     for test in ep mg bt
     do
-        mkdir results/$test_option/$test
+        mkdir results641/$test_option/$test
         for class in W A B
         do
-            mkdir results/$test_option/$test/$class
+            mkdir results641/$test_option/$test/$class
         done
     done
 
@@ -51,9 +51,9 @@ do
         do
             for i in 0 1 2 3 4 5 6 7 8 9 10
             do
-                echo "----------start------------" >> "results/$test_option/$test/$class/result-$test_option-$test.txt"
-                ./bin/$test.$class.x >> "results/$test_option/$test/$class/result-$test_option-$test.txt"
-                echo "-----------end-------------" >> "results/$test_option/$test/$class/result-$test_option-$test.txt"
+                echo "----------start------------" >> "results641/$test_option/$test/$class/result-$test_option-$test.txt"
+                ./bin/$test.$class.x >> "results641/$test_option/$test/$class/result-$test_option-$test.txt"
+                echo "-----------end-------------" >> "results641/$test_option/$test/$class/result-$test_option-$test.txt"
             done
         done
     done

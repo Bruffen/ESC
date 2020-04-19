@@ -8,16 +8,16 @@ module load gcc/5.3.0
 
 cd ESC/T1/
 cd "NPB3.3.1-MZ/NPB3.3-MZ-OMP"
-mkdir results
+mkdir results641
 
 for test in bt-mz
 do
-    mkdir results/$test
+    mkdir results641/$test
     for class in W A B
     do
-        for threads in 1 4 8 12 16
+        for threads in 32
         do
-            mkdir results/$test/$class
+            mkdir results641/$test/$class
         done
     done
 done
@@ -50,14 +50,14 @@ for test in bt-mz
 do
     for class in W A B
     do
-        for threads in 1 4 8 12 16
+        for threads in 32
         do
             export OMP_NUM_THREADS=$threads
-            for i in 0 1 2 3 4 5 6 7 8 9 10
+            for i in 0 1 2 3 4 5 6 7 8
             do
-                echo "----------start------------" >> "results/$test/$class/result-$test-$threads.txt"
-                ./bin/$test.$class.x >> "results/$test/$class/result-$test-$threads.txt"
-                echo "-----------end-------------" >> "results/$test/$class/result-$test-$threads.txt"
+                echo "----------start------------" >> "results641/$test/$class/result-$test-$threads.txt"
+                ./bin/$test.$class.x >> "results641/$test/$class/result-$test-$threads.txt"
+                echo "-----------end-------------" >> "results641/$test/$class/result-$test-$threads.txt"
             done
         done
     done

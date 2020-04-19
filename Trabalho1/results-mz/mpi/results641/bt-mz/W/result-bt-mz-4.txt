@@ -8,8 +8,9 @@
  Number of active processes:     4
 
  Use the default load factors with threads
+ Total number of threads:    256  ( 64.0 threads/process)
 
- Calculated speedup =      3.95
+ Calculated speedup =    254.23
 
  Time step    1
  Time step   20
@@ -27,14 +28,14 @@
  Comparison of RMS-norms of residual
            1 0.5562611195402E+05 0.5562611195402E+05 0.2302099670663E-13
            2 0.5151404119932E+04 0.5151404119932E+04 0.3195605260010E-13
-           3 0.1080453907954E+05 0.1080453907954E+05 0.4316601380547E-12
-           4 0.6576058591929E+04 0.6576058591929E+04 0.2046898061821E-13
+           3 0.1080453907954E+05 0.1080453907954E+05 0.4319968464307E-12
+           4 0.6576058591929E+04 0.6576058591929E+04 0.2074558846440E-13
            5 0.4528609293561E+05 0.4528609293561E+05 0.3100863263992E-13
  Comparison of RMS-norms of solution error
            1 0.7185154786403E+04 0.7185154786403E+04 0.4961924046085E-13
-           2 0.7040472738068E+03 0.7040472738068E+03 0.3310260915708E-13
-           3 0.1437035074443E+04 0.1437035074443E+04 0.1892361019341E-12
-           4 0.8570666307849E+03 0.8570666307849E+03 0.3117191348368E-13
+           2 0.7040472738068E+03 0.7040472738068E+03 0.3277965687262E-13
+           3 0.1437035074443E+04 0.1437035074443E+04 0.1887614294376E-12
+           4 0.8570666307849E+03 0.8570666307849E+03 0.3103926704333E-13
            5 0.5991235147368E+04 0.5991235147368E+04 0.6755287220979E-13
  Verification Successful
 
@@ -43,23 +44,23 @@
  Class           =                        W
  Size            =             64x   64x  8
  Iterations      =                      200
- Time in seconds =                     1.12
+ Time in seconds =                     7.14
  Total processes =                        4
- Total threads   =                        4
- Mop/s total     =                 12794.00
- Mop/s/thread    =                  3198.50
+ Total threads   =                      256
+ Mop/s total     =                  2009.31
+ Mop/s/thread    =                     7.85
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
- Compile date    =              13 Apr 2020
+ Compile date    =              19 Apr 2020
 
  Compile options:
-    F77          = mpif77
+    F77          = mpif90
     FLINK        = $(F77)
-    F_LIB        = (none)
+    F_LIB        = -lmpi
     F_INC        = (none)
-    FFLAGS       = -O3
-    FLINKFLAGS   = -O3
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = -O3 -fopenmp
     RAND         = (none)
 
 
@@ -80,8 +81,9 @@
  Number of active processes:     4
 
  Use the default load factors with threads
+ Total number of threads:    256  ( 64.0 threads/process)
 
- Calculated speedup =      3.95
+ Calculated speedup =    254.23
 
  Time step    1
  Time step   20
@@ -99,13 +101,13 @@
  Comparison of RMS-norms of residual
            1 0.5562611195402E+05 0.5562611195402E+05 0.2302099670663E-13
            2 0.5151404119932E+04 0.5151404119932E+04 0.3195605260010E-13
-           3 0.1080453907954E+05 0.1080453907954E+05 0.4316601380547E-12
-           4 0.6576058591929E+04 0.6576058591929E+04 0.2046898061821E-13
+           3 0.1080453907954E+05 0.1080453907954E+05 0.4319968464307E-12
+           4 0.6576058591929E+04 0.6576058591929E+04 0.2074558846440E-13
            5 0.4528609293561E+05 0.4528609293561E+05 0.3100863263992E-13
  Comparison of RMS-norms of solution error
            1 0.7185154786403E+04 0.7185154786403E+04 0.4961924046085E-13
-           2 0.7040472738068E+03 0.7040472738068E+03 0.3310260915708E-13
-           3 0.1437035074443E+04 0.1437035074443E+04 0.1892361019341E-12
+           2 0.7040472738068E+03 0.7040472738068E+03 0.3277965687262E-13
+           3 0.1437035074443E+04 0.1437035074443E+04 0.1889196536031E-12
            4 0.8570666307849E+03 0.8570666307849E+03 0.3117191348368E-13
            5 0.5991235147368E+04 0.5991235147368E+04 0.6755287220979E-13
  Verification Successful
@@ -115,23 +117,23 @@
  Class           =                        W
  Size            =             64x   64x  8
  Iterations      =                      200
- Time in seconds =                     1.13
+ Time in seconds =                     7.19
  Total processes =                        4
- Total threads   =                        4
- Mop/s total     =                 12674.83
- Mop/s/thread    =                  3168.71
+ Total threads   =                      256
+ Mop/s total     =                  1997.06
+ Mop/s/thread    =                     7.80
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
- Compile date    =              13 Apr 2020
+ Compile date    =              19 Apr 2020
 
  Compile options:
-    F77          = mpif77
+    F77          = mpif90
     FLINK        = $(F77)
-    F_LIB        = (none)
+    F_LIB        = -lmpi
     F_INC        = (none)
-    FFLAGS       = -O3
-    FLINKFLAGS   = -O3
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = -O3 -fopenmp
     RAND         = (none)
 
 
@@ -152,8 +154,9 @@
  Number of active processes:     4
 
  Use the default load factors with threads
+ Total number of threads:    256  ( 64.0 threads/process)
 
- Calculated speedup =      3.95
+ Calculated speedup =    254.23
 
  Time step    1
  Time step   20
@@ -171,13 +174,13 @@
  Comparison of RMS-norms of residual
            1 0.5562611195402E+05 0.5562611195402E+05 0.2302099670663E-13
            2 0.5151404119932E+04 0.5151404119932E+04 0.3195605260010E-13
-           3 0.1080453907954E+05 0.1080453907954E+05 0.4316601380547E-12
-           4 0.6576058591929E+04 0.6576058591929E+04 0.2046898061821E-13
+           3 0.1080453907954E+05 0.1080453907954E+05 0.4318284922427E-12
+           4 0.6576058591929E+04 0.6576058591929E+04 0.2074558846440E-13
            5 0.4528609293561E+05 0.4528609293561E+05 0.3100863263992E-13
  Comparison of RMS-norms of solution error
            1 0.7185154786403E+04 0.7185154786403E+04 0.4961924046085E-13
-           2 0.7040472738068E+03 0.7040472738068E+03 0.3310260915708E-13
-           3 0.1437035074443E+04 0.1437035074443E+04 0.1892361019341E-12
+           2 0.7040472738068E+03 0.7040472738068E+03 0.3277965687262E-13
+           3 0.1437035074443E+04 0.1437035074443E+04 0.1889196536031E-12
            4 0.8570666307849E+03 0.8570666307849E+03 0.3117191348368E-13
            5 0.5991235147368E+04 0.5991235147368E+04 0.6755287220979E-13
  Verification Successful
@@ -187,23 +190,23 @@
  Class           =                        W
  Size            =             64x   64x  8
  Iterations      =                      200
- Time in seconds =                     1.11
+ Time in seconds =                     7.15
  Total processes =                        4
- Total threads   =                        4
- Mop/s total     =                 12966.16
- Mop/s/thread    =                  3241.54
+ Total threads   =                      256
+ Mop/s total     =                  2006.76
+ Mop/s/thread    =                     7.84
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
- Compile date    =              13 Apr 2020
+ Compile date    =              19 Apr 2020
 
  Compile options:
-    F77          = mpif77
+    F77          = mpif90
     FLINK        = $(F77)
-    F_LIB        = (none)
+    F_LIB        = -lmpi
     F_INC        = (none)
-    FFLAGS       = -O3
-    FLINKFLAGS   = -O3
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = -O3 -fopenmp
     RAND         = (none)
 
 
@@ -224,8 +227,9 @@
  Number of active processes:     4
 
  Use the default load factors with threads
+ Total number of threads:    256  ( 64.0 threads/process)
 
- Calculated speedup =      3.95
+ Calculated speedup =    254.23
 
  Time step    1
  Time step   20
@@ -243,13 +247,13 @@
  Comparison of RMS-norms of residual
            1 0.5562611195402E+05 0.5562611195402E+05 0.2302099670663E-13
            2 0.5151404119932E+04 0.5151404119932E+04 0.3195605260010E-13
-           3 0.1080453907954E+05 0.1080453907954E+05 0.4316601380547E-12
-           4 0.6576058591929E+04 0.6576058591929E+04 0.2046898061821E-13
+           3 0.1080453907954E+05 0.1080453907954E+05 0.4319968464307E-12
+           4 0.6576058591929E+04 0.6576058591929E+04 0.2074558846440E-13
            5 0.4528609293561E+05 0.4528609293561E+05 0.3100863263992E-13
  Comparison of RMS-norms of solution error
            1 0.7185154786403E+04 0.7185154786403E+04 0.4961924046085E-13
-           2 0.7040472738068E+03 0.7040472738068E+03 0.3310260915708E-13
-           3 0.1437035074443E+04 0.1437035074443E+04 0.1892361019341E-12
+           2 0.7040472738068E+03 0.7040472738068E+03 0.3277965687262E-13
+           3 0.1437035074443E+04 0.1437035074443E+04 0.1887614294376E-12
            4 0.8570666307849E+03 0.8570666307849E+03 0.3117191348368E-13
            5 0.5991235147368E+04 0.5991235147368E+04 0.6755287220979E-13
  Verification Successful
@@ -259,23 +263,23 @@
  Class           =                        W
  Size            =             64x   64x  8
  Iterations      =                      200
- Time in seconds =                     1.11
+ Time in seconds =                     7.20
  Total processes =                        4
- Total threads   =                        4
- Mop/s total     =                 12987.28
- Mop/s/thread    =                  3246.82
+ Total threads   =                      256
+ Mop/s total     =                  1994.36
+ Mop/s/thread    =                     7.79
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
- Compile date    =              13 Apr 2020
+ Compile date    =              19 Apr 2020
 
  Compile options:
-    F77          = mpif77
+    F77          = mpif90
     FLINK        = $(F77)
-    F_LIB        = (none)
+    F_LIB        = -lmpi
     F_INC        = (none)
-    FFLAGS       = -O3
-    FLINKFLAGS   = -O3
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = -O3 -fopenmp
     RAND         = (none)
 
 
@@ -296,8 +300,9 @@
  Number of active processes:     4
 
  Use the default load factors with threads
+ Total number of threads:    256  ( 64.0 threads/process)
 
- Calculated speedup =      3.95
+ Calculated speedup =    254.23
 
  Time step    1
  Time step   20
@@ -315,13 +320,13 @@
  Comparison of RMS-norms of residual
            1 0.5562611195402E+05 0.5562611195402E+05 0.2302099670663E-13
            2 0.5151404119932E+04 0.5151404119932E+04 0.3195605260010E-13
-           3 0.1080453907954E+05 0.1080453907954E+05 0.4316601380547E-12
-           4 0.6576058591929E+04 0.6576058591929E+04 0.2046898061821E-13
-           5 0.4528609293561E+05 0.4528609293561E+05 0.3100863263992E-13
+           3 0.1080453907954E+05 0.1080453907954E+05 0.4319968464307E-12
+           4 0.6576058591929E+04 0.6576058591929E+04 0.2074558846440E-13
+           5 0.4528609293561E+05 0.4528609293561E+05 0.3116929913028E-13
  Comparison of RMS-norms of solution error
            1 0.7185154786403E+04 0.7185154786403E+04 0.4961924046085E-13
-           2 0.7040472738068E+03 0.7040472738068E+03 0.3310260915708E-13
-           3 0.1437035074443E+04 0.1437035074443E+04 0.1892361019341E-12
+           2 0.7040472738068E+03 0.7040472738068E+03 0.3277965687262E-13
+           3 0.1437035074443E+04 0.1437035074443E+04 0.1889196536031E-12
            4 0.8570666307849E+03 0.8570666307849E+03 0.3117191348368E-13
            5 0.5991235147368E+04 0.5991235147368E+04 0.6755287220979E-13
  Verification Successful
@@ -331,23 +336,23 @@
  Class           =                        W
  Size            =             64x   64x  8
  Iterations      =                      200
- Time in seconds =                     1.14
+ Time in seconds =                     7.21
  Total processes =                        4
- Total threads   =                        4
- Mop/s total     =                 12558.75
- Mop/s/thread    =                  3139.69
+ Total threads   =                      256
+ Mop/s total     =                  1990.68
+ Mop/s/thread    =                     7.78
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
- Compile date    =              13 Apr 2020
+ Compile date    =              19 Apr 2020
 
  Compile options:
-    F77          = mpif77
+    F77          = mpif90
     FLINK        = $(F77)
-    F_LIB        = (none)
+    F_LIB        = -lmpi
     F_INC        = (none)
-    FFLAGS       = -O3
-    FLINKFLAGS   = -O3
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = -O3 -fopenmp
     RAND         = (none)
 
 
@@ -368,8 +373,9 @@
  Number of active processes:     4
 
  Use the default load factors with threads
+ Total number of threads:    256  ( 64.0 threads/process)
 
- Calculated speedup =      3.95
+ Calculated speedup =    254.23
 
  Time step    1
  Time step   20
@@ -387,13 +393,13 @@
  Comparison of RMS-norms of residual
            1 0.5562611195402E+05 0.5562611195402E+05 0.2302099670663E-13
            2 0.5151404119932E+04 0.5151404119932E+04 0.3195605260010E-13
-           3 0.1080453907954E+05 0.1080453907954E+05 0.4316601380547E-12
-           4 0.6576058591929E+04 0.6576058591929E+04 0.2046898061821E-13
-           5 0.4528609293561E+05 0.4528609293561E+05 0.3100863263992E-13
+           3 0.1080453907954E+05 0.1080453907954E+05 0.4319968464307E-12
+           4 0.6576058591929E+04 0.6576058591929E+04 0.2074558846440E-13
+           5 0.4528609293561E+05 0.4528609293561E+05 0.3116929913028E-13
  Comparison of RMS-norms of solution error
            1 0.7185154786403E+04 0.7185154786403E+04 0.4961924046085E-13
-           2 0.7040472738068E+03 0.7040472738068E+03 0.3310260915708E-13
-           3 0.1437035074443E+04 0.1437035074443E+04 0.1892361019341E-12
+           2 0.7040472738068E+03 0.7040472738068E+03 0.3277965687262E-13
+           3 0.1437035074443E+04 0.1437035074443E+04 0.1887614294376E-12
            4 0.8570666307849E+03 0.8570666307849E+03 0.3117191348368E-13
            5 0.5991235147368E+04 0.5991235147368E+04 0.6755287220979E-13
  Verification Successful
@@ -403,23 +409,23 @@
  Class           =                        W
  Size            =             64x   64x  8
  Iterations      =                      200
- Time in seconds =                     1.14
+ Time in seconds =                     7.12
  Total processes =                        4
- Total threads   =                        4
- Mop/s total     =                 12626.48
- Mop/s/thread    =                  3156.62
+ Total threads   =                      256
+ Mop/s total     =                  2014.50
+ Mop/s/thread    =                     7.87
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
- Compile date    =              13 Apr 2020
+ Compile date    =              19 Apr 2020
 
  Compile options:
-    F77          = mpif77
+    F77          = mpif90
     FLINK        = $(F77)
-    F_LIB        = (none)
+    F_LIB        = -lmpi
     F_INC        = (none)
-    FFLAGS       = -O3
-    FLINKFLAGS   = -O3
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = -O3 -fopenmp
     RAND         = (none)
 
 
@@ -440,8 +446,9 @@
  Number of active processes:     4
 
  Use the default load factors with threads
+ Total number of threads:    256  ( 64.0 threads/process)
 
- Calculated speedup =      3.95
+ Calculated speedup =    254.23
 
  Time step    1
  Time step   20
@@ -459,13 +466,13 @@
  Comparison of RMS-norms of residual
            1 0.5562611195402E+05 0.5562611195402E+05 0.2302099670663E-13
            2 0.5151404119932E+04 0.5151404119932E+04 0.3195605260010E-13
-           3 0.1080453907954E+05 0.1080453907954E+05 0.4316601380547E-12
-           4 0.6576058591929E+04 0.6576058591929E+04 0.2046898061821E-13
+           3 0.1080453907954E+05 0.1080453907954E+05 0.4319968464307E-12
+           4 0.6576058591929E+04 0.6576058591929E+04 0.2060728454130E-13
            5 0.4528609293561E+05 0.4528609293561E+05 0.3100863263992E-13
  Comparison of RMS-norms of solution error
            1 0.7185154786403E+04 0.7185154786403E+04 0.4961924046085E-13
-           2 0.7040472738068E+03 0.7040472738068E+03 0.3310260915708E-13
-           3 0.1437035074443E+04 0.1437035074443E+04 0.1892361019341E-12
+           2 0.7040472738068E+03 0.7040472738068E+03 0.3277965687262E-13
+           3 0.1437035074443E+04 0.1437035074443E+04 0.1889196536031E-12
            4 0.8570666307849E+03 0.8570666307849E+03 0.3117191348368E-13
            5 0.5991235147368E+04 0.5991235147368E+04 0.6755287220979E-13
  Verification Successful
@@ -475,23 +482,23 @@
  Class           =                        W
  Size            =             64x   64x  8
  Iterations      =                      200
- Time in seconds =                     1.82
+ Time in seconds =                     7.17
  Total processes =                        4
- Total threads   =                        4
- Mop/s total     =                  7865.17
- Mop/s/thread    =                  1966.29
+ Total threads   =                      256
+ Mop/s total     =                  2000.39
+ Mop/s/thread    =                     7.81
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
- Compile date    =              13 Apr 2020
+ Compile date    =              19 Apr 2020
 
  Compile options:
-    F77          = mpif77
+    F77          = mpif90
     FLINK        = $(F77)
-    F_LIB        = (none)
+    F_LIB        = -lmpi
     F_INC        = (none)
-    FFLAGS       = -O3
-    FLINKFLAGS   = -O3
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = -O3 -fopenmp
     RAND         = (none)
 
 
@@ -512,8 +519,9 @@
  Number of active processes:     4
 
  Use the default load factors with threads
+ Total number of threads:    256  ( 64.0 threads/process)
 
- Calculated speedup =      3.95
+ Calculated speedup =    254.23
 
  Time step    1
  Time step   20
@@ -530,14 +538,14 @@
  accuracy setting for epsilon =  0.1000000000000E-07
  Comparison of RMS-norms of residual
            1 0.5562611195402E+05 0.5562611195402E+05 0.2302099670663E-13
-           2 0.5151404119932E+04 0.5151404119932E+04 0.3195605260010E-13
-           3 0.1080453907954E+05 0.1080453907954E+05 0.4316601380547E-12
-           4 0.6576058591929E+04 0.6576058591929E+04 0.2046898061821E-13
+           2 0.5151404119932E+04 0.5151404119932E+04 0.3177949982330E-13
+           3 0.1080453907954E+05 0.1080453907954E+05 0.4319968464307E-12
+           4 0.6576058591929E+04 0.6576058591929E+04 0.2074558846440E-13
            5 0.4528609293561E+05 0.4528609293561E+05 0.3100863263992E-13
  Comparison of RMS-norms of solution error
            1 0.7185154786403E+04 0.7185154786403E+04 0.4961924046085E-13
-           2 0.7040472738068E+03 0.7040472738068E+03 0.3310260915708E-13
-           3 0.1437035074443E+04 0.1437035074443E+04 0.1892361019341E-12
+           2 0.7040472738068E+03 0.7040472738068E+03 0.3277965687262E-13
+           3 0.1437035074443E+04 0.1437035074443E+04 0.1887614294376E-12
            4 0.8570666307849E+03 0.8570666307849E+03 0.3117191348368E-13
            5 0.5991235147368E+04 0.5991235147368E+04 0.6755287220979E-13
  Verification Successful
@@ -547,23 +555,23 @@
  Class           =                        W
  Size            =             64x   64x  8
  Iterations      =                      200
- Time in seconds =                     1.13
+ Time in seconds =                     7.22
  Total processes =                        4
- Total threads   =                        4
- Mop/s total     =                 12724.38
- Mop/s/thread    =                  3181.09
+ Total threads   =                      256
+ Mop/s total     =                  1987.69
+ Mop/s/thread    =                     7.76
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
- Compile date    =              13 Apr 2020
+ Compile date    =              19 Apr 2020
 
  Compile options:
-    F77          = mpif77
+    F77          = mpif90
     FLINK        = $(F77)
-    F_LIB        = (none)
+    F_LIB        = -lmpi
     F_INC        = (none)
-    FFLAGS       = -O3
-    FLINKFLAGS   = -O3
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = -O3 -fopenmp
     RAND         = (none)
 
 
@@ -584,8 +592,9 @@
  Number of active processes:     4
 
  Use the default load factors with threads
+ Total number of threads:    256  ( 64.0 threads/process)
 
- Calculated speedup =      3.95
+ Calculated speedup =    254.23
 
  Time step    1
  Time step   20
@@ -603,14 +612,14 @@
  Comparison of RMS-norms of residual
            1 0.5562611195402E+05 0.5562611195402E+05 0.2302099670663E-13
            2 0.5151404119932E+04 0.5151404119932E+04 0.3195605260010E-13
-           3 0.1080453907954E+05 0.1080453907954E+05 0.4316601380547E-12
-           4 0.6576058591929E+04 0.6576058591929E+04 0.2046898061821E-13
+           3 0.1080453907954E+05 0.1080453907954E+05 0.4318284922427E-12
+           4 0.6576058591929E+04 0.6576058591929E+04 0.2074558846440E-13
            5 0.4528609293561E+05 0.4528609293561E+05 0.3100863263992E-13
  Comparison of RMS-norms of solution error
            1 0.7185154786403E+04 0.7185154786403E+04 0.4961924046085E-13
-           2 0.7040472738068E+03 0.7040472738068E+03 0.3310260915708E-13
-           3 0.1437035074443E+04 0.1437035074443E+04 0.1892361019341E-12
-           4 0.8570666307849E+03 0.8570666307849E+03 0.3117191348368E-13
+           2 0.7040472738068E+03 0.7040472738068E+03 0.3277965687262E-13
+           3 0.1437035074443E+04 0.1437035074443E+04 0.1889196536031E-12
+           4 0.8570666307849E+03 0.8570666307849E+03 0.3103926704333E-13
            5 0.5991235147368E+04 0.5991235147368E+04 0.6755287220979E-13
  Verification Successful
 
@@ -619,23 +628,23 @@
  Class           =                        W
  Size            =             64x   64x  8
  Iterations      =                      200
- Time in seconds =                     1.11
+ Time in seconds =                     7.12
  Total processes =                        4
- Total threads   =                        4
- Mop/s total     =                 12906.20
- Mop/s/thread    =                  3226.55
+ Total threads   =                      256
+ Mop/s total     =                  2014.82
+ Mop/s/thread    =                     7.87
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
- Compile date    =              13 Apr 2020
+ Compile date    =              19 Apr 2020
 
  Compile options:
-    F77          = mpif77
+    F77          = mpif90
     FLINK        = $(F77)
-    F_LIB        = (none)
+    F_LIB        = -lmpi
     F_INC        = (none)
-    FFLAGS       = -O3
-    FLINKFLAGS   = -O3
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = -O3 -fopenmp
     RAND         = (none)
 
 
@@ -656,8 +665,9 @@
  Number of active processes:     4
 
  Use the default load factors with threads
+ Total number of threads:    256  ( 64.0 threads/process)
 
- Calculated speedup =      3.95
+ Calculated speedup =    254.23
 
  Time step    1
  Time step   20
@@ -675,13 +685,13 @@
  Comparison of RMS-norms of residual
            1 0.5562611195402E+05 0.5562611195402E+05 0.2302099670663E-13
            2 0.5151404119932E+04 0.5151404119932E+04 0.3195605260010E-13
-           3 0.1080453907954E+05 0.1080453907954E+05 0.4316601380547E-12
-           4 0.6576058591929E+04 0.6576058591929E+04 0.2046898061821E-13
+           3 0.1080453907954E+05 0.1080453907954E+05 0.4319968464307E-12
+           4 0.6576058591929E+04 0.6576058591929E+04 0.2074558846440E-13
            5 0.4528609293561E+05 0.4528609293561E+05 0.3100863263992E-13
  Comparison of RMS-norms of solution error
            1 0.7185154786403E+04 0.7185154786403E+04 0.4961924046085E-13
-           2 0.7040472738068E+03 0.7040472738068E+03 0.3310260915708E-13
-           3 0.1437035074443E+04 0.1437035074443E+04 0.1892361019341E-12
+           2 0.7040472738068E+03 0.7040472738068E+03 0.3277965687262E-13
+           3 0.1437035074443E+04 0.1437035074443E+04 0.1889196536031E-12
            4 0.8570666307849E+03 0.8570666307849E+03 0.3117191348368E-13
            5 0.5991235147368E+04 0.5991235147368E+04 0.6755287220979E-13
  Verification Successful
@@ -691,23 +701,23 @@
  Class           =                        W
  Size            =             64x   64x  8
  Iterations      =                      200
- Time in seconds =                     1.15
+ Time in seconds =                     7.48
  Total processes =                        4
- Total threads   =                        4
- Mop/s total     =                 12469.41
- Mop/s/thread    =                  3117.35
+ Total threads   =                      256
+ Mop/s total     =                  1919.97
+ Mop/s/thread    =                     7.50
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
- Compile date    =              13 Apr 2020
+ Compile date    =              19 Apr 2020
 
  Compile options:
-    F77          = mpif77
+    F77          = mpif90
     FLINK        = $(F77)
-    F_LIB        = (none)
+    F_LIB        = -lmpi
     F_INC        = (none)
-    FFLAGS       = -O3
-    FLINKFLAGS   = -O3
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = -O3 -fopenmp
     RAND         = (none)
 
 
@@ -728,8 +738,9 @@
  Number of active processes:     4
 
  Use the default load factors with threads
+ Total number of threads:    256  ( 64.0 threads/process)
 
- Calculated speedup =      3.95
+ Calculated speedup =    254.23
 
  Time step    1
  Time step   20
@@ -747,13 +758,13 @@
  Comparison of RMS-norms of residual
            1 0.5562611195402E+05 0.5562611195402E+05 0.2302099670663E-13
            2 0.5151404119932E+04 0.5151404119932E+04 0.3195605260010E-13
-           3 0.1080453907954E+05 0.1080453907954E+05 0.4316601380547E-12
-           4 0.6576058591929E+04 0.6576058591929E+04 0.2046898061821E-13
-           5 0.4528609293561E+05 0.4528609293561E+05 0.3100863263992E-13
+           3 0.1080453907954E+05 0.1080453907954E+05 0.4318284922427E-12
+           4 0.6576058591929E+04 0.6576058591929E+04 0.2074558846440E-13
+           5 0.4528609293561E+05 0.4528609293561E+05 0.3116929913028E-13
  Comparison of RMS-norms of solution error
            1 0.7185154786403E+04 0.7185154786403E+04 0.4961924046085E-13
-           2 0.7040472738068E+03 0.7040472738068E+03 0.3310260915708E-13
-           3 0.1437035074443E+04 0.1437035074443E+04 0.1892361019341E-12
+           2 0.7040472738068E+03 0.7040472738068E+03 0.3277965687262E-13
+           3 0.1437035074443E+04 0.1437035074443E+04 0.1889196536031E-12
            4 0.8570666307849E+03 0.8570666307849E+03 0.3117191348368E-13
            5 0.5991235147368E+04 0.5991235147368E+04 0.6755287220979E-13
  Verification Successful
@@ -763,23 +774,23 @@
  Class           =                        W
  Size            =             64x   64x  8
  Iterations      =                      200
- Time in seconds =                     1.13
+ Time in seconds =                     7.29
  Total processes =                        4
- Total threads   =                        4
- Mop/s total     =                 12693.80
- Mop/s/thread    =                  3173.45
+ Total threads   =                      256
+ Mop/s total     =                  1969.19
+ Mop/s/thread    =                     7.69
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
- Compile date    =              13 Apr 2020
+ Compile date    =              19 Apr 2020
 
  Compile options:
-    F77          = mpif77
+    F77          = mpif90
     FLINK        = $(F77)
-    F_LIB        = (none)
+    F_LIB        = -lmpi
     F_INC        = (none)
-    FFLAGS       = -O3
-    FLINKFLAGS   = -O3
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = -O3 -fopenmp
     RAND         = (none)
 
 

@@ -9,14 +9,14 @@ module load gnu/openmpi_eth/2.0.0
 
 cd ESC/T1/
 cd "NPB3.3.1-MZ/NPB3.3-MZ-MPI"
-mkdir results641
+mkdir results641-2
 
 for test in bt-mz
 do
-    mkdir results641/$test
+    mkdir results641-2/$test
     for class in W A B
     do
-        mkdir results641/$test/$class
+        mkdir results641-2/$test/$class
         #for processes in 2 4
         #do
         #done
@@ -47,7 +47,8 @@ make suite
 
 chmod +x ./bin/*
 
-cores = 16
+for cores in 16
+do
 for test in bt-mz
 do
     for class in W A B
@@ -56,10 +57,11 @@ do
         do
             for i in 0 1 2 3 4 5 6 7 8 9 10
             do
-                echo "----------start------------" >> "results641/$test/$class/result-$test-$processes.txt"
-                mpirun -np $processes -x OMP_NUM_THREADS=$((processes * cores)) -mca btl self,sm,tcp -oversubscribe --map-by core ./bin/$test.$class.$processes >> "results641/$test/$class/result-$test-$processes.txt"
-                echo "-----------end-------------" >> "results641/$test/$class/result-$test-$processes.txt"
+                echo "----------start------------" >> "results641-2/$test/$class/result-$test-$processes.txt"
+                mpirun -np $processes -x OMP_NUM_THREADS=$cores -mca btl self,sm,tcp -oversubscribe --map-by node ./bin/$test.$class.$processes >> "results641-2/$test/$class/result-$test-$processes.txt"
+                echo "-----------end-------------" >> "results641-2/$test/$class/result-$test-$processes.txt"
             done
         done
     done
+done
 done

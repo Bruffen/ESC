@@ -8,9 +8,9 @@
  Number of active processes:     2
 
  Use the default load factors with threads
- Total number of threads:     64  ( 32.0 threads/process)
+ Total number of threads:     32  ( 16.0 threads/process)
 
- Calculated speedup =     63.44
+ Calculated speedup =     31.69
 
  Time step    1
  Time step   20
@@ -23,32 +23,32 @@
  Time step  160
  Time step  180
  Time step  200
- Verification being performed for class W
+ Verification being performed for class A
  accuracy setting for epsilon =  0.1000000000000E-07
  Comparison of RMS-norms of residual
-           1 0.5562611195402E+05 0.5562611195402E+05 0.2302099670663E-13
-           2 0.5151404119932E+04 0.5151404119932E+04 0.3195605260010E-13
-           3 0.1080453907954E+05 0.1080453907954E+05 0.4318284922427E-12
-           4 0.6576058591929E+04 0.6576058591929E+04 0.2060728454130E-13
-           5 0.4528609293561E+05 0.4528609293561E+05 0.3100863263992E-13
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5939874891693E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6179319921551E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4490421464112E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5407960766115E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
  Comparison of RMS-norms of solution error
-           1 0.7185154786403E+04 0.7185154786403E+04 0.4974582015591E-13
-           2 0.7040472738068E+03 0.7040472738068E+03 0.3277965687262E-13
-           3 0.1437035074443E+04 0.1437035074443E+04 0.1887614294376E-12
-           4 0.8570666307849E+03 0.8570666307849E+03 0.3117191348368E-13
-           5 0.5991235147368E+04 0.5991235147368E+04 0.6755287220979E-13
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6648434530296E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4975019414014E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2514375184799E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4867139037261E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
  Verification Successful
 
 
  BT-MZ Benchmark Completed.
- Class           =                        W
- Size            =             64x   64x  8
+ Class           =                        A
+ Size            =            128x  128x 16
  Iterations      =                      200
- Time in seconds =                     3.53
+ Time in seconds =                    11.13
  Total processes =                        2
- Total threads   =                       64
- Mop/s total     =                  4064.29
- Mop/s/thread    =                    63.50
+ Total threads   =                       32
+ Mop/s total     =                 13133.58
+ Mop/s/thread    =                   410.42
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
@@ -81,9 +81,9 @@
  Number of active processes:     2
 
  Use the default load factors with threads
- Total number of threads:     64  ( 32.0 threads/process)
+ Total number of threads:     32  ( 16.0 threads/process)
 
- Calculated speedup =     63.44
+ Calculated speedup =     31.69
 
  Time step    1
  Time step   20
@@ -96,32 +96,32 @@
  Time step  160
  Time step  180
  Time step  200
- Verification being performed for class W
+ Verification being performed for class A
  accuracy setting for epsilon =  0.1000000000000E-07
  Comparison of RMS-norms of residual
-           1 0.5562611195402E+05 0.5562611195402E+05 0.2302099670663E-13
-           2 0.5151404119932E+04 0.5151404119932E+04 0.3177949982330E-13
-           3 0.1080453907954E+05 0.1080453907954E+05 0.4318284922427E-12
-           4 0.6576058591929E+04 0.6576058591929E+04 0.2060728454130E-13
-           5 0.4528609293561E+05 0.4528609293561E+05 0.3100863263992E-13
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5939874891693E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6179319921551E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4490421464112E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5407960766115E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
  Comparison of RMS-norms of solution error
-           1 0.7185154786403E+04 0.7185154786403E+04 0.4961924046085E-13
-           2 0.7040472738068E+03 0.7040472738068E+03 0.3277965687262E-13
-           3 0.1437035074443E+04 0.1437035074443E+04 0.1887614294376E-12
-           4 0.8570666307849E+03 0.8570666307849E+03 0.3117191348368E-13
-           5 0.5991235147368E+04 0.5991235147368E+04 0.6755287220979E-13
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6648434530296E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4975019414014E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2514375184799E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4881624570110E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
  Verification Successful
 
 
  BT-MZ Benchmark Completed.
- Class           =                        W
- Size            =             64x   64x  8
+ Class           =                        A
+ Size            =            128x  128x 16
  Iterations      =                      200
- Time in seconds =                     2.56
+ Time in seconds =                    11.17
  Total processes =                        2
- Total threads   =                       64
- Mop/s total     =                  5598.23
- Mop/s/thread    =                    87.47
+ Total threads   =                       32
+ Mop/s total     =                 13093.62
+ Mop/s/thread    =                   409.18
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
@@ -154,9 +154,9 @@
  Number of active processes:     2
 
  Use the default load factors with threads
- Total number of threads:     64  ( 32.0 threads/process)
+ Total number of threads:     32  ( 16.0 threads/process)
 
- Calculated speedup =     63.44
+ Calculated speedup =     31.69
 
  Time step    1
  Time step   20
@@ -169,32 +169,32 @@
  Time step  160
  Time step  180
  Time step  200
- Verification being performed for class W
+ Verification being performed for class A
  accuracy setting for epsilon =  0.1000000000000E-07
  Comparison of RMS-norms of residual
-           1 0.5562611195402E+05 0.5562611195402E+05 0.2302099670663E-13
-           2 0.5151404119932E+04 0.5151404119932E+04 0.3177949982330E-13
-           3 0.1080453907954E+05 0.1080453907954E+05 0.4318284922427E-12
-           4 0.6576058591929E+04 0.6576058591929E+04 0.2060728454130E-13
-           5 0.4528609293561E+05 0.4528609293561E+05 0.3100863263992E-13
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5939874891693E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6179319921551E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4490421464112E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5407960766115E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
  Comparison of RMS-norms of solution error
-           1 0.7185154786403E+04 0.7185154786403E+04 0.4974582015591E-13
-           2 0.7040472738068E+03 0.7040472738068E+03 0.3277965687262E-13
-           3 0.1437035074443E+04 0.1437035074443E+04 0.1887614294376E-12
-           4 0.8570666307849E+03 0.8570666307849E+03 0.3117191348368E-13
-           5 0.5991235147368E+04 0.5991235147368E+04 0.6755287220979E-13
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6648434530296E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4975019414014E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2514375184799E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4867139037261E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
  Verification Successful
 
 
  BT-MZ Benchmark Completed.
- Class           =                        W
- Size            =             64x   64x  8
+ Class           =                        A
+ Size            =            128x  128x 16
  Iterations      =                      200
- Time in seconds =                     2.07
+ Time in seconds =                    11.44
  Total processes =                        2
- Total threads   =                       64
- Mop/s total     =                  6922.60
- Mop/s/thread    =                   108.17
+ Total threads   =                       32
+ Mop/s total     =                 12780.69
+ Mop/s/thread    =                   399.40
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
@@ -227,9 +227,9 @@
  Number of active processes:     2
 
  Use the default load factors with threads
- Total number of threads:     64  ( 32.0 threads/process)
+ Total number of threads:     32  ( 16.0 threads/process)
 
- Calculated speedup =     63.44
+ Calculated speedup =     31.69
 
  Time step    1
  Time step   20
@@ -242,32 +242,32 @@
  Time step  160
  Time step  180
  Time step  200
- Verification being performed for class W
+ Verification being performed for class A
  accuracy setting for epsilon =  0.1000000000000E-07
  Comparison of RMS-norms of residual
-           1 0.5562611195402E+05 0.5562611195402E+05 0.2302099670663E-13
-           2 0.5151404119932E+04 0.5151404119932E+04 0.3177949982330E-13
-           3 0.1080453907954E+05 0.1080453907954E+05 0.4318284922427E-12
-           4 0.6576058591929E+04 0.6576058591929E+04 0.2060728454130E-13
-           5 0.4528609293561E+05 0.4528609293561E+05 0.3100863263992E-13
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5939874891693E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6179319921551E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4490421464112E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5407960766115E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
  Comparison of RMS-norms of solution error
-           1 0.7185154786403E+04 0.7185154786403E+04 0.4987239985096E-13
-           2 0.7040472738068E+03 0.7040472738068E+03 0.3277965687262E-13
-           3 0.1437035074443E+04 0.1437035074443E+04 0.1887614294376E-12
-           4 0.8570666307849E+03 0.8570666307849E+03 0.3117191348368E-13
-           5 0.5991235147368E+04 0.5991235147368E+04 0.6755287220979E-13
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6634893930438E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4975019414014E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2514375184799E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4881624570110E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
  Verification Successful
 
 
  BT-MZ Benchmark Completed.
- Class           =                        W
- Size            =             64x   64x  8
+ Class           =                        A
+ Size            =            128x  128x 16
  Iterations      =                      200
- Time in seconds =                     4.05
+ Time in seconds =                    11.05
  Total processes =                        2
- Total threads   =                       64
- Mop/s total     =                  3547.32
- Mop/s/thread    =                    55.43
+ Total threads   =                       32
+ Mop/s total     =                 13236.13
+ Mop/s/thread    =                   413.63
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
@@ -300,9 +300,9 @@
  Number of active processes:     2
 
  Use the default load factors with threads
- Total number of threads:     64  ( 32.0 threads/process)
+ Total number of threads:     32  ( 16.0 threads/process)
 
- Calculated speedup =     63.44
+ Calculated speedup =     31.69
 
  Time step    1
  Time step   20
@@ -315,32 +315,32 @@
  Time step  160
  Time step  180
  Time step  200
- Verification being performed for class W
+ Verification being performed for class A
  accuracy setting for epsilon =  0.1000000000000E-07
  Comparison of RMS-norms of residual
-           1 0.5562611195402E+05 0.5562611195402E+05 0.2275939447133E-13
-           2 0.5151404119932E+04 0.5151404119932E+04 0.3195605260010E-13
-           3 0.1080453907954E+05 0.1080453907954E+05 0.4318284922427E-12
-           4 0.6576058591929E+04 0.6576058591929E+04 0.2060728454130E-13
-           5 0.4528609293561E+05 0.4528609293561E+05 0.3100863263992E-13
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5939874891693E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6179319921551E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4490421464112E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5407960766115E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
  Comparison of RMS-norms of solution error
-           1 0.7185154786403E+04 0.7185154786403E+04 0.4961924046085E-13
-           2 0.7040472738068E+03 0.7040472738068E+03 0.3294113301485E-13
-           3 0.1437035074443E+04 0.1437035074443E+04 0.1887614294376E-12
-           4 0.8570666307849E+03 0.8570666307849E+03 0.3117191348368E-13
-           5 0.5991235147368E+04 0.5991235147368E+04 0.6755287220979E-13
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6648434530296E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4975019414014E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2514375184799E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4881624570110E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
  Verification Successful
 
 
  BT-MZ Benchmark Completed.
- Class           =                        W
- Size            =             64x   64x  8
+ Class           =                        A
+ Size            =            128x  128x 16
  Iterations      =                      200
- Time in seconds =                     5.02
+ Time in seconds =                    11.09
  Total processes =                        2
- Total threads   =                       64
- Mop/s total     =                  2858.07
- Mop/s/thread    =                    44.66
+ Total threads   =                       32
+ Mop/s total     =                 13189.67
+ Mop/s/thread    =                   412.18
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
@@ -373,9 +373,9 @@
  Number of active processes:     2
 
  Use the default load factors with threads
- Total number of threads:     64  ( 32.0 threads/process)
+ Total number of threads:     32  ( 16.0 threads/process)
 
- Calculated speedup =     63.44
+ Calculated speedup =     31.69
 
  Time step    1
  Time step   20
@@ -388,32 +388,32 @@
  Time step  160
  Time step  180
  Time step  200
- Verification being performed for class W
+ Verification being performed for class A
  accuracy setting for epsilon =  0.1000000000000E-07
  Comparison of RMS-norms of residual
-           1 0.5562611195402E+05 0.5562611195402E+05 0.2275939447133E-13
-           2 0.5151404119932E+04 0.5151404119932E+04 0.3177949982330E-13
-           3 0.1080453907954E+05 0.1080453907954E+05 0.4318284922427E-12
-           4 0.6576058591929E+04 0.6576058591929E+04 0.2060728454130E-13
-           5 0.4528609293561E+05 0.4528609293561E+05 0.3100863263992E-13
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5939874891693E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6179319921551E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4490421464112E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5407960766115E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
  Comparison of RMS-norms of solution error
-           1 0.7185154786403E+04 0.7185154786403E+04 0.4974582015591E-13
-           2 0.7040472738068E+03 0.7040472738068E+03 0.3277965687262E-13
-           3 0.1437035074443E+04 0.1437035074443E+04 0.1887614294376E-12
-           4 0.8570666307849E+03 0.8570666307849E+03 0.3117191348368E-13
-           5 0.5991235147368E+04 0.5991235147368E+04 0.6755287220979E-13
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6661975130154E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4975019414014E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2514375184799E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4881624570110E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
  Verification Successful
 
 
  BT-MZ Benchmark Completed.
- Class           =                        W
- Size            =             64x   64x  8
+ Class           =                        A
+ Size            =            128x  128x 16
  Iterations      =                      200
- Time in seconds =                     3.26
+ Time in seconds =                    11.30
  Total processes =                        2
- Total threads   =                       64
- Mop/s total     =                  4406.55
- Mop/s/thread    =                    68.85
+ Total threads   =                       32
+ Mop/s total     =                 12942.32
+ Mop/s/thread    =                   404.45
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
@@ -446,9 +446,9 @@
  Number of active processes:     2
 
  Use the default load factors with threads
- Total number of threads:     64  ( 32.0 threads/process)
+ Total number of threads:     32  ( 16.0 threads/process)
 
- Calculated speedup =     63.44
+ Calculated speedup =     31.69
 
  Time step    1
  Time step   20
@@ -461,32 +461,32 @@
  Time step  160
  Time step  180
  Time step  200
- Verification being performed for class W
+ Verification being performed for class A
  accuracy setting for epsilon =  0.1000000000000E-07
  Comparison of RMS-norms of residual
-           1 0.5562611195402E+05 0.5562611195402E+05 0.2275939447133E-13
-           2 0.5151404119932E+04 0.5151404119932E+04 0.3195605260010E-13
-           3 0.1080453907954E+05 0.1080453907954E+05 0.4318284922427E-12
-           4 0.6576058591929E+04 0.6576058591929E+04 0.2060728454130E-13
-           5 0.4528609293561E+05 0.4528609293561E+05 0.3100863263992E-13
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5939874891693E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6179319921551E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4490421464112E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5407960766115E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
  Comparison of RMS-norms of solution error
-           1 0.7185154786403E+04 0.7185154786403E+04 0.4974582015591E-13
-           2 0.7040472738068E+03 0.7040472738068E+03 0.3294113301485E-13
-           3 0.1437035074443E+04 0.1437035074443E+04 0.1887614294376E-12
-           4 0.8570666307849E+03 0.8570666307849E+03 0.3117191348368E-13
-           5 0.5991235147368E+04 0.5991235147368E+04 0.6755287220979E-13
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6648434530296E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4975019414014E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2514375184799E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4852653504412E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
  Verification Successful
 
 
  BT-MZ Benchmark Completed.
- Class           =                        W
- Size            =             64x   64x  8
+ Class           =                        A
+ Size            =            128x  128x 16
  Iterations      =                      200
- Time in seconds =                     2.27
+ Time in seconds =                    11.71
  Total processes =                        2
- Total threads   =                       64
- Mop/s total     =                  6318.91
- Mop/s/thread    =                    98.73
+ Total threads   =                       32
+ Mop/s total     =                 12481.46
+ Mop/s/thread    =                   390.05
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
@@ -519,9 +519,9 @@
  Number of active processes:     2
 
  Use the default load factors with threads
- Total number of threads:     64  ( 32.0 threads/process)
+ Total number of threads:     32  ( 16.0 threads/process)
 
- Calculated speedup =     63.44
+ Calculated speedup =     31.69
 
  Time step    1
  Time step   20
@@ -534,32 +534,32 @@
  Time step  160
  Time step  180
  Time step  200
- Verification being performed for class W
+ Verification being performed for class A
  accuracy setting for epsilon =  0.1000000000000E-07
  Comparison of RMS-norms of residual
-           1 0.5562611195402E+05 0.5562611195402E+05 0.2302099670663E-13
-           2 0.5151404119932E+04 0.5151404119932E+04 0.3195605260010E-13
-           3 0.1080453907954E+05 0.1080453907954E+05 0.4318284922427E-12
-           4 0.6576058591929E+04 0.6576058591929E+04 0.2060728454130E-13
-           5 0.4528609293561E+05 0.4528609293561E+05 0.3100863263992E-13
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5939874891693E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6179319921551E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4490421464112E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5407960766115E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
  Comparison of RMS-norms of solution error
-           1 0.7185154786403E+04 0.7185154786403E+04 0.4974582015591E-13
-           2 0.7040472738068E+03 0.7040472738068E+03 0.3277965687262E-13
-           3 0.1437035074443E+04 0.1437035074443E+04 0.1887614294376E-12
-           4 0.8570666307849E+03 0.8570666307849E+03 0.3117191348368E-13
-           5 0.5991235147368E+04 0.5991235147368E+04 0.6755287220979E-13
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6634893930438E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4975019414014E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2514375184799E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4881624570110E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
  Verification Successful
 
 
  BT-MZ Benchmark Completed.
- Class           =                        W
- Size            =             64x   64x  8
+ Class           =                        A
+ Size            =            128x  128x 16
  Iterations      =                      200
- Time in seconds =                     3.56
+ Time in seconds =                    10.94
  Total processes =                        2
- Total threads   =                       64
- Mop/s total     =                  4029.28
- Mop/s/thread    =                    62.96
+ Total threads   =                       32
+ Mop/s total     =                 13358.79
+ Mop/s/thread    =                   417.46
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
@@ -592,9 +592,9 @@
  Number of active processes:     2
 
  Use the default load factors with threads
- Total number of threads:     64  ( 32.0 threads/process)
+ Total number of threads:     32  ( 16.0 threads/process)
 
- Calculated speedup =     63.44
+ Calculated speedup =     31.69
 
  Time step    1
  Time step   20
@@ -607,32 +607,32 @@
  Time step  160
  Time step  180
  Time step  200
- Verification being performed for class W
+ Verification being performed for class A
  accuracy setting for epsilon =  0.1000000000000E-07
  Comparison of RMS-norms of residual
-           1 0.5562611195402E+05 0.5562611195402E+05 0.2275939447133E-13
-           2 0.5151404119932E+04 0.5151404119932E+04 0.3177949982330E-13
-           3 0.1080453907954E+05 0.1080453907954E+05 0.4318284922427E-12
-           4 0.6576058591929E+04 0.6576058591929E+04 0.2060728454130E-13
-           5 0.4528609293561E+05 0.4528609293561E+05 0.3100863263992E-13
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5939874891693E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6179319921551E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4490421464112E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5407960766115E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
  Comparison of RMS-norms of solution error
-           1 0.7185154786403E+04 0.7185154786403E+04 0.4974582015591E-13
-           2 0.7040472738068E+03 0.7040472738068E+03 0.3277965687262E-13
-           3 0.1437035074443E+04 0.1437035074443E+04 0.1887614294376E-12
-           4 0.8570666307849E+03 0.8570666307849E+03 0.3117191348368E-13
-           5 0.5991235147368E+04 0.5991235147368E+04 0.6755287220979E-13
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6648434530296E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4975019414014E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2514375184799E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4881624570110E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
  Verification Successful
 
 
  BT-MZ Benchmark Completed.
- Class           =                        W
- Size            =             64x   64x  8
+ Class           =                        A
+ Size            =            128x  128x 16
  Iterations      =                      200
- Time in seconds =                     4.45
+ Time in seconds =                    11.37
  Total processes =                        2
- Total threads   =                       64
- Mop/s total     =                  3222.80
- Mop/s/thread    =                    50.36
+ Total threads   =                       32
+ Mop/s total     =                 12858.33
+ Mop/s/thread    =                   401.82
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
@@ -665,9 +665,9 @@
  Number of active processes:     2
 
  Use the default load factors with threads
- Total number of threads:     64  ( 32.0 threads/process)
+ Total number of threads:     32  ( 16.0 threads/process)
 
- Calculated speedup =     63.44
+ Calculated speedup =     31.69
 
  Time step    1
  Time step   20
@@ -680,32 +680,32 @@
  Time step  160
  Time step  180
  Time step  200
- Verification being performed for class W
+ Verification being performed for class A
  accuracy setting for epsilon =  0.1000000000000E-07
  Comparison of RMS-norms of residual
-           1 0.5562611195402E+05 0.5562611195402E+05 0.2275939447133E-13
-           2 0.5151404119932E+04 0.5151404119932E+04 0.3195605260010E-13
-           3 0.1080453907954E+05 0.1080453907954E+05 0.4318284922427E-12
-           4 0.6576058591929E+04 0.6576058591929E+04 0.2060728454130E-13
-           5 0.4528609293561E+05 0.4528609293561E+05 0.3100863263992E-13
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5939874891693E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6179319921551E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4490421464112E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5407960766115E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
  Comparison of RMS-norms of solution error
-           1 0.7185154786403E+04 0.7185154786403E+04 0.4974582015591E-13
-           2 0.7040472738068E+03 0.7040472738068E+03 0.3277965687262E-13
-           3 0.1437035074443E+04 0.1437035074443E+04 0.1887614294376E-12
-           4 0.8570666307849E+03 0.8570666307849E+03 0.3117191348368E-13
-           5 0.5991235147368E+04 0.5991235147368E+04 0.6755287220979E-13
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6634893930438E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4975019414014E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2514375184799E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4881624570110E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
  Verification Successful
 
 
  BT-MZ Benchmark Completed.
- Class           =                        W
- Size            =             64x   64x  8
+ Class           =                        A
+ Size            =            128x  128x 16
  Iterations      =                      200
- Time in seconds =                     6.59
+ Time in seconds =                    11.51
  Total processes =                        2
- Total threads   =                       64
- Mop/s total     =                  2178.89
- Mop/s/thread    =                    34.05
+ Total threads   =                       32
+ Mop/s total     =                 12706.55
+ Mop/s/thread    =                   397.08
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
@@ -738,9 +738,9 @@
  Number of active processes:     2
 
  Use the default load factors with threads
- Total number of threads:     64  ( 32.0 threads/process)
+ Total number of threads:     32  ( 16.0 threads/process)
 
- Calculated speedup =     63.44
+ Calculated speedup =     31.69
 
  Time step    1
  Time step   20
@@ -753,32 +753,32 @@
  Time step  160
  Time step  180
  Time step  200
- Verification being performed for class W
+ Verification being performed for class A
  accuracy setting for epsilon =  0.1000000000000E-07
  Comparison of RMS-norms of residual
-           1 0.5562611195402E+05 0.5562611195402E+05 0.2302099670663E-13
-           2 0.5151404119932E+04 0.5151404119932E+04 0.3195605260010E-13
-           3 0.1080453907954E+05 0.1080453907954E+05 0.4318284922427E-12
-           4 0.6576058591929E+04 0.6576058591929E+04 0.2060728454130E-13
-           5 0.4528609293561E+05 0.4528609293561E+05 0.3100863263992E-13
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5939874891693E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6179319921551E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4490421464112E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5407960766115E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
  Comparison of RMS-norms of solution error
-           1 0.7185154786403E+04 0.7185154786403E+04 0.4974582015591E-13
-           2 0.7040472738068E+03 0.7040472738068E+03 0.3277965687262E-13
-           3 0.1437035074443E+04 0.1437035074443E+04 0.1887614294376E-12
-           4 0.8570666307849E+03 0.8570666307849E+03 0.3117191348368E-13
-           5 0.5991235147368E+04 0.5991235147368E+04 0.6755287220979E-13
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6648434530296E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4975019414014E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2514375184799E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4881624570110E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
  Verification Successful
 
 
  BT-MZ Benchmark Completed.
- Class           =                        W
- Size            =             64x   64x  8
+ Class           =                        A
+ Size            =            128x  128x 16
  Iterations      =                      200
- Time in seconds =                     3.16
+ Time in seconds =                    11.26
  Total processes =                        2
- Total threads   =                       64
- Mop/s total     =                  4535.64
- Mop/s/thread    =                    70.87
+ Total threads   =                       32
+ Mop/s total     =                 12987.58
+ Mop/s/thread    =                   405.86
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1

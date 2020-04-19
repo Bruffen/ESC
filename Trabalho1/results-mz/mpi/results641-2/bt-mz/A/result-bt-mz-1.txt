@@ -3,8 +3,8 @@
 
  NAS Parallel Benchmarks (NPB3.3-MZ-MPI) - BT-MZ MPI+OpenMP Benchmark
 
- Number of zones:   8 x   8
- Iterations: 200    dt:   0.000300
+ Number of zones:   4 x   4
+ Iterations: 200    dt:   0.000800
  Number of active processes:     1
 
  Use the default load factors with threads
@@ -23,32 +23,32 @@
  Time step  160
  Time step  180
  Time step  200
- Verification being performed for class B
+ Verification being performed for class A
  accuracy setting for epsilon =  0.1000000000000E-07
  Comparison of RMS-norms of residual
-           1 0.4461388343844E+06 0.4461388343844E+06 0.3653155430475E-14
-           2 0.3799759138035E+05 0.3799759138035E+05 0.1009124400621E-12
-           3 0.8383296623970E+05 0.8383296623970E+05 0.3541077978917E-13
-           4 0.5301970201273E+05 0.5301970201273E+05 0.5928388070858E-13
-           5 0.3618106851311E+06 0.3618106851311E+06 0.2847554371688E-13
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5966157523957E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6179319921551E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4490421464112E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5407960766115E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
  Comparison of RMS-norms of solution error
-           1 0.4496733567600E+05 0.4496733567600E+05 0.8430061198873E-13
-           2 0.3892068540524E+04 0.3892068540524E+04 0.7325836789283E-13
-           3 0.8763825844217E+04 0.8763825844217E+04 0.4919090090372E-13
-           4 0.5599040091792E+04 0.5599040091792E+04 0.8186855642729E-13
-           5 0.4082652045598E+05 0.4082652045598E+05 0.6308862393008E-13
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6648434530296E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4992475622484E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2512669367170E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4852653504412E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
  Verification Successful
 
 
  BT-MZ Benchmark Completed.
- Class           =                        B
- Size            =            304x  208x 17
+ Class           =                        A
+ Size            =            128x  128x 16
  Iterations      =                      200
- Time in seconds =                    22.25
+ Time in seconds =                     5.08
  Total processes =                        1
  Total threads   =                       16
- Mop/s total     =                 27021.70
- Mop/s/thread    =                  1688.86
+ Mop/s total     =                 28778.71
+ Mop/s/thread    =                  1798.67
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
@@ -76,8 +76,8 @@
 
  NAS Parallel Benchmarks (NPB3.3-MZ-MPI) - BT-MZ MPI+OpenMP Benchmark
 
- Number of zones:   8 x   8
- Iterations: 200    dt:   0.000300
+ Number of zones:   4 x   4
+ Iterations: 200    dt:   0.000800
  Number of active processes:     1
 
  Use the default load factors with threads
@@ -96,32 +96,32 @@
  Time step  160
  Time step  180
  Time step  200
- Verification being performed for class B
+ Verification being performed for class A
  accuracy setting for epsilon =  0.1000000000000E-07
  Comparison of RMS-norms of residual
-           1 0.4461388343844E+06 0.4461388343844E+06 0.3653155430475E-14
-           2 0.3799759138035E+05 0.3799759138035E+05 0.1009124400621E-12
-           3 0.8383296623970E+05 0.8383296623970E+05 0.3523719753530E-13
-           4 0.5301970201273E+05 0.5301970201273E+05 0.5928388070858E-13
-           5 0.3618106851311E+06 0.3618106851311E+06 0.2847554371688E-13
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5966157523957E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6179319921551E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4488717319344E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5407960766115E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
  Comparison of RMS-norms of solution error
-           1 0.4496733567600E+05 0.4496733567600E+05 0.8413880659144E-13
-           2 0.3892068540524E+04 0.3892068540524E+04 0.7325836789283E-13
-           3 0.8763825844217E+04 0.8763825844217E+04 0.4919090090372E-13
-           4 0.5599040091792E+04 0.5599040091792E+04 0.8170611881534E-13
-           5 0.4082652045598E+05 0.4082652045598E+05 0.6308862393008E-13
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6661975130154E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4992475622484E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2514375184799E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4852653504412E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
  Verification Successful
 
 
  BT-MZ Benchmark Completed.
- Class           =                        B
- Size            =            304x  208x 17
+ Class           =                        A
+ Size            =            128x  128x 16
  Iterations      =                      200
- Time in seconds =                    19.97
+ Time in seconds =                     4.71
  Total processes =                        1
  Total threads   =                       16
- Mop/s total     =                 30111.30
- Mop/s/thread    =                  1881.96
+ Mop/s total     =                 31032.16
+ Mop/s/thread    =                  1939.51
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
@@ -149,8 +149,8 @@
 
  NAS Parallel Benchmarks (NPB3.3-MZ-MPI) - BT-MZ MPI+OpenMP Benchmark
 
- Number of zones:   8 x   8
- Iterations: 200    dt:   0.000300
+ Number of zones:   4 x   4
+ Iterations: 200    dt:   0.000800
  Number of active processes:     1
 
  Use the default load factors with threads
@@ -169,32 +169,32 @@
  Time step  160
  Time step  180
  Time step  200
- Verification being performed for class B
+ Verification being performed for class A
  accuracy setting for epsilon =  0.1000000000000E-07
  Comparison of RMS-norms of residual
-           1 0.4461388343844E+06 0.4461388343844E+06 0.3653155430475E-14
-           2 0.3799759138035E+05 0.3799759138035E+05 0.1009124400621E-12
-           3 0.8383296623970E+05 0.8383296623970E+05 0.3541077978917E-13
-           4 0.5301970201273E+05 0.5301970201273E+05 0.5914664950324E-13
-           5 0.3618106851311E+06 0.3618106851311E+06 0.2847554371688E-13
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5966157523957E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6179319921551E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4490421464112E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5407960766115E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
  Comparison of RMS-norms of solution error
-           1 0.4496733567600E+05 0.4496733567600E+05 0.8413880659144E-13
-           2 0.3892068540524E+04 0.3892068540524E+04 0.7325836789283E-13
-           3 0.8763825844217E+04 0.8763825844217E+04 0.4919090090372E-13
-           4 0.5599040091792E+04 0.5599040091792E+04 0.8186855642729E-13
-           5 0.4082652045598E+05 0.4082652045598E+05 0.6308862393008E-13
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6648434530296E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4992475622484E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2514375184799E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4852653504412E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
  Verification Successful
 
 
  BT-MZ Benchmark Completed.
- Class           =                        B
- Size            =            304x  208x 17
+ Class           =                        A
+ Size            =            128x  128x 16
  Iterations      =                      200
- Time in seconds =                    17.39
+ Time in seconds =                     6.30
  Total processes =                        1
  Total threads   =                       16
- Mop/s total     =                 34572.94
- Mop/s/thread    =                  2160.81
+ Mop/s total     =                 23222.71
+ Mop/s/thread    =                  1451.42
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
@@ -222,8 +222,8 @@
 
  NAS Parallel Benchmarks (NPB3.3-MZ-MPI) - BT-MZ MPI+OpenMP Benchmark
 
- Number of zones:   8 x   8
- Iterations: 200    dt:   0.000300
+ Number of zones:   4 x   4
+ Iterations: 200    dt:   0.000800
  Number of active processes:     1
 
  Use the default load factors with threads
@@ -242,32 +242,32 @@
  Time step  160
  Time step  180
  Time step  200
- Verification being performed for class B
+ Verification being performed for class A
  accuracy setting for epsilon =  0.1000000000000E-07
  Comparison of RMS-norms of residual
-           1 0.4461388343844E+06 0.4461388343844E+06 0.3653155430475E-14
-           2 0.3799759138035E+05 0.3799759138035E+05 0.1009124400621E-12
-           3 0.8383296623970E+05 0.8383296623970E+05 0.3541077978917E-13
-           4 0.5301970201273E+05 0.5301970201273E+05 0.5914664950324E-13
-           5 0.3618106851311E+06 0.3618106851311E+06 0.2831466493882E-13
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5966157523957E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6179319921551E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4490421464112E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5407960766115E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
  Comparison of RMS-norms of solution error
-           1 0.4496733567600E+05 0.4496733567600E+05 0.8413880659144E-13
-           2 0.3892068540524E+04 0.3892068540524E+04 0.7325836789283E-13
-           3 0.8763825844217E+04 0.8763825844217E+04 0.4919090090372E-13
-           4 0.5599040091792E+04 0.5599040091792E+04 0.8170611881534E-13
-           5 0.4082652045598E+05 0.4082652045598E+05 0.6308862393008E-13
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6661975130154E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4992475622484E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2514375184799E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4852653504412E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
  Verification Successful
 
 
  BT-MZ Benchmark Completed.
- Class           =                        B
- Size            =            304x  208x 17
+ Class           =                        A
+ Size            =            128x  128x 16
  Iterations      =                      200
- Time in seconds =                    18.23
+ Time in seconds =                     5.31
  Total processes =                        1
  Total threads   =                       16
- Mop/s total     =                 32973.87
- Mop/s/thread    =                  2060.87
+ Mop/s total     =                 27527.33
+ Mop/s/thread    =                  1720.46
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
@@ -295,8 +295,8 @@
 
  NAS Parallel Benchmarks (NPB3.3-MZ-MPI) - BT-MZ MPI+OpenMP Benchmark
 
- Number of zones:   8 x   8
- Iterations: 200    dt:   0.000300
+ Number of zones:   4 x   4
+ Iterations: 200    dt:   0.000800
  Number of active processes:     1
 
  Use the default load factors with threads
@@ -315,32 +315,32 @@
  Time step  160
  Time step  180
  Time step  200
- Verification being performed for class B
+ Verification being performed for class A
  accuracy setting for epsilon =  0.1000000000000E-07
  Comparison of RMS-norms of residual
-           1 0.4461388343844E+06 0.4461388343844E+06 0.3653155430475E-14
-           2 0.3799759138035E+05 0.3799759138035E+05 0.1009124400621E-12
-           3 0.8383296623970E+05 0.8383296623970E+05 0.3523719753530E-13
-           4 0.5301970201273E+05 0.5301970201273E+05 0.5914664950324E-13
-           5 0.3618106851311E+06 0.3618106851311E+06 0.2831466493882E-13
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5953016207825E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6179319921551E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4490421464112E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5422080768115E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
  Comparison of RMS-norms of solution error
-           1 0.4496733567600E+05 0.4496733567600E+05 0.8413880659144E-13
-           2 0.3892068540524E+04 0.3892068540524E+04 0.7325836789283E-13
-           3 0.8763825844217E+04 0.8763825844217E+04 0.4919090090372E-13
-           4 0.5599040091792E+04 0.5599040091792E+04 0.8186855642729E-13
-           5 0.4082652045598E+05 0.4082652045598E+05 0.6308862393008E-13
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6648434530296E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4975019414014E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2514375184799E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4867139037261E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
  Verification Successful
 
 
  BT-MZ Benchmark Completed.
- Class           =                        B
- Size            =            304x  208x 17
+ Class           =                        A
+ Size            =            128x  128x 16
  Iterations      =                      200
- Time in seconds =                    18.02
+ Time in seconds =                     4.71
  Total processes =                        1
  Total threads   =                       16
- Mop/s total     =                 33353.76
- Mop/s/thread    =                  2084.61
+ Mop/s total     =                 31022.36
+ Mop/s/thread    =                  1938.90
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
@@ -368,8 +368,8 @@
 
  NAS Parallel Benchmarks (NPB3.3-MZ-MPI) - BT-MZ MPI+OpenMP Benchmark
 
- Number of zones:   8 x   8
- Iterations: 200    dt:   0.000300
+ Number of zones:   4 x   4
+ Iterations: 200    dt:   0.000800
  Number of active processes:     1
 
  Use the default load factors with threads
@@ -388,32 +388,32 @@
  Time step  160
  Time step  180
  Time step  200
- Verification being performed for class B
+ Verification being performed for class A
  accuracy setting for epsilon =  0.1000000000000E-07
  Comparison of RMS-norms of residual
-           1 0.4461388343844E+06 0.4461388343844E+06 0.3653155430475E-14
-           2 0.3799759138035E+05 0.3799759138035E+05 0.1009124400621E-12
-           3 0.8383296623970E+05 0.8383296623970E+05 0.3523719753530E-13
-           4 0.5301970201273E+05 0.5301970201273E+05 0.5928388070858E-13
-           5 0.3618106851311E+06 0.3618106851311E+06 0.2847554371688E-13
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5966157523957E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6179319921551E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4490421464112E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5407960766115E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
  Comparison of RMS-norms of solution error
-           1 0.4496733567600E+05 0.4496733567600E+05 0.8413880659144E-13
-           2 0.3892068540524E+04 0.3892068540524E+04 0.7325836789283E-13
-           3 0.8763825844217E+04 0.8763825844217E+04 0.4919090090372E-13
-           4 0.5599040091792E+04 0.5599040091792E+04 0.8170611881534E-13
-           5 0.4082652045598E+05 0.4082652045598E+05 0.6308862393008E-13
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6648434530296E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4992475622484E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2512669367170E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4852653504412E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
  Verification Successful
 
 
  BT-MZ Benchmark Completed.
- Class           =                        B
- Size            =            304x  208x 17
+ Class           =                        A
+ Size            =            128x  128x 16
  Iterations      =                      200
- Time in seconds =                    21.53
+ Time in seconds =                     4.55
  Total processes =                        1
  Total threads   =                       16
- Mop/s total     =                 27918.87
- Mop/s/thread    =                  1744.93
+ Mop/s total     =                 32122.46
+ Mop/s/thread    =                  2007.65
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
@@ -441,8 +441,8 @@
 
  NAS Parallel Benchmarks (NPB3.3-MZ-MPI) - BT-MZ MPI+OpenMP Benchmark
 
- Number of zones:   8 x   8
- Iterations: 200    dt:   0.000300
+ Number of zones:   4 x   4
+ Iterations: 200    dt:   0.000800
  Number of active processes:     1
 
  Use the default load factors with threads
@@ -461,32 +461,32 @@
  Time step  160
  Time step  180
  Time step  200
- Verification being performed for class B
+ Verification being performed for class A
  accuracy setting for epsilon =  0.1000000000000E-07
  Comparison of RMS-norms of residual
-           1 0.4461388343844E+06 0.4461388343844E+06 0.3653155430475E-14
-           2 0.3799759138035E+05 0.3799759138035E+05 0.1009124400621E-12
-           3 0.8383296623970E+05 0.8383296623970E+05 0.3541077978917E-13
-           4 0.5301970201273E+05 0.5301970201273E+05 0.5914664950324E-13
-           5 0.3618106851311E+06 0.3618106851311E+06 0.2831466493882E-13
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5966157523957E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6179319921551E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4490421464112E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5407960766115E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
  Comparison of RMS-norms of solution error
-           1 0.4496733567600E+05 0.4496733567600E+05 0.8413880659144E-13
-           2 0.3892068540524E+04 0.3892068540524E+04 0.7325836789283E-13
-           3 0.8763825844217E+04 0.8763825844217E+04 0.4919090090372E-13
-           4 0.5599040091792E+04 0.5599040091792E+04 0.8186855642729E-13
-           5 0.4082652045598E+05 0.4082652045598E+05 0.6308862393008E-13
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6648434530296E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4975019414014E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2512669367170E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4852653504412E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
  Verification Successful
 
 
  BT-MZ Benchmark Completed.
- Class           =                        B
- Size            =            304x  208x 17
+ Class           =                        A
+ Size            =            128x  128x 16
  Iterations      =                      200
- Time in seconds =                    22.47
+ Time in seconds =                     5.63
  Total processes =                        1
  Total threads   =                       16
- Mop/s total     =                 26756.89
- Mop/s/thread    =                  1672.31
+ Mop/s total     =                 25989.78
+ Mop/s/thread    =                  1624.36
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
@@ -514,8 +514,8 @@
 
  NAS Parallel Benchmarks (NPB3.3-MZ-MPI) - BT-MZ MPI+OpenMP Benchmark
 
- Number of zones:   8 x   8
- Iterations: 200    dt:   0.000300
+ Number of zones:   4 x   4
+ Iterations: 200    dt:   0.000800
  Number of active processes:     1
 
  Use the default load factors with threads
@@ -534,32 +534,32 @@
  Time step  160
  Time step  180
  Time step  200
- Verification being performed for class B
+ Verification being performed for class A
  accuracy setting for epsilon =  0.1000000000000E-07
  Comparison of RMS-norms of residual
-           1 0.4461388343844E+06 0.4461388343844E+06 0.3653155430475E-14
-           2 0.3799759138035E+05 0.3799759138035E+05 0.1009124400621E-12
-           3 0.8383296623970E+05 0.8383296623970E+05 0.3523719753530E-13
-           4 0.5301970201273E+05 0.5301970201273E+05 0.5914664950324E-13
-           5 0.3618106851311E+06 0.3618106851311E+06 0.2831466493882E-13
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5966157523957E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6179319921551E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4490421464112E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5422080768115E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
  Comparison of RMS-norms of solution error
-           1 0.4496733567600E+05 0.4496733567600E+05 0.8430061198873E-13
-           2 0.3892068540524E+04 0.3892068540524E+04 0.7325836789283E-13
-           3 0.8763825844217E+04 0.8763825844217E+04 0.4919090090372E-13
-           4 0.5599040091792E+04 0.5599040091792E+04 0.8186855642729E-13
-           5 0.4082652045598E+05 0.4082652045598E+05 0.6308862393008E-13
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6648434530296E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4975019414014E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2514375184799E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4852653504412E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
  Verification Successful
 
 
  BT-MZ Benchmark Completed.
- Class           =                        B
- Size            =            304x  208x 17
+ Class           =                        A
+ Size            =            128x  128x 16
  Iterations      =                      200
- Time in seconds =                    18.46
+ Time in seconds =                     5.16
  Total processes =                        1
  Total threads   =                       16
- Mop/s total     =                 32571.02
- Mop/s/thread    =                  2035.69
+ Mop/s total     =                 28328.56
+ Mop/s/thread    =                  1770.53
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
@@ -587,8 +587,8 @@
 
  NAS Parallel Benchmarks (NPB3.3-MZ-MPI) - BT-MZ MPI+OpenMP Benchmark
 
- Number of zones:   8 x   8
- Iterations: 200    dt:   0.000300
+ Number of zones:   4 x   4
+ Iterations: 200    dt:   0.000800
  Number of active processes:     1
 
  Use the default load factors with threads
@@ -607,32 +607,32 @@
  Time step  160
  Time step  180
  Time step  200
- Verification being performed for class B
+ Verification being performed for class A
  accuracy setting for epsilon =  0.1000000000000E-07
  Comparison of RMS-norms of residual
-           1 0.4461388343844E+06 0.4461388343844E+06 0.3653155430475E-14
-           2 0.3799759138035E+05 0.3799759138035E+05 0.1009124400621E-12
-           3 0.8383296623970E+05 0.8383296623970E+05 0.3541077978917E-13
-           4 0.5301970201273E+05 0.5301970201273E+05 0.5928388070858E-13
-           5 0.3618106851311E+06 0.3618106851311E+06 0.2847554371688E-13
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5966157523957E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6179319921551E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4490421464112E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5407960766115E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
  Comparison of RMS-norms of solution error
-           1 0.4496733567600E+05 0.4496733567600E+05 0.8413880659144E-13
-           2 0.3892068540524E+04 0.3892068540524E+04 0.7325836789283E-13
-           3 0.8763825844217E+04 0.8763825844217E+04 0.4919090090372E-13
-           4 0.5599040091792E+04 0.5599040091792E+04 0.8186855642729E-13
-           5 0.4082652045598E+05 0.4082652045598E+05 0.6308862393008E-13
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6648434530296E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4992475622484E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2514375184799E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4867139037261E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
  Verification Successful
 
 
  BT-MZ Benchmark Completed.
- Class           =                        B
- Size            =            304x  208x 17
+ Class           =                        A
+ Size            =            128x  128x 16
  Iterations      =                      200
- Time in seconds =                    21.58
+ Time in seconds =                     6.15
  Total processes =                        1
  Total threads   =                       16
- Mop/s total     =                 27855.55
- Mop/s/thread    =                  1740.97
+ Mop/s total     =                 23756.32
+ Mop/s/thread    =                  1484.77
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
@@ -660,8 +660,8 @@
 
  NAS Parallel Benchmarks (NPB3.3-MZ-MPI) - BT-MZ MPI+OpenMP Benchmark
 
- Number of zones:   8 x   8
- Iterations: 200    dt:   0.000300
+ Number of zones:   4 x   4
+ Iterations: 200    dt:   0.000800
  Number of active processes:     1
 
  Use the default load factors with threads
@@ -680,32 +680,32 @@
  Time step  160
  Time step  180
  Time step  200
- Verification being performed for class B
+ Verification being performed for class A
  accuracy setting for epsilon =  0.1000000000000E-07
  Comparison of RMS-norms of residual
-           1 0.4461388343844E+06 0.4461388343844E+06 0.3653155430475E-14
-           2 0.3799759138035E+05 0.3799759138035E+05 0.1009124400621E-12
-           3 0.8383296623970E+05 0.8383296623970E+05 0.3541077978917E-13
-           4 0.5301970201273E+05 0.5301970201273E+05 0.5928388070858E-13
-           5 0.3618106851311E+06 0.3618106851311E+06 0.2847554371688E-13
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5966157523957E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6179319921551E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4490421464112E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5407960766115E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
  Comparison of RMS-norms of solution error
-           1 0.4496733567600E+05 0.4496733567600E+05 0.8413880659144E-13
-           2 0.3892068540524E+04 0.3892068540524E+04 0.7325836789283E-13
-           3 0.8763825844217E+04 0.8763825844217E+04 0.4919090090372E-13
-           4 0.5599040091792E+04 0.5599040091792E+04 0.8186855642729E-13
-           5 0.4082652045598E+05 0.4082652045598E+05 0.6308862393008E-13
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6661975130154E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4992475622484E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2514375184799E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4852653504412E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
  Verification Successful
 
 
  BT-MZ Benchmark Completed.
- Class           =                        B
- Size            =            304x  208x 17
+ Class           =                        A
+ Size            =            128x  128x 16
  Iterations      =                      200
- Time in seconds =                    20.83
+ Time in seconds =                     4.97
  Total processes =                        1
  Total threads   =                       16
- Mop/s total     =                 28859.48
- Mop/s/thread    =                  1803.72
+ Mop/s total     =                 29435.11
+ Mop/s/thread    =                  1839.69
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
@@ -733,8 +733,8 @@
 
  NAS Parallel Benchmarks (NPB3.3-MZ-MPI) - BT-MZ MPI+OpenMP Benchmark
 
- Number of zones:   8 x   8
- Iterations: 200    dt:   0.000300
+ Number of zones:   4 x   4
+ Iterations: 200    dt:   0.000800
  Number of active processes:     1
 
  Use the default load factors with threads
@@ -753,32 +753,32 @@
  Time step  160
  Time step  180
  Time step  200
- Verification being performed for class B
+ Verification being performed for class A
  accuracy setting for epsilon =  0.1000000000000E-07
  Comparison of RMS-norms of residual
-           1 0.4461388343844E+06 0.4461388343844E+06 0.3653155430475E-14
-           2 0.3799759138035E+05 0.3799759138035E+05 0.1009124400621E-12
-           3 0.8383296623970E+05 0.8383296623970E+05 0.3523719753530E-13
-           4 0.5301970201273E+05 0.5301970201273E+05 0.5914664950324E-13
-           5 0.3618106851311E+06 0.3618106851311E+06 0.2831466493882E-13
+           1 0.5536703889522E+05 0.5536703889522E+05 0.5966157523957E-13
+           2 0.5077835038405E+04 0.5077835038405E+04 0.6179319921551E-13
+           3 0.1067391361067E+05 0.1067391361067E+05 0.4490421464112E-12
+           4 0.6441179694972E+04 0.6441179694972E+04 0.5422080768115E-13
+           5 0.4371926324069E+05 0.4371926324069E+05 0.9303130942388E-13
  Comparison of RMS-norms of solution error
-           1 0.4496733567600E+05 0.4496733567600E+05 0.8430061198873E-13
-           2 0.3892068540524E+04 0.3892068540524E+04 0.7325836789283E-13
-           3 0.8763825844217E+04 0.8763825844217E+04 0.4919090090372E-13
-           4 0.5599040091792E+04 0.5599040091792E+04 0.8186855642729E-13
-           5 0.4082652045598E+05 0.4082652045598E+05 0.6308862393008E-13
+           1 0.6716797714343E+04 0.6716797714343E+04 0.6648434530296E-13
+           2 0.6512687902160E+03 0.6512687902160E+03 0.4992475622484E-13
+           3 0.1332930740128E+04 0.1332930740128E+04 0.2512669367170E-12
+           4 0.7848302089180E+03 0.7848302089180E+03 0.4852653504412E-13
+           5 0.5429053878818E+04 0.5429053878818E+04 0.8845246579882E-13
  Verification Successful
 
 
  BT-MZ Benchmark Completed.
- Class           =                        B
- Size            =            304x  208x 17
+ Class           =                        A
+ Size            =            128x  128x 16
  Iterations      =                      200
- Time in seconds =                    21.28
+ Time in seconds =                     5.28
  Total processes =                        1
  Total threads   =                       16
- Mop/s total     =                 28255.94
- Mop/s/thread    =                  1766.00
+ Mop/s total     =                 27670.10
+ Mop/s/thread    =                  1729.38
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                    3.3.1
