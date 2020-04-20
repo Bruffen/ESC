@@ -1,0 +1,4 @@
+../common/wtime.o: file not recognized: File truncated
+collect2: error: ld returned 1 exit status
+make[1]: *** [../bin/mg.B.x] Error 1
+/var/spool/torque/mom_priv/jobs/716629.search6.di.uminho.pt.SC: line 26: ../../NPB3.3.1/NPB3.3-OMP/bin/mg.B.x: No such file or directory

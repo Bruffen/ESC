@@ -1,0 +1,21 @@
+rm -f core 
+rm -f *~ */core */*~ */*.o */npbparams.h */*.obj */*.exe
+rm -f sys/setparams sys/makesuite sys/setparams.h
+rm -rf */rii_files
+make[1]: Entering directory `/home/pg41065/ESC/T1/NPB3.3.1/NPB3.3-OMP/MG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+if [ -d rii_files ]; then rm -r rii_files; fi
+make[1]: Leaving directory `/home/pg41065/ESC/T1/NPB3.3.1/NPB3.3-OMP/MG'
+make[1]: Entering directory `/home/pg41065/ESC/T1/NPB3.3.1/NPB3.3-OMP/MG'
+make[2]: Entering directory `/home/pg41065/ESC/T1/NPB3.3.1/NPB3.3-OMP/sys'
+gcc  -o setparams setparams.c
+make[2]: Leaving directory `/home/pg41065/ESC/T1/NPB3.3.1/NPB3.3-OMP/sys'
+../sys/setparams mg B
+gfortran -c  -O3 -fopenmp -mcmodel=medium mg.f
+cd ../common; gfortran -c  -O3 -fopenmp -mcmodel=medium print_results.f
+cd ../common; gfortran -c  -O3 -fopenmp -mcmodel=medium randi8.f
+cd ../common; gfortran -c  -O3 -fopenmp -mcmodel=medium timers.f
+cd ../common; gcc  -c  -O3 -fopenmp -mcmodel=medium  -o wtime.o ../common/wtime.c
+gfortran -O3 -fopenmp -mcmodel=medium -o ../bin/mg.B.x mg.o ../common/print_results.o ../common/randi8.o ../common/timers.o ../common/wtime.o 
+make[1]: Leaving directory `/home/pg41065/ESC/T1/NPB3.3.1/NPB3.3-OMP/MG'

@@ -1,0 +1,35 @@
+rm -f core 
+rm -f *~ */core */*~ */*.o */npbparams.h */*.obj */*.exe
+rm -f sys/setparams sys/makesuite sys/setparams.h
+rm -rf */rii_files
+make[1]: Entering directory `/home/pg41065/ESC/T1/NPB3.3.1/NPB3.3-OMP/BT'
+rm -f *.o *~ mputil*
+rm -f npbparams.h core
+if [ -d rii_files ]; then rm -r rii_files; fi
+make[1]: Leaving directory `/home/pg41065/ESC/T1/NPB3.3.1/NPB3.3-OMP/BT'
+make[1]: Entering directory `/home/pg41065/ESC/T1/NPB3.3.1/NPB3.3-OMP/BT'
+make[2]: Entering directory `/home/pg41065/ESC/T1/NPB3.3.1/NPB3.3-OMP/sys'
+gcc  -o setparams setparams.c
+make[2]: Leaving directory `/home/pg41065/ESC/T1/NPB3.3.1/NPB3.3-OMP/sys'
+../sys/setparams bt B
+make[2]: Entering directory `/home/pg41065/ESC/T1/NPB3.3.1/NPB3.3-OMP/BT'
+gfortran -c  -O3 -fopenmp -mcmodel=medium bt.f
+gfortran -c  -O3 -fopenmp -mcmodel=medium initialize.f
+gfortran -c  -O3 -fopenmp -mcmodel=medium exact_solution.f
+gfortran -c  -O3 -fopenmp -mcmodel=medium exact_rhs.f
+gfortran -c  -O3 -fopenmp -mcmodel=medium set_constants.f
+gfortran -c  -O3 -fopenmp -mcmodel=medium adi.f
+gfortran -c  -O3 -fopenmp -mcmodel=medium rhs.f
+gfortran -c  -O3 -fopenmp -mcmodel=medium x_solve.f
+gfortran -c  -O3 -fopenmp -mcmodel=medium y_solve.f
+gfortran -c  -O3 -fopenmp -mcmodel=medium solve_subs.f
+gfortran -c  -O3 -fopenmp -mcmodel=medium z_solve.f
+gfortran -c  -O3 -fopenmp -mcmodel=medium add.f
+gfortran -c  -O3 -fopenmp -mcmodel=medium error.f
+gfortran -c  -O3 -fopenmp -mcmodel=medium verify.f
+cd ../common; gfortran -c  -O3 -fopenmp -mcmodel=medium print_results.f
+cd ../common; gfortran -c  -O3 -fopenmp -mcmodel=medium timers.f
+cd ../common; gcc  -c  -O3 -fopenmp -mcmodel=medium  -o wtime.o ../common/wtime.c
+gfortran -O3 -fopenmp -mcmodel=medium -o ../bin/bt.B.x bt.o  initialize.o exact_solution.o exact_rhs.o set_constants.o adi.o  rhs.o x_solve.o y_solve.o solve_subs.o z_solve.o add.o error.o verify.o ../common/print_results.o ../common/timers.o ../common/wtime.o 
+make[2]: Leaving directory `/home/pg41065/ESC/T1/NPB3.3.1/NPB3.3-OMP/BT'
+make[1]: Leaving directory `/home/pg41065/ESC/T1/NPB3.3.1/NPB3.3-OMP/BT'
