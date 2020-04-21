@@ -51,7 +51,7 @@ for test in ep mg bt
 do
     for class in W A B
     do
-        for processes in 16 32 48 64
+        for processes in 16 32 48 64 # 1 2 4
         do
             for i in 0 1 2 3 4 5 6 7 8 9 10
             do

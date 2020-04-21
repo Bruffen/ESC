@@ -20,7 +20,8 @@ def main():
 
     avg = 0
     count = 0
-    root = "cpu_usage_plots/"
+    root = "cpu_usage_plots2/"
+    #dirName = re.search(r"_([A-Z]{2}_gccO[0-9]+)\.txt", filename)[1]
     dirName = re.search(r"_([A-Z]{2}_omp[0-9]+)\.txt", filename)[1]
     if not os.path.exists(root + dirName):
         os.mkdir(root + dirName)
