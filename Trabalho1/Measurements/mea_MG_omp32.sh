@@ -24,8 +24,8 @@ cd ESC/T1/Measurements/omp
 
 export OMP_NUM_THREADS=32
 "../../NPB3.3.1/NPB3.3-OMP/bin/mg.B.x" &
-timeout 30 iostat -m 1 >> "io_MG_omp16.txt" &
-timeout 30 vmstat -S M 1 >> "vm_MG_omp16.txt" &
-timeout 30 mpstat -P ON 1 >> "mp_MG_omp16.txt" &
+timeout 30 iostat -m 1 >> "io_MG_omp32.txt" &
+timeout 30 vmstat -S M 1 >> "vm_MG_omp32.txt" &
+timeout 30 mpstat -P ON 1 >> "mp_MG_omp32.txt" &
 
 sleep 30
