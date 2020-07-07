@@ -15,31 +15,88 @@
 # To set a default target, run:
 # systemctl set-default TARGET.target
 #
-Process tee:
-PID:	2643
-UID:	0
-GID:	0
-Probe:	open
-Access mode:	READ AND WRITE
-Optional flags:	
-Return value: 3
-
-Process cat:
-PID:	2642
-UID:	0
-GID:	0
-Probe:	open
-Access mode:	READ AND WRITE
-Optional flags:	
-Return value: 3
-
-Process cat:
-PID:	2642
-UID:	0
-GID:	0
-Probe:	open
-Access mode:	READ AND WRITE
-Optional flags:	
-Return value: 3
-
+Process ex1_4.sh:	PID:3008,	UID:0,	GID:0
+Probe:	open (path: /dev/tty, flags: O_RDWR)
+Return: 3
+_________________________________________
+Process ex1_4.sh:	PID:3008,	UID:0,	GID:0
+Probe:	open (path: /dev/tty, flags: O_RDWR)
+Return: 3
+_________________________________________
+Process ex1_4.sh:	PID:3008,	UID:0,	GID:0
+Probe:	open (path: /proc/meminfo, flags: O_RDONLY)
+Return: 3
+_________________________________________
+Process ex1_4.sh:	PID:3008,	UID:0,	GID:0
+Probe:	open (path: /usr/lib64/gconv/gconv-modules.cache, flags: O_RDONLY)
+Return: 3
+_________________________________________
+Process ex1_4.sh:	PID:3008,	UID:0,	GID:0
+Probe:	open (path: ./ex1_4.sh, flags: O_RDONLY)
+Return: 3
+_________________________________________
+Process tee:	PID:3010,	UID:0,	GID:0
+Probe:	open (path: /etc/ld.so.cache, flags: O_RDONLY)
+Return: 3
+_________________________________________
+Process tee:	PID:3010,	UID:0,	GID:0
+Probe:	open (path: /lib64/libc.so.6, flags: O_RDONLY)
+Return: 3
+_________________________________________
+Process tee:	PID:3010,	UID:0,	GID:0
+Probe:	open (path: /usr/lib/locale/locale-archive, flags: O_RDONLY)
+Return: 3
+_________________________________________
+Process tee:	PID:3010,	UID:0,	GID:0
+Probe:	open (path: /usr/share/locale/locale.alias, flags: O_RDONLY)
+Return: 3
+_________________________________________
+Process tee:	PID:3010,	UID:0,	GID:0
+Probe:	open (path: /usr/share/locale/pt_PT.UTF-8/LC_MESSAGES/coreutils.mo, flags: O_RDONLY)
+Return: -2
+_________________________________________
+Process tee:	PID:3010,	UID:0,	GID:0
+Probe:	open (path: /usr/share/locale/pt_PT.utf8/LC_MESSAGES/coreutils.mo, flags: O_RDONLY)
+Return: -2
+_________________________________________
+Process tee:	PID:3010,	UID:0,	GID:0
+Probe:	open (path: /usr/share/locale/pt_PT/LC_MESSAGES/coreutils.mo, flags: O_RDONLY)
+Return: -2
+_________________________________________
+Process tee:	PID:3010,	UID:0,	GID:0
+Probe:	open (path: /usr/share/locale/pt.UTF-8/LC_MESSAGES/coreutils.mo, flags: O_RDONLY)
+Return: -2
+_________________________________________
+Process tee:	PID:3010,	UID:0,	GID:0
+Probe:	open (path: /usr/share/locale/pt.utf8/LC_MESSAGES/coreutils.mo, flags: O_RDONLY)
+Return: -2
+_________________________________________
+Process tee:	PID:3010,	UID:0,	GID:0
+Probe:	open (path: /usr/share/locale/pt/LC_MESSAGES/coreutils.mo, flags: O_RDONLY)
+Return: 3
+_________________________________________
+Process tee:	PID:3010,	UID:0,	GID:0
+Probe:	open (path: /usr/lib64/gconv/gconv-modules.cache, flags: O_RDONLY)
+Return: 3
+_________________________________________
+Process tee:	PID:3010,	UID:0,	GID:0
+Probe:	open (path: /tmp/test, flags: O_WRONLY|O_APPEND|O_CREAT)
+Return: 3
+_________________________________________
+Process cat:	PID:3009,	UID:0,	GID:0
+Probe:	open (path: /etc/ld.so.cache, flags: O_RDONLY)
+Return: 3
+_________________________________________
+Process cat:	PID:3009,	UID:0,	GID:0
+Probe:	open (path: /lib64/libc.so.6, flags: O_RDONLY)
+Return: 3
+_________________________________________
+Process cat:	PID:3009,	UID:0,	GID:0
+Probe:	open (path: /usr/lib/locale/locale-archive, flags: O_RDONLY)
+Return: 3
+_________________________________________
+Process cat:	PID:3009,	UID:0,	GID:0
+Probe:	open (path: /etc/inittab, flags: O_RDONLY)
+Return: 3
+_________________________________________
 

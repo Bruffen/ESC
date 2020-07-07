@@ -1,0 +1,30 @@
+# inittab is no longer used when using systemd.
+#
+# ADDING CONFIGURATION HERE WILL HAVE NO EFFECT ON YOUR SYSTEM.
+#
+# Ctrl-Alt-Delete is handled by /usr/lib/systemd/system/ctrl-alt-del.target
+#
+# systemd uses 'targets' instead of runlevels. By default, there are two main targets:
+#
+# multi-user.target: analogous to runlevel 3
+# graphical.target: analogous to runlevel 5
+#
+# To view current default target, run:
+# systemctl get-default
+#
+# To set a default target, run:
+# systemctl set-default TARGET.target
+#
+Process cat:	PID:3023,	UID:0,	GID:0
+Probe:	open (path: /etc/ld.so.cache, flags: O_RDONLY)
+Return: 3
+_________________________________________
+Process cat:	PID:3023,	UID:0,	GID:0
+Probe:	open (path: /etc/inittab, flags: O_RDONLY)
+Return: 3
+_________________________________________
+Process tee:	PID:3024,	UID:0,	GID:0
+Probe:	open (path: /etc/ld.so.cache, flags: O_RDONLY)
+Return: 3
+_________________________________________
+

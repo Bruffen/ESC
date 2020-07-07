@@ -1,0 +1,9 @@
+Process cat:	PID:3019,	UID:0,	GID:0
+Probe:	open (path: /etc/ld.so.cache, flags: O_RDONLY)
+Return: 3
+_________________________________________
+Process cat:	PID:3019,	UID:0,	GID:0
+Probe:	open (path: /etc/inittab, flags: O_RDONLY)
+Return: 3
+_________________________________________
+

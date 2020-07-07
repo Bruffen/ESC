@@ -27,29 +27,26 @@ syscall::open:entry
     fullpath = copyinstr(arg0);
     wantedpath = "/etc/";
     isPath = strstr(fullpath, wantedpath);
+
+    flags = arg1;
 }
 
 syscall::open:return
 / isPath != NULL /
 {
-    mask = 3;
-    accessFlag = "ERROR"; /* Impossible case */
-    accessFlag = (arg1 & mask) == O_RDONLY ? "O_RDONLY" : accessFlag;
-    accessFlag = (arg1 & mask) == O_WRONLY ? "O_WRONLY" : accessFlag;
-    accessFlag = (arg1 & mask) == O_RDWR   ? "O_RDWR"   : accessFlag;
+    accessFlag = flags & O_WRONLY ? "O_WRONLY" 
+        : flags & O_RDWR ? "O_RDWR" 
+            : "O_RDONLY",
 
-    appendFlag = arg1 == O_APPEND ? "APPEND " : "";
-    createFlag = arg1 == O_CREAT  ? "CREATE " : "";
+    appendFlag = flags & O_APPEND ? "|O_APPEND" : "";
+    createFlag = flags & O_CREAT  ? "|O_CREAT"  : "";
+    allFlags = strjoin(accessFlag, strjoin(appendFlag, createFlag));
 
-    printf("Process %s:\n", execname);
-    printf("PID:\t%d\n", pid);
-    printf("UID:\t%d\n", uid);
-    printf("GID:\t%d\n", gid);
-    printf("Path:\t%s\n", fullpath);
-    printf("Probe:\t%s\n", probefunc);
-    printf("Access mode:\t%s\n", accessFlag);
-    printf("Optional flags:\t%s%s\n", appendFlag, createFlag); 
-
-    printf("Return value: %d\n", arg0);
-    printf("\n");
+    printf("Process %s:", execname);
+    printf("\tPID:%d,", pid);
+    printf("\tUID:%d,", uid);
+    printf("\tGID:%d\n", gid);
+    printf("Probe:\t%s (path: %s, flags: %s)\n", probefunc, fullpath, allFlags);
+    printf("Return: %d\n", arg0);
+    printf("_________________________________________\n");
 }
