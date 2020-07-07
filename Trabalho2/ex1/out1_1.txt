@@ -1,0 +1,19 @@
+Process cat:
+PID:	2628
+UID:	0
+GID:	0
+Probe:	open
+Access mode:	READ AND WRITE
+Optional flags:	
+Return value: 3
+
+Process cat:
+PID:	2628
+UID:	0
+GID:	0
+Probe:	open
+Access mode:	READ AND WRITE
+Optional flags:	
+Return value: 3
+
+

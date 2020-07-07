@@ -1,0 +1,15 @@
+
+ Performance counter stats for './sort 3 1 1000000000':
+
+     463538.383029      cpu-clock (msec)                                            
+       36141844218      cache-references                                             [83.35%]
+       20460538723      cache-misses              #   56.612 % of all cache refs     [83.32%]
+     1200192174860      cycles                    [66.67%]
+      624062223924      instructions              #    0.52  insns per cycle         [83.32%]
+      150340081886      branches                                                     [83.35%]
+       15262173861      branch-misses             #   10.15% of all branches         [83.32%]
+              4859      faults                                                      
+                 2      migrations                                                  
+
+     465.046644290 seconds time elapsed
+

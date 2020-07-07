@@ -1,0 +1,22 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+# Samples: 1K of event 'cycles'
+# Event count (approx.): 42344750523
+#
+# Overhead       Samples  Command      Shared Object                     Symbol
+# ........  ............  .......  .................  .........................
+#
+    90.82%          1123     sort  sort               [.] sort1                
+     2.32%            26     sort  sort               [.] main                 
+     1.84%            23     sort  libc-2.12.so       [.] __random_r           
+     1.68%            21     sort  libc-2.12.so       [.] __random             
+     1.05%            13     sort  [kernel.kallsyms]  [k] clear_page_c_e       
+     1.05%            13     sort  libc-2.12.so       [.] rand                 
+     0.65%             8     sort  libc-2.12.so       [.] memcpy               
+     0.16%             2     sort  [kernel.kallsyms]  [k] _spin_lock           
+     0.16%             2     sort  sort               [.] rand@plt             
+     0.10%             1     sort  [sunrpc]           [k] generic_match        
+     0.08%             9     sort  [kernel.kallsyms]  [k] native_write_msr_safe
+     0.08%             1     sort  [kernel.kallsyms]  [k] __wake_up_common     
+
+
