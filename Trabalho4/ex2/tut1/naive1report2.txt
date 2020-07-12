@@ -1,0 +1,21 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+# Samples: 740  of event 'cpu-clock'
+# Event count (approx.): 740
+#
+# Overhead  Command  Shared Object                   Symbol
+# ........  .......  .............  .......................
+#
+    93.51%    naive  naive          [.] multiply_matrices  
+     1.49%    naive  naive          [.] initialize_matrices
+
+
+# Samples: 17  of event 'faults'
+# Event count (approx.): 891
+#
+# Overhead  Command  Shared Object                   Symbol
+# ........  .......  .............  .......................
+#
+    68.13%    naive  naive          [.] initialize_matrices
+
+

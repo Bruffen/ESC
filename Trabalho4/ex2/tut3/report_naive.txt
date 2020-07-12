@@ -1,0 +1,211 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+# Samples: 8K of event 'cpu-cycles'
+# Event count (approx.): 837700000
+#
+# Overhead       Samples  Command      Shared Object                          Symbol
+# ........  ............  .......  .................  ..............................
+#
+    96.84%          8112    naive  naive              [.] multiply_matrices         
+     0.56%            47    naive  naive              [.] initialize_matrices       
+     0.50%            42    naive  libc-2.12.so       [.] __random                  
+     0.48%            40    naive  libc-2.12.so       [.] __random_r                
+     0.43%            36    naive  [kernel.kallsyms]  [k] tick_program_event        
+     0.26%            22    naive  [kernel.kallsyms]  [k] clear_page_c              
+     0.14%            12    naive  [kernel.kallsyms]  [k] hrtimer_interrupt         
+     0.11%             9    naive  [kernel.kallsyms]  [k] irq_exit                  
+
+
+# Samples: 15K of event 'instructions'
+# Event count (approx.): 1535300000
+#
+# Overhead       Samples  Command      Shared Object                          Symbol
+# ........  ............  .......  .................  ..............................
+#
+    92.56%         14211    naive  naive              [.] multiply_matrices         
+     3.95%           606    naive  naive              [.] initialize_matrices       
+     1.67%           257    naive  libc-2.12.so       [.] __random                  
+     0.72%           111    naive  libc-2.12.so       [.] rand                      
+     0.55%            85    naive  libc-2.12.so       [.] __random_r                
+     0.28%            43    naive  naive              [.] rand@plt                  
+
+
+# Samples: 144  of event 'cache-references'
+# Event count (approx.): 14400000
+#
+# Overhead       Samples  Command      Shared Object                    Symbol
+# ........  ............  .......  .................  ........................
+#
+    97.92%           141    naive  naive              [.] multiply_matrices   
+     0.69%             1    naive  [kernel.kallsyms]  [k] clear_page_c        
+     0.69%             1    naive  [kernel.kallsyms]  [k] perf_event_task_tick
+     0.69%             1    naive  libc-2.12.so       [.] __random            
+
+
+# Samples: 2  of event 'cache-misses'
+# Event count (approx.): 200000
+#
+# Overhead       Samples  Command      Shared Object                 Symbol
+# ........  ............  .......  .................  .....................
+#
+    50.00%             1    naive  [kernel.kallsyms]  [k] clear_page_c     
+    50.00%             1    naive  naive              [.] multiply_matrices
+
+
+# Samples: 2K of event 'branches'
+# Event count (approx.): 280200000
+#
+# Overhead       Samples  Command      Shared Object                      Symbol
+# ........  ............  .......  .................  ..........................
+#
+    88.69%          2485    naive  naive              [.] multiply_matrices     
+     5.57%           156    naive  naive              [.] initialize_matrices   
+     2.21%            62    naive  libc-2.12.so       [.] __random_r            
+     1.93%            54    naive  libc-2.12.so       [.] __random              
+     1.32%            37    naive  libc-2.12.so       [.] rand                  
+     0.11%             3    naive  naive              [.] rand@plt              
+
+
+# Samples: 1  of event 'branch-misses'
+# Event count (approx.): 100000
+#
+# Overhead       Samples  Command  Shared Object                 Symbol
+# ........  ............  .......  .............  .....................
+#
+   100.00%             1    naive  naive          [.] multiply_matrices
+
+
+# Samples: 1K of event 'branch-loads'
+# Event count (approx.): 191700000
+#
+# Overhead       Samples  Command      Shared Object                    Symbol
+# ........  ............  .......  .................  ........................
+#
+    99.90%          1915    naive  naive              [.] multiply_matrices   
+
+
+# Samples: 44  of event 'branch-load-misses'
+# Event count (approx.): 4400000
+#
+# Overhead       Samples  Command      Shared Object                  Symbol
+# ........  ............  .......  .................  ......................
+#
+    95.45%            42    naive  naive              [.] multiply_matrices 
+     2.27%             1    naive  [kernel.kallsyms]  [k] native_sched_clock
+     2.27%             1    naive  [kernel.kallsyms]  [k] run_timer_softirq 
+
+
+# Samples: 3K of event 'L1-dcache-loads'
+# Event count (approx.): 338200000
+#
+# Overhead       Samples  Command      Shared Object                  Symbol
+# ........  ............  .......  .................  ......................
+#
+    99.94%          3380    naive  naive              [.] multiply_matrices 
+
+
+# Samples: 1K of event 'L1-dcache-load-misses'
+# Event count (approx.): 175000000
+#
+# Overhead       Samples  Command      Shared Object                    Symbol
+# ........  ............  .......  .................  ........................
+#
+    99.94%          1749    naive  naive              [.] multiply_matrices   
+
+
+# Samples: 6  of event 'L1-dcache-stores'
+# Event count (approx.): 600000
+#
+# Overhead       Samples  Command      Shared Object                  Symbol
+# ........  ............  .......  .................  ......................
+#
+    83.33%             5    naive  naive              [.] multiply_matrices 
+    16.67%             1    naive  [kernel.kallsyms]  [k] free_hot_cold_page
+
+
+# Samples: 0  of event 'L1-dcache-store-misses'
+# Event count (approx.): 0
+#
+# Overhead       Samples  Command  Shared Object  Symbol
+# ........  ............  .......  .............  ......
+#
+
+
+# Samples: 76  of event 'L1-icache-loads'
+# Event count (approx.): 7600000
+#
+# Overhead       Samples  Command      Shared Object                         Symbol
+# ........  ............  .......  .................  .............................
+#
+    94.74%            72    naive  naive              [.] multiply_matrices        
+     1.32%             1    naive  [kernel.kallsyms]  [k] get_pageblock_flags_group
+     1.32%             1    naive  [kernel.kallsyms]  [k] irq_exit                 
+     1.32%             1    naive  [kernel.kallsyms]  [k] release_pages            
+     1.32%             1    naive  [kernel.kallsyms]  [k] vm_normal_page           
+
+
+# Samples: 0  of event 'L1-icache-load-misses'
+# Event count (approx.): 0
+#
+# Overhead       Samples  Command  Shared Object  Symbol
+# ........  ............  .......  .............  ......
+#
+
+
+# Samples: 89  of event 'LLC-loads'
+# Event count (approx.): 8900000
+#
+# Overhead       Samples  Command  Shared Object                 Symbol
+# ........  ............  .......  .............  .....................
+#
+   100.00%            89    naive  naive          [.] multiply_matrices
+
+
+# Samples: 0  of event 'LLC-load-misses'
+# Event count (approx.): 0
+#
+# Overhead       Samples  Command  Shared Object  Symbol
+# ........  ............  .......  .............  ......
+#
+
+
+# Samples: 0  of event 'LLC-stores'
+# Event count (approx.): 0
+#
+# Overhead       Samples  Command  Shared Object  Symbol
+# ........  ............  .......  .............  ......
+#
+
+
+# Samples: 0  of event 'LLC-store-misses'
+# Event count (approx.): 0
+#
+# Overhead       Samples  Command  Shared Object  Symbol
+# ........  ............  .......  .............  ......
+#
+
+
+# Samples: 0  of event 'dTLB-load-misses'
+# Event count (approx.): 0
+#
+# Overhead       Samples  Command  Shared Object  Symbol
+# ........  ............  .......  .............  ......
+#
+
+
+# Samples: 0  of event 'dTLB-store-misses'
+# Event count (approx.): 0
+#
+# Overhead       Samples  Command  Shared Object  Symbol
+# ........  ............  .......  .............  ......
+#
+
+
+# Samples: 0  of event 'iTLB-load-misses'
+# Event count (approx.): 0
+#
+# Overhead       Samples  Command  Shared Object  Symbol
+# ........  ............  .......  .............  ......
+#
+
+

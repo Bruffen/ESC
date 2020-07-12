@@ -1,0 +1,26 @@
+ Performance counter stats for './naive':
+
+         182760568      cpu-cycles                [19.17%]
+         292909895      instructions              #    1.60  insns per cycle         [24.62%]
+           8287303      cache-references                                             [24.61%]
+             14169      cache-misses              #    0.171 % of all cache refs     [24.60%]
+          39938195      branches                                                     [24.59%]
+             75282      branch-misses             #    0.19% of all branches         [24.47%]
+          41470512      branch-loads                                                 [19.02%]
+          27873315      branch-load-misses                                           [24.46%]
+          54147556      L1-dcache-loads                                              [23.97%]
+          10442215      L1-dcache-load-misses     #   19.28% of all L1-dcache hits   [23.51%]
+           9086509      L1-dcache-stores                                             [23.05%]
+            131920      L1-dcache-store-misses                                       [22.61%]
+          79423424      L1-icache-loads                                              [22.19%]
+             39588      L1-icache-load-misses     #    0.05% of all L1-icache hits   [21.76%]
+           7501596      LLC-loads                                                    [21.37%]
+               195      LLC-load-misses           #    0.00% of all LL-cache hits    [21.01%]
+             52041      LLC-stores                                                   [10.34%]
+              2843      LLC-store-misses                                             [10.17%]
+              1421      dTLB-load-misses                                             [14.99%]
+               275      dTLB-store-misses                                            [19.66%]
+               202      iTLB-load-misses                                             [19.34%]
+
+       0.064504967 seconds time elapsed
+

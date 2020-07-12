@@ -1,0 +1,27 @@
+
+ Performance counter stats for './naive' (10 runs):
+
+        4958557109      cpu-cycles                 ( +-  0.19% ) [19.01%]
+        7091433970      instructions              #    1.43  insns per cycle          ( +-  0.13% ) [23.79%]
+          63659902      cache-references                                              ( +-  0.16% ) [23.82%]
+            274532      cache-misses              #    0.431 % of all cache refs      ( +- 13.05% ) [23.90%]
+        1025567407      branches                                                      ( +-  0.20% ) [23.96%]
+           1044543      branch-misses             #    0.10% of all branches          ( +-  0.24% ) [24.01%]
+        1029818396      branch-loads                                                  ( +-  0.17% ) [19.21%]
+          42450891      branch-load-misses                                            ( +-  2.75% ) [19.19%]
+        2028678312      L1-dcache-loads                                               ( +-  0.10% ) [19.18%]
+        1067410689      L1-dcache-load-misses     #   52.62% of all L1-dcache hits    ( +-  0.09% ) [19.18%]
+          22839273      L1-dcache-stores                                              ( +-  5.20% ) [19.17%]
+           1200495      L1-dcache-store-misses                                        ( +-  0.85% ) [19.16%]
+          96848014      L1-icache-loads                                               ( +-  2.24% ) [19.14%]
+            525639      L1-icache-load-misses     #    0.54% of all L1-icache hits    ( +-  0.51% ) [19.13%]
+          62758609      LLC-loads                                                     ( +-  0.07% ) [19.11%]
+             23060      LLC-load-misses           #    0.04% of all LL-cache hits     ( +- 14.68% ) [19.09%]
+            804490      LLC-stores                                                    ( +-  1.99% ) [ 9.53%]
+            164575      LLC-store-misses                                              ( +-  2.61% ) [ 9.52%]
+             30453      dTLB-load-misses                                              ( +- 11.04% ) [14.30%]
+              3760      dTLB-store-misses                                             ( +- 11.99% ) [19.04%]
+              6234      iTLB-load-misses                                              ( +-  1.84% ) [19.01%]
+
+       1.635350155 seconds time elapsed                                          ( +-  0.07% )
+

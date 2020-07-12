@@ -1,0 +1,36 @@
+ Percent |	Source code & Disassembly of naive for cpu-cycles
+-----------------------------------------------------------------
+         :
+         :
+         :
+         :	Disassembly of section .text:
+         :
+         :	00000000004005e7 <multiply_matrices>:
+    0.00 :	  4005e7:       mov    $0x6021e0,%r8d
+    0.00 :	  4005ed:       mov    $0xda2440,%edi
+    0.00 :	  4005f2:       mov    $0x1172d40,%r9d
+    0.00 :	  4005f8:       jmp    400649 <multiply_matrices+0x62>
+   20.70 :	  4005fa:       movss  (%rdx),%xmm0
+    0.33 :	  4005fe:       mulss  (%rax),%xmm0
+   34.17 :	  400602:       addss  %xmm0,%xmm1
+   44.66 :	  400606:       add    $0x4,%rdx
+    0.09 :	  40060a:       add    $0xfa0,%rax
+    0.00 :	  400610:       cmp    %rcx,%rax
+    0.00 :	  400613:       jne    4005fa <multiply_matrices+0x13>
+    0.00 :	  400615:       movss  %xmm1,(%rsi)
+    0.01 :	  400619:       add    $0x4,%rsi
+    0.00 :	  40061d:       add    $0x4,%rcx
+    0.00 :	  400621:       cmp    %rsi,%r8
+    0.00 :	  400624:       je     400636 <multiply_matrices+0x4f>
+    0.00 :	  400626:       lea    -0x3d0900(%rcx),%rax
+    0.04 :	  40062d:       mov    %rdi,%rdx
+    0.00 :	  400630:       pxor   %xmm1,%xmm1
+    0.00 :	  400634:       jmp    4005fa <multiply_matrices+0x13>
+    0.00 :	  400636:       add    $0xfa0,%r8
+    0.00 :	  40063d:       add    $0xfa0,%rdi
+    0.00 :	  400644:       cmp    %rdi,%r9
+    0.00 :	  400647:       je     400657 <multiply_matrices+0x70>
+    0.00 :	  400649:       lea    -0xfa0(%r8),%rsi
+    0.00 :	  400650:       mov    $0xda2440,%ecx
+    0.00 :	  400655:       jmp    400626 <multiply_matrices+0x3f>
+    0.00 :	  400657:       retq   

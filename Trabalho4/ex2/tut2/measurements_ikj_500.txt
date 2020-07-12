@@ -1,0 +1,26 @@
+ Performance counter stats for './naive2':
+
+         122579803      cpu-cycles                [19.37%]
+         259415288      instructions              #    2.12  insns per cycle         [25.87%]
+            650158      cache-references                                             [27.54%]
+              9139      cache-misses              #    1.406 % of all cache refs     [27.82%]
+          44638557      branches                                                     [27.80%]
+            199119      branch-misses             #    0.45% of all branches         [27.44%]
+          44656024      branch-loads                                                 [18.43%]
+          17220886      branch-load-misses                                           [18.12%]
+          43273571      L1-dcache-loads                                              [27.45%]
+           4772497      L1-dcache-load-misses     #   11.03% of all L1-dcache hits   [26.54%]
+          23909613      L1-dcache-stores                                             [25.69%]
+               394      L1-dcache-store-misses                                       [24.89%]
+           7903132      L1-icache-loads                                              [24.14%]
+             12911      L1-icache-load-misses     #    0.16% of all L1-icache hits   [23.42%]
+            457134      LLC-loads                                                    [22.73%]
+               100      LLC-load-misses           #    0.02% of all LL-cache hits    [22.11%]
+             25403      LLC-stores                                                   [10.77%]
+               143      LLC-store-misses                                             [10.49%]
+               750      dTLB-load-misses                                             [15.34%]
+               206      dTLB-store-misses                                            [19.94%]
+               123      iTLB-load-misses                                             [19.45%]
+
+       0.045144737 seconds time elapsed
+
