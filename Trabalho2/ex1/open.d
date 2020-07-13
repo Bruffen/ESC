@@ -36,7 +36,7 @@ syscall::open:return
 {
     accessFlag = flags & O_WRONLY ? "O_WRONLY" 
         : flags & O_RDWR ? "O_RDWR" 
-            : "O_RDONLY",
+            : "O_RDONLY";
 
     appendFlag = flags & O_APPEND ? "|O_APPEND" : "";
     createFlag = flags & O_CREAT  ? "|O_CREAT"  : "";

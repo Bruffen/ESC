@@ -1,15 +1,15 @@
 
- Performance counter stats for './sort 1 1 1000000000':
+ Performance counter stats for './sort 1 1 1000000000' (10 runs):
 
-     165614.071609      cpu-clock (msec)                                            
-         297369928      cache-references                                             [83.34%]
-         174289739      cache-misses              #   58.610 % of all cache refs     [83.33%]
-      429169442368      cycles                    [66.67%]
-      487858851487      instructions              #    1.14  insns per cycle         [83.33%]
-      120497672872      branches                                                     [83.34%]
-       11841815797      branch-misses             #    9.83% of all branches         [83.33%]
-              4859      faults                                                      
-                 1      migrations                                                  
+     131614.157787      cpu-clock (msec)                                              ( +-  0.62% )
+         305887418      cache-references                                              ( +-  2.14% ) [83.33%]
+         177553918      cache-misses              #   58.046 % of all cache refs      ( +-  1.09% ) [83.34%]
+      430658534318      cycles                     ( +-  0.05% ) [66.67%]
+      487936948646      instructions              #    1.13  insns per cycle          ( +-  0.01% ) [83.34%]
+      120459718754      branches                                                      ( +-  0.00% ) [83.33%]
+       11843477028      branch-misses             #    9.83% of all branches          ( +-  0.00% ) [83.34%]
+              5063      faults                                                        ( +-  1.65% )
+                 1      migrations                                                    ( +- 53.75% )
 
-     166.072644721 seconds time elapsed
+     131.967580436 seconds time elapsed                                          ( +-  0.62% )
 

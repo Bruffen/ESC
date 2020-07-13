@@ -15,5 +15,5 @@ mkdir $dir
 
 for i in 1 2 3 4
 do
-    ( perf stat -e cpu-clock,cache-references,cache-misses,cycles,instructions,branches,branch-misses,faults,migrations ./sort $i 1 1000000000 ) >> $dir/$i.txt 2>&1
+    ( perf stat -r 10 -e cpu-clock,cache-references,cache-misses,cycles,instructions,branches,branch-misses,faults,migrations ./sort $i 1 1000000000 ) >> $dir/$i.txt 2>&1
 done
