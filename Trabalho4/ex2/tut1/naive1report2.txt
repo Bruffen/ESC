@@ -1,21 +1,29 @@
 # To display the perf.data header info, please use --header/--header-only options.
 #
-# Samples: 740  of event 'cpu-clock'
-# Event count (approx.): 740
+# Samples: 6K of event 'cpu-clock'
+# Event count (approx.): 6580
 #
 # Overhead  Command  Shared Object                   Symbol
 # ........  .......  .............  .......................
 #
-    93.51%    naive  naive          [.] multiply_matrices  
-     1.49%    naive  naive          [.] initialize_matrices
+    98.27%    naive  naive          [.] multiply_matrices  
+     0.52%    naive  naive          [.] initialize_matrices
+     0.41%    naive  libc-2.12.so   [.] __random           
+     0.33%    naive  libc-2.12.so   [.] __random_r         
+     0.08%    naive  libc-2.12.so   [.] rand               
+     0.06%    naive  naive          [.] rand@plt           
 
 
-# Samples: 17  of event 'faults'
-# Event count (approx.): 891
+# Samples: 33  of event 'faults'
+# Event count (approx.): 1012
 #
 # Overhead  Command  Shared Object                   Symbol
 # ........  .......  .............  .......................
 #
-    68.13%    naive  naive          [.] initialize_matrices
+    75.99%    naive  naive          [.] initialize_matrices
+     0.89%    naive  libc-2.12.so   [.] _exit              
+     0.10%    naive  libc-2.12.so   [.] _IO_cleanup        
+     0.10%    naive  libc-2.12.so   [.] _IO_flush_all_lockp
+     0.10%    naive  libc-2.12.so   [.] __unregister_atfork
 
 

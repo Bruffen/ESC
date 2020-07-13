@@ -23,7 +23,7 @@ perf record -o naive1.data -e cpu-clock,faults ./naive
 
 # Step 2: Display profiles (stdio)
 perf report -i naive1.data --stdio --sort comm,dso > $dir/naive1report1.txt
-perf report -i naive1.data --stdio --dsos=naive,libc-2.13.so > $dir/naive1report2.txt
+perf report -i naive1.data --stdio --dsos=naive,libc-2.12.so > $dir/naive1report2.txt
 perf annotate -i naive1.data --stdio --dsos=naive --symbol=multiply_matrices > $dir/naive1annotate1.txt
 perf annotate -i naive1.data --stdio --dsos=naive --symbol=multiply_matrices --no-source > $dir/naive1annotate2.txt
 mv naive1.data $dir/naive1.data
