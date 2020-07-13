@@ -1,0 +1,1126 @@
+gcc -O3 -std=c99 -fopenmp distance_transform.c -o distance_transform -lm
+Image Size: 1024
+Num Threads: 1
+Result Sequetial 1: 0.004354	Result Parallel 1: 0.811240
+% time  seconds usecs/call calls errors syscall
+     0        0          0     1      0 rexit
+     0     6261       6261     1      0 getpid
+     0     7938       7938     1      0 lwp_private
+     0     8860       8860     1      0 sigpending
+     0    10237      10237     1      0 sysi86
+     0    11531      11531     1      0 getrlimit
+     0    17855       5951     3      3 ioctl
+     0    18859       6286     3      0 sysconfig
+     0    20735      10367     2      0 setcontext
+     0    23758       7919     3      0 lseek
+     0    48437      48437     1      0 mmap
+     0    50107      50107     1      0 close
+     0    57745       9624     6      0 fstatat
+     0   131255      11932    11      0 brk
+     0   371815     185907     2      0 openat
+     0  1306375     130637    10      0 read
+     0  2427606       6272   387      0 clock_gettime
+     0 18079848     860945    21      0 write
+100.00 2009305746              456      3 total
+-----------------Thread size 1----------------------
+----------------Image size 256-----------------------
+            FUNCTION      CALLS TIME SPENT
+              _start          1          0
+          initialize          1          0
+                main          1          0
+         __start_crt          1      45111
+          load_image          1   15040130
+
+Image Size: 256
+Num Threads: 1
+Result Sequetial 1: 0.000111	Result Parallel 1: 0.013693
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      51457
+        save_results     1          1      52157
+    save_image_ascii     1          1    8377778
+          load_image     1          1   11858161
+          initialize     1          1   11947322
+                main     1          1   34564263
+ transform._omp_fn.0     1         49   13035758
+
+Image Size: 256
+Num Threads: 1
+Result Sequetial 1: 0.000333	Result Parallel 1: 0.014183
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          1         spin        191             709
+    distance_transfo          1           rw       1193          139100
+    distance_transfo          1     adaptive       5987           18420
+
+----------------Image size 512-----------------------
+            FUNCTION      CALLS TIME SPENT
+              _start          1          0
+          initialize          1          0
+                main          1          0
+         __start_crt          1      46962
+          load_image          1   13263391
+
+Image Size: 512
+Num Threads: 1
+Result Sequetial 1: 0.000189	Result Parallel 1: 0.091414
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      42700
+        save_results     1          1      52254
+          load_image     1          1    4710365
+          initialize     1          1    4782577
+    save_image_ascii     1          1   21255517
+                main     1          1  120397381
+ transform._omp_fn.0     1         97   89969183
+
+Image Size: 512
+Num Threads: 1
+Result Sequetial 1: 0.000980	Result Parallel 1: 0.103621
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          1         spin        309             799
+    distance_transfo          1           rw       3219          243954
+    distance_transfo          1     adaptive      15976           40098
+
+----------------Image size 1024-----------------------
+            FUNCTION      CALLS TIME SPENT
+              _start          1          0
+          initialize          1          0
+                main          1          0
+         __start_crt          1      29079
+          load_image          1   53932802
+
+Image Size: 1024
+Num Threads: 1
+Result Sequetial 1: 0.000575	Result Parallel 1: 0.668511
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      48841
+        save_results     1          1     120720
+          load_image     1          1   15474851
+          initialize     1          1   15599412
+    save_image_ascii     1          1  123010313
+                main     1          1  825473113
+ transform._omp_fn.0     1        193  664596479
+
+Image Size: 1024
+Num Threads: 1
+Result Sequetial 1: 0.003936	Result Parallel 1: 0.730779
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          1         spin        654            2493
+    distance_transfo          1           rw      10799          626155
+    distance_transfo          1     adaptive      57834          143032
+
+----------------Image size 2048-----------------------
+            FUNCTION      CALLS TIME SPENT
+              _start          1          0
+          initialize          1          0
+                main          1          0
+         __start_crt          1      64954
+          load_image          1   24353774
+
+Image Size: 2048
+Num Threads: 1
+Result Sequetial 1: 0.001685	Result Parallel 1: 5.655127
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      28005
+        save_results     1          1      64138
+          load_image     1          1   57048867
+          initialize     1          1   57280317
+    save_image_ascii     1          1 4825168817
+                main     1          1 10610417204
+ transform._omp_fn.0     1        385 5640249410
+
+Image Size: 2048
+Num Threads: 1
+Result Sequetial 1: 0.014148	Result Parallel 1: 6.068511
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          1         spin       1719            8033
+    distance_transfo          1           rw      42545        14429480
+    distance_transfo          1     adaptive     205154          500585
+
+----------------Image size 4096-----------------------
+            FUNCTION      CALLS TIME SPENT
+              _start          1          0
+          initialize          1          0
+                main          1          0
+         __start_crt          1      29466
+          load_image          1    7972793
+
+Image Size: 4096
+Num Threads: 1
+Result Sequetial 1: 0.003824	Result Parallel 1: 42.705328
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      27238
+        save_results     1          1     277507
+    save_image_ascii     1          1 1540378566
+          load_image     1          1 3967229705
+          initialize     1          1 3967488980
+                main     1          1 52939448534
+ transform._omp_fn.0     1        769 42654823562
+
+Image Size: 4096
+Num Threads: 1
+Result Sequetial 1: 0.044508	Result Parallel 1: 43.083253
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          1         spin       4961           25415
+    distance_transfo          1           rw     163760        10538479
+    distance_transfo          1     adaptive     797859         1959114
+
+-----------------Thread size 2----------------------
+----------------Image size 256-----------------------
+            FUNCTION      CALLS TIME SPENT
+              _start          1          0
+          initialize          1          0
+                main          1          0
+         __start_crt          1      22946
+          load_image          1    8010785
+
+Image Size: 256
+Num Threads: 2
+Result Sequetial 1: 0.000070	Result Parallel 1: 0.010353
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+        save_results     1          1      54178
+         __start_crt     1          1      60044
+          load_image     1          1    1068489
+          initialize     1          1    1139703
+    save_image_ascii     1          1   12001373
+                main     1          1   23966057
+ transform._omp_fn.0     1         49    6024367
+ transform._omp_fn.0     2         49    6067379
+
+Image Size: 256
+Num Threads: 2
+Result Sequetial 1: 0.000416	Result Parallel 1: 0.033506
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw          6             344
+    distance_transfo          2     adaptive        427            6370
+    distance_transfo          2         spin        689            3623
+    distance_transfo          1         spin        894            4009
+    distance_transfo          1           rw       1545           96136
+    distance_transfo          1     adaptive       8226           24604
+
+----------------Image size 512-----------------------
+            FUNCTION      CALLS TIME SPENT
+              _start          1          0
+          initialize          1          0
+                main          1          0
+         __start_crt          1      31148
+          load_image          1    8646693
+
+Image Size: 512
+Num Threads: 2
+Result Sequetial 1: 0.000196	Result Parallel 1: 0.085289
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      45818
+        save_results     1          1      64480
+          load_image     1          1    5074952
+          initialize     1          1    5160032
+    save_image_ascii     1          1   51578183
+                main     1          1  159006194
+ transform._omp_fn.0     1         97   64383239
+ transform._omp_fn.0     2         97   64987407
+
+Image Size: 512
+Num Threads: 2
+Result Sequetial 1: 0.000882	Result Parallel 1: 0.105253
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw          3              75
+    distance_transfo          2     adaptive        783           12976
+    distance_transfo          2         spin       1341            7385
+    distance_transfo          1         spin       1655            8007
+    distance_transfo          1           rw       3416          235118
+    distance_transfo          1     adaptive      17772           58039
+
+----------------Image size 1024-----------------------
+            FUNCTION      CALLS TIME SPENT
+              _start          1          0
+          initialize          1          0
+                main          1          0
+         __start_crt          1      25697
+          load_image          1   12129035
+
+Image Size: 1024
+Num Threads: 2
+Result Sequetial 1: 0.000443	Result Parallel 1: 0.400105
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      27121
+        save_results     1          1      53285
+          load_image     1          1   17659370
+          initialize     1          1   17744665
+    save_image_ascii     1          1  336418686
+                main     1          1  775618224
+ transform._omp_fn.0     1        193  373801521
+ transform._omp_fn.0     2        193  373872992
+
+Image Size: 1024
+Num Threads: 2
+Result Sequetial 1: 0.001650	Result Parallel 1: 0.515476
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         55            3072
+    distance_transfo          2     adaptive       1697           28780
+    distance_transfo          2         spin       2718           18318
+    distance_transfo          1         spin       3340           19084
+    distance_transfo          1           rw      10875          641408
+    distance_transfo          1     adaptive      57557          163067
+
+----------------Image size 2048-----------------------
+            FUNCTION      CALLS TIME SPENT
+              _start          1          0
+          initialize          1          0
+                main          1          0
+         __start_crt          1      27700
+          load_image          1    7747355
+
+Image Size: 2048
+Num Threads: 2
+Result Sequetial 1: 0.000908	Result Parallel 1: 3.119534
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      24098
+        save_results     1          1     107703
+          load_image     1          1  152196046
+          initialize     1          1  152433543
+    save_image_ascii     1          1  690980861
+                main     1          1 4225389125
+ transform._omp_fn.0     2        385 3056917704
+ transform._omp_fn.0     1        385 3058020898
+
+Image Size: 2048
+Num Threads: 2
+Result Sequetial 1: 0.003123	Result Parallel 1: 3.422080
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw          3             651
+    distance_transfo          2     adaptive       2964          109814
+    distance_transfo          2         spin       5198           47832
+    distance_transfo          1         spin       6633           33655
+    distance_transfo          1           rw      40056         2418666
+    distance_transfo          1     adaptive     202012          564078
+
+----------------Image size 4096-----------------------
+            FUNCTION      CALLS TIME SPENT
+              _start          1          0
+          initialize          1          0
+                main          1          0
+         __start_crt          1      24446
+          load_image          1    7715276
+
+Image Size: 4096
+Num Threads: 2
+Result Sequetial 1: 0.001851	Result Parallel 1: 22.747087
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      35079
+        save_results     1          1      84468
+          load_image     1          1  212749322
+          initialize     1          1  213042327
+    save_image_ascii     1          1 2732110187
+                main     1          1 25869406578
+ transform._omp_fn.0     2        769 22602673316
+ transform._omp_fn.0     1        769 22603879598
+
+Image Size: 4096
+Num Threads: 2
+Result Sequetial 1: 0.006117	Result Parallel 1: 23.193567
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2     adaptive       6115           97768
+    distance_transfo          2         spin      11000           73591
+    distance_transfo          1         spin      14962           80695
+    distance_transfo          1           rw     159015        11798835
+    distance_transfo          1     adaptive     787666         1882907
+
+-----------------Thread size 4----------------------
+----------------Image size 256-----------------------
+            FUNCTION      CALLS TIME SPENT
+              _start          1          0
+          initialize          1          0
+                main          1          0
+         __start_crt          1      25538
+          load_image          1    8600170
+
+Image Size: 256
+Num Threads: 4
+Result Sequetial 1: 0.000087	Result Parallel 1: 0.014346
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      48177
+        save_results     1          1     102753
+          load_image     1          1    1661939
+          initialize     1          1    1749733
+    save_image_ascii     1          1   11449113
+                main     1          1   28553949
+ transform._omp_fn.0     2         49    3535278
+ transform._omp_fn.0     4         49    3987227
+ transform._omp_fn.0     1         49    4086269
+ transform._omp_fn.0     3         49    4276253
+
+Image Size: 256
+Num Threads: 4
+Result Sequetial 1: 0.000404	Result Parallel 1: 0.047916
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw          8             254
+    distance_transfo          4     adaptive        405            6274
+    distance_transfo          3     adaptive        407            6204
+    distance_transfo          2     adaptive        450            6818
+    distance_transfo          4         spin        683            3863
+    distance_transfo          3         spin        685            3809
+    distance_transfo          2         spin        710            4310
+    distance_transfo          1         spin        906            4716
+    distance_transfo          1           rw       1560           85964
+    distance_transfo          1     adaptive       8319           27364
+
+----------------Image size 512-----------------------
+            FUNCTION      CALLS TIME SPENT
+              _start          1          0
+          initialize          1          0
+                main          1          0
+         __start_crt          1      23493
+          load_image          1    8681448
+
+Image Size: 512
+Num Threads: 4
+Result Sequetial 1: 0.000219	Result Parallel 1: 0.053349
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      48113
+        save_results     1          1      66408
+          load_image     1          1    5132150
+          initialize     1          1    5256285
+    save_image_ascii     1          1   41111133
+                main     1          1  104537988
+ transform._omp_fn.0     3         97   29557132
+ transform._omp_fn.0     4         97   29978526
+ transform._omp_fn.0     1         97   30103943
+ transform._omp_fn.0     2         97   30724001
+
+Image Size: 512
+Num Threads: 4
+Result Sequetial 1: 0.000712	Result Parallel 1: 0.086686
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          3           rw          3              74
+    distance_transfo          2           rw          7             186
+    distance_transfo          4     adaptive        793           11572
+    distance_transfo          3     adaptive        798           11545
+    distance_transfo          2     adaptive        813           12038
+    distance_transfo          4         spin       1362            6851
+    distance_transfo          3         spin       1363            6792
+    distance_transfo          2         spin       1366            7019
+    distance_transfo          1         spin       1716            7709
+    distance_transfo          1           rw       3386          170751
+    distance_transfo          1     adaptive      17763           48269
+
+----------------Image size 1024-----------------------
+            FUNCTION      CALLS TIME SPENT
+              _start          1          0
+          initialize          1          0
+                main          1          0
+         __start_crt          1      52476
+          load_image          1   10475336
+
+Image Size: 1024
+Num Threads: 4
+Result Sequetial 1: 0.000454	Result Parallel 1: 0.382509
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      27547
+        save_results     1          1      63982
+          load_image     1          1    8821907
+          initialize     1          1    9096242
+    save_image_ascii     1          1  188515433
+                main     1          1  590322433
+ transform._omp_fn.0     1        193  221710165
+ transform._omp_fn.0     3        193  222095598
+ transform._omp_fn.0     4        193  222577652
+ transform._omp_fn.0     2        193  228641777
+
+Image Size: 1024
+Num Threads: 4
+Result Sequetial 1: 0.001545	Result Parallel 1: 0.428065
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          3           rw          6              91
+    distance_transfo          2           rw          8             103
+    distance_transfo          4     adaptive       1536           22985
+    distance_transfo          3     adaptive       1540           22057
+    distance_transfo          2     adaptive       1591           24066
+    distance_transfo          3         spin       2657           12923
+    distance_transfo          4         spin       2682           13815
+    distance_transfo          2         spin       2719           14415
+    distance_transfo          1         spin       3438           17989
+    distance_transfo          1           rw      10761          568715
+    distance_transfo          1     adaptive      55035          141097
+
+----------------Image size 2048-----------------------
+            FUNCTION      CALLS TIME SPENT
+              _start          1          0
+          initialize          1          0
+                main          1          0
+         __start_crt          1      25791
+          load_image          1    7782102
+
+Image Size: 2048
+Num Threads: 4
+Result Sequetial 1: 0.001045	Result Parallel 1: 2.231698
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      26709
+        save_results     1          1     106200
+          load_image     1          1   37509580
+          initialize     1          1   37799763
+    save_image_ascii     1          1  666309665
+                main     1          1 2989481270
+ transform._omp_fn.0     4        385 1724343983
+ transform._omp_fn.0     1        385 1756372598
+ transform._omp_fn.0     2        385 1788214677
+ transform._omp_fn.0     3        385 1828122508
+
+Image Size: 2048
+Num Threads: 4
+Result Sequetial 1: 0.003168	Result Parallel 1: 2.160317
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          3           rw        176           10002
+    distance_transfo          2           rw        198           11922
+    distance_transfo          4           rw        222           13934
+    distance_transfo          3     adaptive       3619           56594
+    distance_transfo          2     adaptive       3648           54424
+    distance_transfo          4     adaptive       3731           56434
+    distance_transfo          2         spin       5517           32064
+    distance_transfo          3         spin       5535           34547
+    distance_transfo          4         spin       5538           33893
+    distance_transfo          1         spin       7021           37144
+    distance_transfo          1           rw      40353         2425450
+    distance_transfo          1     adaptive     202252          549622
+
+----------------Image size 4096-----------------------
+            FUNCTION      CALLS TIME SPENT
+              _start          1          0
+          initialize          1          0
+                main          1          0
+         __start_crt          1      45154
+          load_image          1   11454206
+
+Image Size: 4096
+Num Threads: 4
+Result Sequetial 1: 0.002258	Result Parallel 1: 13.624171
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      49853
+        save_results     1          1      80142
+          load_image     1          1  195948424
+          initialize     1          1  196277310
+    save_image_ascii     1          1 3263360462
+                main     1          1 17276053755
+ transform._omp_fn.0     3        769 13051267643
+ transform._omp_fn.0     1        769 13056092671
+ transform._omp_fn.0     2        769 13059493631
+ transform._omp_fn.0     4        769 13148332125
+
+Image Size: 4096
+Num Threads: 4
+Result Sequetial 1: 0.007160	Result Parallel 1: 14.941326
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          3           rw          6             352
+    distance_transfo          2           rw          7             265
+    distance_transfo          2     adaptive       6241          116500
+    distance_transfo          3     adaptive       6278          121579
+    distance_transfo          4     adaptive       6298          128341
+    distance_transfo          2         spin      11095           73972
+    distance_transfo          3         spin      11198           75783
+    distance_transfo          4         spin      11228           84101
+    distance_transfo          1         spin      15230           88705
+    distance_transfo          1           rw     167832        11211875
+    distance_transfo          1     adaptive     927439         2398942
+
+-----------------Thread size 8----------------------
+----------------Image size 256-----------------------
+            FUNCTION      CALLS TIME SPENT
+              _start          1          0
+          initialize          1          0
+                main          1          0
+         __start_crt          1      25965
+          load_image          1    9058679
+
+Image Size: 256
+Num Threads: 8
+Result Sequetial 1: 0.000105	Result Parallel 1: 0.034046
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      47129
+        save_results     1          1     136320
+          load_image     1          1    1130803
+          initialize     1          1    1192441
+    save_image_ascii     1          1   14548040
+                main     1          1   50338291
+ transform._omp_fn.0     8         49     542616
+ transform._omp_fn.0     7         49     706892
+ transform._omp_fn.0     4         49    1307878
+ transform._omp_fn.0     2         49    2439704
+ transform._omp_fn.0     1         49    3067380
+ transform._omp_fn.0     6         49    3380298
+ transform._omp_fn.0     5         49    3935602
+ transform._omp_fn.0     3         49    4987669
+
+Image Size: 256
+Num Threads: 8
+Result Sequetial 1: 0.000438	Result Parallel 1: 0.111454
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw          3              93
+    distance_transfo          3           rw          8             227
+    distance_transfo          2     adaptive        405            7501
+    distance_transfo          7     adaptive        409            7978
+    distance_transfo          6     adaptive        413            7281
+    distance_transfo          5     adaptive        413            7881
+    distance_transfo          4     adaptive        416            6780
+    distance_transfo          8     adaptive        421            7095
+    distance_transfo          3     adaptive        432            7436
+    distance_transfo          3         spin        684            4385
+    distance_transfo          2         spin        687            4421
+    distance_transfo          4         spin        692            3926
+    distance_transfo          6         spin        695            4438
+    distance_transfo          5         spin        695            4531
+    distance_transfo          7         spin        700            4776
+    distance_transfo          8         spin        704            4450
+    distance_transfo          1         spin        985            5930
+    distance_transfo          1           rw       1549           95732
+    distance_transfo          1     adaptive       8512           30760
+
+----------------Image size 512-----------------------
+            FUNCTION      CALLS TIME SPENT
+              _start          1          0
+          initialize          1          0
+                main          1          0
+         __start_crt          1      33212
+          load_image          1    8170649
+
+Image Size: 512
+Num Threads: 8
+Result Sequetial 1: 0.000248	Result Parallel 1: 0.115999
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      27498
+        save_results     1          1     129358
+          load_image     1          1    2584421
+          initialize     1          1    2663648
+    save_image_ascii     1          1   39885724
+                main     1          1  161548291
+ transform._omp_fn.0     1         97    8417542
+ transform._omp_fn.0     3         97    9786160
+ transform._omp_fn.0     6         97   16149069
+ transform._omp_fn.0     8         97   17103356
+ transform._omp_fn.0     4         97   17329840
+ transform._omp_fn.0     2         97   17443595
+ transform._omp_fn.0     5         97   19890188
+ transform._omp_fn.0     7         97   20291343
+
+Image Size: 512
+Num Threads: 8
+Result Sequetial 1: 0.000753	Result Parallel 1: 0.149205
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw          3              69
+    distance_transfo          3           rw          8             200
+    distance_transfo          8     adaptive        797           12104
+    distance_transfo          4     adaptive        798           11689
+    distance_transfo          7     adaptive        800           12783
+    distance_transfo          5     adaptive        801           12321
+    distance_transfo          6     adaptive        802           12431
+    distance_transfo          2     adaptive        813           12470
+    distance_transfo          3     adaptive        821           12152
+    distance_transfo          7         spin       1364            7415
+    distance_transfo          4         spin       1366            6743
+    distance_transfo          6         spin       1370            7102
+    distance_transfo          3         spin       1371            7028
+    distance_transfo          8         spin       1373            7006
+    distance_transfo          5         spin       1374            7025
+    distance_transfo          2         spin       1374            7151
+    distance_transfo          1         spin       1765           30512
+    distance_transfo          1           rw       3502          194259
+    distance_transfo          1     adaptive      18948           77503
+
+----------------Image size 1024-----------------------
+            FUNCTION      CALLS TIME SPENT
+              _start          1          0
+          initialize          1          0
+                main          1          0
+         __start_crt          1      26517
+          load_image          1    8471151
+
+Image Size: 1024
+Num Threads: 8
+Result Sequetial 1: 0.000458	Result Parallel 1: 0.370220
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      27247
+        save_results     1          1      58688
+          load_image     1          1    8443443
+          initialize     1          1    8511059
+    save_image_ascii     1          1  189342339
+                main     1          1  578001856
+ transform._omp_fn.0     1        193  106664741
+ transform._omp_fn.0     2        193  110152902
+ transform._omp_fn.0     3        193  113318013
+ transform._omp_fn.0     5        193  116705511
+ transform._omp_fn.0     7        193  121720433
+ transform._omp_fn.0     6        193  121877648
+ transform._omp_fn.0     8        193  130837690
+ transform._omp_fn.0     4        193  139270105
+
+Image Size: 1024
+Num Threads: 8
+Result Sequetial 1: 0.001585	Result Parallel 1: 0.532549
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw          8             280
+    distance_transfo          5     adaptive       1554           24942
+    distance_transfo          6     adaptive       1560           24944
+    distance_transfo          3     adaptive       1569           25294
+    distance_transfo          4     adaptive       1570           25751
+    distance_transfo          8     adaptive       1571           25136
+    distance_transfo          7     adaptive       1576           25398
+    distance_transfo          2     adaptive       1593           26200
+    distance_transfo          5         spin       2717           14002
+    distance_transfo          6         spin       2719           14130
+    distance_transfo          3         spin       2734           14450
+    distance_transfo          2         spin       2735           14757
+    distance_transfo          4         spin       2736           14528
+    distance_transfo          8         spin       2740           14351
+    distance_transfo          7         spin       2744           14538
+    distance_transfo          1         spin       3404           15763
+    distance_transfo          1           rw      11469          604810
+    distance_transfo          1     adaptive      65956          170354
+
+----------------Image size 2048-----------------------
+            FUNCTION      CALLS TIME SPENT
+              _start          1          0
+          initialize          1          0
+                main          1          0
+         __start_crt          1      45302
+          load_image          1   11053748
+
+Image Size: 2048
+Num Threads: 8
+Result Sequetial 1: 0.001140	Result Parallel 1: 1.718893
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      26972
+        save_results     1          1      63507
+          load_image     1          1   30317938
+          initialize     1          1   30405683
+    save_image_ascii     1          1  765966837
+                main     1          1 2571330867
+ transform._omp_fn.0     1        385  975673025
+ transform._omp_fn.0     2        385  978281496
+ transform._omp_fn.0     5        385  984512794
+ transform._omp_fn.0     6        385 1003665130
+ transform._omp_fn.0     4        385 1017759005
+ transform._omp_fn.0     3        385 1033780443
+ transform._omp_fn.0     7        385 1039295181
+ transform._omp_fn.0     8        385 1040329332
+
+Image Size: 2048
+Num Threads: 8
+Result Sequetial 1: 0.003141	Result Parallel 1: 2.345197
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          8           rw          6             587
+    distance_transfo          4           rw          9             434
+    distance_transfo          7           rw         15             924
+    distance_transfo          3           rw         15            1133
+    distance_transfo          2           rw         17             686
+    distance_transfo          6           rw         24            1473
+    distance_transfo          5           rw         24            1595
+    distance_transfo          8     adaptive       3132           54535
+    distance_transfo          3     adaptive       3152           56018
+    distance_transfo          2     adaptive       3161           54103
+    distance_transfo          6     adaptive       3169           56486
+    distance_transfo          4     adaptive       3175           55141
+    distance_transfo          7     adaptive       3177           57250
+    distance_transfo          5     adaptive       3178           56351
+    distance_transfo          6         spin       5467           33091
+    distance_transfo          2         spin       5472           31244
+    distance_transfo          3         spin       5475           33104
+    distance_transfo          8         spin       5504           31447
+    distance_transfo          5         spin       5507           32665
+    distance_transfo          7         spin       5514           34226
+    distance_transfo          4         spin       5580           32527
+    distance_transfo          1         spin       7043           36078
+    distance_transfo          1           rw      42275         2254179
+    distance_transfo          1     adaptive     235595          580312
+
+----------------Image size 4096-----------------------
+            FUNCTION      CALLS TIME SPENT
+              _start          1          0
+          initialize          1          0
+                main          1          0
+         __start_crt          1      27262
+          load_image          1    7920571
+
+Image Size: 4096
+Num Threads: 8
+Result Sequetial 1: 0.002256	Result Parallel 1: 13.602684
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      26937
+        save_results     1          1      70733
+          load_image     1          1  158187819
+          initialize     1          1  158436258
+    save_image_ascii     1          1 2781996162
+                main     1          1 16759164889
+ transform._omp_fn.0     1        769 9692515716
+ transform._omp_fn.0     3        769 9839028377
+ transform._omp_fn.0     2        769 9875660373
+ transform._omp_fn.0     6        769 9924406049
+ transform._omp_fn.0     4        769 10233297912
+ transform._omp_fn.0     5        769 10240529714
+ transform._omp_fn.0     7        769 10285239901
+ transform._omp_fn.0     8        769 10385479342
+
+Image Size: 4096
+Num Threads: 8
+Result Sequetial 1: 0.007620	Result Parallel 1: 14.616280
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw          8             281
+    distance_transfo          3     adaptive       6452          125985
+    distance_transfo          4     adaptive       6456          121621
+    distance_transfo          8     adaptive       6457          128266
+    distance_transfo          6     adaptive       6458          120157
+    distance_transfo          7     adaptive       6462          124717
+    distance_transfo          5     adaptive       6464          123638
+    distance_transfo          2     adaptive       6475          121381
+    distance_transfo          7         spin      11710           77410
+    distance_transfo          5         spin      11739           73385
+    distance_transfo          4         spin      11755           75321
+    distance_transfo          8         spin      11755           81349
+    distance_transfo          6         spin      11769           74591
+    distance_transfo          3         spin      11778           77203
+    distance_transfo          2         spin      11787           73883
+    distance_transfo          1         spin      16043           84848
+    distance_transfo          1           rw     157693        12194551
+    distance_transfo          1     adaptive     785253         1931443
+
+-----------------Thread size 12----------------------
+----------------Image size 256-----------------------
+            FUNCTION      CALLS TIME SPENT
+              _start          1          0
+          initialize          1          0
+                main          1          0
+         __start_crt          1      47065
+          load_image          1    8802449
+
+Image Size: 256
+Num Threads: 12
+Result Sequetial 1: 0.000127	Result Parallel 1: 0.068069
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      51769
+        save_results     1          1     115984
+          load_image     1          1    1675623
+          initialize     1          1    1770610
+    save_image_ascii     1          1   16670371
+                main     1          1   87398180
+ transform._omp_fn.0    10         49     442464
+ transform._omp_fn.0     1         49     467950
+ transform._omp_fn.0    12         49     495358
+ transform._omp_fn.0     9         49     564759
+ transform._omp_fn.0     7         49     623429
+ transform._omp_fn.0    11         49     752403
+ transform._omp_fn.0     6         49    1195011
+ transform._omp_fn.0     2         49    3230108
+ transform._omp_fn.0     3         49    3578278
+ transform._omp_fn.0     5         49    3598706
+ transform._omp_fn.0     8         49    4166832
+ transform._omp_fn.0     4         49    4754833
+
+Image Size: 256
+Num Threads: 12
+Result Sequetial 1: 0.000358	Result Parallel 1: 0.099465
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw          6             143
+    distance_transfo          4           rw          6             244
+    distance_transfo          3           rw          8             187
+    distance_transfo         11     adaptive        413            5410
+    distance_transfo          6     adaptive        413            5644
+    distance_transfo         10     adaptive        413            5704
+    distance_transfo          9     adaptive        413            6021
+    distance_transfo          5     adaptive        414            5926
+    distance_transfo          7     adaptive        415            5493
+    distance_transfo          8     adaptive        415            5978
+    distance_transfo         12     adaptive        421            6195
+    distance_transfo          2     adaptive        424            5998
+    distance_transfo          4     adaptive        430            6400
+    distance_transfo          3     adaptive        438            6172
+    distance_transfo          5         spin        692            3451
+    distance_transfo          2         spin        694            3239
+    distance_transfo          7         spin        695            3173
+    distance_transfo          6         spin        695            3279
+    distance_transfo          3         spin        696            3458
+    distance_transfo         11         spin        697            3161
+    distance_transfo          8         spin        697            3280
+    distance_transfo          4         spin        698            3520
+    distance_transfo          9         spin        699            3490
+    distance_transfo         10         spin        701            3385
+    distance_transfo         12         spin        711            3496
+    distance_transfo          1         spin       1026            4244
+    distance_transfo          1           rw       1637           90747
+    distance_transfo          1     adaptive       8998           27487
+
+----------------Image size 512-----------------------
+            FUNCTION      CALLS TIME SPENT
+              _start          1          0
+          initialize          1          0
+                main          1          0
+         __start_crt          1      25333
+          load_image          1    8892057
+
+Image Size: 512
+Num Threads: 12
+Result Sequetial 1: 0.000219	Result Parallel 1: 0.138899
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      27508
+        save_results     1          1      65457
+          load_image     1          1    2438867
+          initialize     1          1    2491814
+    save_image_ascii     1          1   56762273
+                main     1          1  200882983
+ transform._omp_fn.0     9         97    5512976
+ transform._omp_fn.0     5         97    6831534
+ transform._omp_fn.0     7         97    8578689
+ transform._omp_fn.0     2         97    9597296
+ transform._omp_fn.0     6         97   10647925
+ transform._omp_fn.0     1         97   11426107
+ transform._omp_fn.0    10         97   12285165
+ transform._omp_fn.0    12         97   13300628
+ transform._omp_fn.0     8         97   15616479
+ transform._omp_fn.0    11         97   15983188
+ transform._omp_fn.0     3         97   18842510
+ transform._omp_fn.0     4         97   20868845
+
+Image Size: 512
+Num Threads: 12
+Result Sequetial 1: 0.000766	Result Parallel 1: 0.214870
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          4           rw          3             124
+    distance_transfo          3           rw          6             337
+    distance_transfo          2           rw          8             237
+    distance_transfo          7     adaptive        793           12115
+    distance_transfo         12     adaptive        795           11836
+    distance_transfo          9     adaptive        795           12184
+    distance_transfo          8     adaptive        795           13353
+    distance_transfo          6     adaptive        796           12462
+    distance_transfo          5     adaptive        797           11632
+    distance_transfo         10     adaptive        797           12012
+    distance_transfo          4     adaptive        804           15212
+    distance_transfo         11     adaptive        807           12621
+    distance_transfo          3     adaptive        817           12376
+    distance_transfo          2     adaptive        819           11932
+    distance_transfo         12         spin       1364            6874
+    distance_transfo          5         spin       1370            6820
+    distance_transfo          6         spin       1370            7083
+    distance_transfo          8         spin       1372            7681
+    distance_transfo         10         spin       1373            6971
+    distance_transfo          7         spin       1373            7162
+    distance_transfo          3         spin       1373            7533
+    distance_transfo          9         spin       1374            7165
+    distance_transfo          4         spin       1377           13388
+    distance_transfo          2         spin       1379            6945
+    distance_transfo         11         spin       1384            7465
+    distance_transfo          1         spin       1808            8696
+    distance_transfo          1           rw       3471          208296
+    distance_transfo          1     adaptive      18499           57349
+
+----------------Image size 1024-----------------------
+            FUNCTION      CALLS TIME SPENT
+              _start          1          0
+          initialize          1          0
+                main          1          0
+         __start_crt          1      25112
+          load_image          1    8440288
+
+Image Size: 1024
+Num Threads: 12
+Result Sequetial 1: 0.000443	Result Parallel 1: 0.642286
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      30740
+        save_results     1          1      70343
+          load_image     1          1    8331088
+          initialize     1          1    8403525
+    save_image_ascii     1          1  184033124
+                main     1          1  844433002
+ transform._omp_fn.0     1        193   43299477
+ transform._omp_fn.0     3        193   51314746
+ transform._omp_fn.0     9        193   63938106
+ transform._omp_fn.0     2        193   64914283
+ transform._omp_fn.0     4        193   71953111
+ transform._omp_fn.0     5        193   77152684
+ transform._omp_fn.0    12        193   80175320
+ transform._omp_fn.0    10        193   81540715
+ transform._omp_fn.0     8        193   91625194
+ transform._omp_fn.0     7        193   98414522
+ transform._omp_fn.0    11        193  109446370
+ transform._omp_fn.0     6        193  132476497
+
+Image Size: 1024
+Num Threads: 12
+Result Sequetial 1: 0.001573	Result Parallel 1: 0.636720
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          3           rw          3             214
+    distance_transfo          2           rw          8             284
+    distance_transfo          9     adaptive       1552           26132
+    distance_transfo          6     adaptive       1556           25542
+    distance_transfo         11     adaptive       1560           26069
+    distance_transfo          5     adaptive       1560           26427
+    distance_transfo          8     adaptive       1562           25898
+    distance_transfo         10     adaptive       1564           25116
+    distance_transfo         12     adaptive       1564           26678
+    distance_transfo          7     adaptive       1564           26767
+    distance_transfo          4     adaptive       1575           25349
+    distance_transfo          3     adaptive       1583           27160
+    distance_transfo          2     adaptive       1587           26629
+    distance_transfo          9         spin       2713           14972
+    distance_transfo         11         spin       2715           15285
+    distance_transfo         12         spin       2718           14936
+    distance_transfo          7         spin       2723           15819
+    distance_transfo          5         spin       2725           15374
+    distance_transfo         10         spin       2727           14550
+    distance_transfo          6         spin       2728           15139
+    distance_transfo          2         spin       2729           15297
+    distance_transfo          4         spin       2733           15162
+    distance_transfo          8         spin       2739           14989
+    distance_transfo          3         spin       2753           16457
+    distance_transfo          1         spin       3511           18358
+    distance_transfo          1           rw      10816          577297
+    distance_transfo          1     adaptive      55651          144435
+
+----------------Image size 2048-----------------------
+            FUNCTION      CALLS TIME SPENT
+              _start          1          0
+          initialize          1          0
+                main          1          0
+         __start_crt          1      25117
+          load_image          1    7924097
+
+Image Size: 2048
+Num Threads: 12
+Result Sequetial 1: 0.001062	Result Parallel 1: 2.227033
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      60247
+        save_results     1          1      90229
+          load_image     1          1   35248989
+          initialize     1          1   35333933
+    save_image_ascii     1          1  690395955
+                main     1          1 3005043400
+ transform._omp_fn.0     1        385  595178782
+ transform._omp_fn.0    12        385  636436405
+ transform._omp_fn.0     5        385  641285825
+ transform._omp_fn.0    11        385  643630344
+ transform._omp_fn.0     7        385  645992454
+ transform._omp_fn.0     2        385  675796880
+ transform._omp_fn.0     4        385  723860686
+ transform._omp_fn.0     6        385  751227147
+ transform._omp_fn.0     8        385  806643431
+ transform._omp_fn.0    10        385  851834579
+ transform._omp_fn.0     9        385  886213893
+ transform._omp_fn.0     3        385  906465423
+
+Image Size: 2048
+Num Threads: 12
+Result Sequetial 1: 0.003248	Result Parallel 1: 2.821684
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo         11           rw          3             180
+    distance_transfo          4           rw          3             324
+    distance_transfo          3           rw          6             295
+    distance_transfo          2           rw          8             384
+    distance_transfo         12           rw          9             511
+    distance_transfo          6     adaptive       3126           53084
+    distance_transfo          9     adaptive       3128           54333
+    distance_transfo          4     adaptive       3133           53425
+    distance_transfo         11     adaptive       3135           53169
+    distance_transfo         10     adaptive       3139           54288
+    distance_transfo          8     adaptive       3139           54558
+    distance_transfo          2     adaptive       3141           58168
+    distance_transfo          7     adaptive       3144           53928
+    distance_transfo          5     adaptive       3152           53735
+    distance_transfo         12     adaptive       3155          434101
+    distance_transfo          3     adaptive       3157           54579
+    distance_transfo          6         spin       5492           31047
+    distance_transfo          2         spin       5499           35462
+    distance_transfo          4         spin       5505           30827
+    distance_transfo          9         spin       5508           31475
+    distance_transfo          8         spin       5515           31824
+    distance_transfo         11         spin       5517           30956
+    distance_transfo         10         spin       5555           30847
+    distance_transfo         12         spin       5555          410428
+    distance_transfo          7         spin       5557           31011
+    distance_transfo          3         spin       5561           32235
+    distance_transfo          5         spin       5596           31122
+    distance_transfo          1         spin       7032           35156
+    distance_transfo          1           rw      40137         2165194
+    distance_transfo          1     adaptive     202025          491258
+
+----------------Image size 4096-----------------------
+            FUNCTION      CALLS TIME SPENT
+              _start          1          0
+          initialize          1          0
+                main          1          0
+         __start_crt          1      28467
+          load_image          1    7922081
+
+Image Size: 4096
+Num Threads: 12
+Result Sequetial 1: 0.002014	Result Parallel 1: 13.060028
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      24007
+        save_results     1          1      68235
+          load_image     1          1  130583192
+          initialize     1          1  130822211
+    save_image_ascii     1          1 2717081241
+                main     1          1 16181918682
+ transform._omp_fn.0     9        769 5772017697
+ transform._omp_fn.0     2        769 5980055494
+ transform._omp_fn.0    11        769 5982570579
+ transform._omp_fn.0     1        769 6294524427
+ transform._omp_fn.0     5        769 6339063253
+ transform._omp_fn.0     3        769 6397627160
+ transform._omp_fn.0     4        769 6411355525
+ transform._omp_fn.0     6        769 6441637739
+ transform._omp_fn.0     7        769 6449660049
+ transform._omp_fn.0    10        769 6461805612
+ transform._omp_fn.0    12        769 6531094387
+ transform._omp_fn.0     8        769 6628728772
+
+Image Size: 4096
+Num Threads: 12
+Result Sequetial 1: 0.007050	Result Parallel 1: 15.100029
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          3           rw          6             494
+    distance_transfo          2           rw          8             457
+    distance_transfo         11     adaptive       6338          114041
+    distance_transfo          4     adaptive       6354          123594
+    distance_transfo         10     adaptive       6358          122887
+    distance_transfo          8     adaptive       6364          120490
+    distance_transfo          9     adaptive       6371          116218
+    distance_transfo          5     adaptive       6373          126246
+    distance_transfo          7     adaptive       6380          116770
+    distance_transfo          3     adaptive       6380          144299
+    distance_transfo         12     adaptive       6383          119213
+    distance_transfo          2     adaptive       6413          112987
+    distance_transfo          6     adaptive       6413          118321
+    distance_transfo         11         spin      11373           67417
+    distance_transfo          4         spin      11431           76161
+    distance_transfo         10         spin      11437           69484
+    distance_transfo          8         spin      11469          283318
+    distance_transfo          7         spin      11502           68454
+    distance_transfo         12         spin      11523           70020
+    distance_transfo          5         spin      11527           70246
+    distance_transfo          3         spin      11528           67437
+    distance_transfo          9         spin      11529           68766
+    distance_transfo          2         spin      11573           66646
+    distance_transfo          6         spin      11615           75599
+    distance_transfo          1         spin      15498          106709
+    distance_transfo          1           rw     159887         9184632
+    distance_transfo          1     adaptive     791716         1890572
+

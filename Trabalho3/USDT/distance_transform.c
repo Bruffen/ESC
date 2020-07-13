@@ -2,6 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <omp.h>
+#include "probes.h"
 
 #define MAX_VALUE (unsigned short)65535     /* PGM file format only supports maximum of 16 bits */
 #define REP 1
@@ -15,6 +16,9 @@ int transform(unsigned short *a, unsigned short *b)
 
     // Range from 1 to size - 1 to ignore borders
     // or range from 0 to size to consider them
+    if (DT_DISTTRANS_ITSTART_ENABLED())
+	DT_DISTTRANS_ITSTART();
+    
     for (int y = 0; y < height; y++)          
     {
         for (int x = 0; x < width; x++)      
@@ -55,12 +59,17 @@ int transform(unsigned short *a, unsigned short *b)
                 *value_b = *value_a;
         }
     }
+    if (DT_DISTTRANS_ITEND_ENABLED())
+   	 DT_DISTTRANS_ITEND();
 
     return has_changed;
 }
 
 void load_image(char* filename)
 {
+    if (DT_DISTTRANS_LOADSTART_ENABLED())
+	DT_DISTTRANS_LOADSTART();
+
     FILE *fp;
     fp = fopen(filename, "rb");
 
@@ -101,6 +110,8 @@ void load_image(char* filename)
     }
     free(chars);
     fclose(fp);
+    if (DT_DISTTRANS_LOADEND_ENABLED())	
+	DT_DISTTRANS_LOADEND();
 }
 
 void save_image_ascii(unsigned short *m)
@@ -111,6 +122,9 @@ void save_image_ascii(unsigned short *m)
 
     fprintf(fp, "P2\n");    
     fprintf(fp, "%d %d\n", width, height);  
+	
+    if (DT_DISTTRANS_SAVESTART_ENABLED())
+	DT_DISTTRANS_SAVESTART();
   
     // Writing the maximum gray value
     unsigned short max_value = 0;
@@ -131,7 +145,9 @@ void save_image_ascii(unsigned short *m)
             fprintf(fp, "%d ", m[j + i * width]); 
         } 
         fprintf(fp, "\n"); 
-    } 
+    }
+    if (DT_DISTTRANS_SAVEEND_ENABLED())
+	DT_DISTTRANS_SAVEEND();
 }
 
 void initialize(int argc, char* argv[])
@@ -145,6 +161,9 @@ void initialize(int argc, char* argv[])
 
 void main(int argc, char *argv[])
 {
+    if (DT_DISTTRANS_PROGRAMSTART_ENABLED())
+	DT_DISTTRANS_PROGRAMSTART();
+
     initialize(argc, argv);
     printf("Image Size: %d\n", height);
     printf("Sequential\n");
@@ -190,4 +209,7 @@ void main(int argc, char *argv[])
     free(m0);
     free(m1);
     free(m2);
+
+    if (DT_DISTTRANS_PROGRAMEND_ENABLED())
+	DT_DISTTRANS_PROGRAMEND();
 }

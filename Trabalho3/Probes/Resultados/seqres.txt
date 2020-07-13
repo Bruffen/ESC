@@ -1,0 +1,179 @@
+gcc -g -O3 -std=c99 -fopenmp distance_transform.c -o distance_transform -lm
+Image Size: 1024
+Sequential
+Result 1: 1.177675
+% time  seconds usecs/call calls errors syscall
+     0        0          0     1      0 rexit
+     0     3335       3335     1      0 getpid
+     0     4012       4012     1      0 lwp_private
+     0     4504       4504     1      0 sigpending
+     0     5722       5722     1      0 getrlimit
+     0     7220       3610     2      0 sysconfig
+     0     8431       8431     1      0 sysi86
+     0    11447       5723     2      0 setcontext
+     0    12890       4296     3      3 ioctl
+     0    20813      20813     1      0 mmap
+     0    26348       8782     3      0 lseek
+     0    28810      14405     2      0 clock_gettime
+     0    41939       6989     6      0 fstatat
+     0    54600      54600     1      0 close
+     0   111034      10094    11      0 brk
+     0   320838     160419     2      0 openat
+     0  3114075     311407    10      0 read
+     2 42077666    2003698    21      0 write
+100.00 1603577996               70      3 total
+----------------Image size 256-----------------------
+Image Size: 1024
+Sequential
+Result 1: 0.616611
+            FUNCTION      CALLS TIME SPENT
+              _start          1          0
+         __start_crt          1      25859
+          load_image          1   20534604
+    save_image_ascii          1   99762393
+                main          1  869780715
+           transform        193  614994392
+
+Image Size: 256
+Sequential
+Result 1: 0.011018
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      34323
+          load_image     1          1    1059146
+    save_image_ascii     1          1    6472657
+                main     1          1   19394715
+           transform     1         49   10799987
+
+Image Size: 256
+Sequential
+Result 1: 0.012671
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          1         spin        101             657
+    distance_transfo          1           rw       1506          156594
+    distance_transfo          1     adaptive       7422           26824
+
+----------------Image size 512-----------------------
+Image Size: 1024
+Sequential
+Result 1: 0.598928
+            FUNCTION      CALLS TIME SPENT
+              _start          1          0
+         __start_crt          1      23945
+          load_image          1   35677742
+    save_image_ascii          1  105364806
+                main          1  787598808
+           transform        193  597715732
+
+Image Size: 512
+Sequential
+Result 1: 0.076612
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      47121
+          load_image     1          1    7619104
+    save_image_ascii     1          1   23490181
+                main     1          1  127190289
+           transform     1         97   75995353
+
+Image Size: 512
+Sequential
+Result 1: 0.072291
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          1         spin        114             468
+    distance_transfo          1           rw       3024          170381
+    distance_transfo          1     adaptive      15081           33415
+
+----------------Image size 1024-----------------------
+Image Size: 1024
+Sequential
+Result 1: 0.617869
+            FUNCTION      CALLS TIME SPENT
+              _start          1          0
+         __start_crt          1      31495
+          load_image          1   20697831
+    save_image_ascii          1   95673271
+                main          1  768452654
+           transform        193  616367206
+
+Image Size: 1024
+Sequential
+Result 1: 0.624896
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      39755
+          load_image     1          1   26271344
+    save_image_ascii     1          1  119200693
+                main     1          1  801190541
+           transform     1        193  623267984
+
+Image Size: 1024
+Sequential
+Result 1: 0.604066
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          1         spin        259            1093
+    distance_transfo          1           rw      10410          875555
+    distance_transfo          1     adaptive      51598          139257
+
+----------------Image size 2048-----------------------
+Image Size: 1024
+Sequential
+Result 1: 0.719994
+            FUNCTION      CALLS TIME SPENT
+              _start          1          0
+         __start_crt          1      39457
+          load_image          1   11761149
+    save_image_ascii          1   89274204
+                main          1  837216301
+           transform        193  718067533
+
+Image Size: 2048
+Sequential
+Result 1: 5.181612
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      30598
+          load_image     1          1   95275166
+    save_image_ascii     1          1  761666082
+                main     1          1 7883810715
+           transform     1        385 5174111709
+
+Image Size: 2048
+Sequential
+Result 1: 5.081400
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          1         spin        888           30485
+    distance_transfo          1           rw      39871         4190161
+    distance_transfo          1     adaptive     198196          549978
+
+----------------Image size 4096-----------------------
+Image Size: 1024
+Sequential
+Result 1: 1.073130
+            FUNCTION      CALLS TIME SPENT
+              _start          1          0
+         __start_crt          1      27971
+          load_image          1   15231139
+    save_image_ascii          1  135774116
+                main          1 1271876843
+           transform        193 1070754924
+
+Image Size: 4096
+Sequential
+Result 1: 40.794451
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      32199
+          load_image     1          1  691016568
+    save_image_ascii     1          1 2316235102
+                main     1          1 46464413631
+           transform     1        769 40764633842
+
+Image Size: 4096
+Sequential
+Result 1: 40.585355
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          1         spin       3326           56771
+    distance_transfo          1           rw     159458        18578536
+    distance_transfo          1     adaptive     796098         1899579
+

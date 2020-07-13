@@ -1,0 +1,2099 @@
+-----------------Thread size 2----------------------
+----------------Image size 256-----------------------
+Time for 1: 0.032943
+Time for 0: 0.030883
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      22698
+                main     1          1 1436349866
+           transform     1         50   28913845
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      26150
+               setup     1          1    1144407
+          load_image     1          1    1356252
+          initialize     1          1    1521783
+                main     1          1 1487063720
+           transform     1         43   24094163
+
+Time for 0: 0.035911
+Time for 1: 0.038989
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 5070
+        MPI_Finalize          2 6448
+       MPI_Comm_size          2 19498
+            MPI_Init          2 10360616037
+           MPI_Wtime          4 13538
+            MPI_Send         88 900255
+            MPI_Recv         90 6618680
+
+            MPI Func      Calls Time Spent
+,        MPI_Finalize          2 5691
+       MPI_Comm_rank          2 8702
+       MPI_Comm_size          2 30853
+            MPI_Init          2 10362148520
+           MPI_Wtime          4 23373
+            MPI_Recv         88 2248421
+            MPI_Send         90 7674973
+
+Time for 1: 0.058794
+Time for 0: 0.045882
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         13             567
+    distance_transfo          3           rw        306           21873
+    distance_transfo          2         spin       1597            3958
+    distance_transfo          3         spin       2072            5399
+    distance_transfo          2     adaptive       3170           17651
+    distance_transfo          3     adaptive       5765           26167
+    distance_transfo          1         spin      11022           29595
+    distance_transfo          1           rw      31885          732732
+    distance_transfo          1     adaptive     181691          504703
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         11             590
+    distance_transfo          3           rw        272           17974
+    distance_transfo          2         spin       1687            4153
+    distance_transfo          3         spin       2052            5422
+    distance_transfo          2     adaptive       3227           17880
+    distance_transfo          3     adaptive       5558           25101
+    distance_transfo          1         spin       7756           20627
+    distance_transfo          1           rw      31449          750334
+    distance_transfo          1     adaptive     178577          482926
+
+----------------Image size 512-----------------------
+Time for 1: 0.240182
+Time for 0: 0.236137
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      22183
+                main     1          1 1618218122
+           transform     1         98  228940793
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      30770
+          load_image     1          1    3952473
+               setup     1          1    3963140
+          initialize     1          1    4123500
+                main     1          1 1689334587
+           transform     1         85  192136899
+
+Time for 1: 0.246724
+Time for 0: 0.242947
+            MPI Func      Calls Time Spent
+,        MPI_Finalize          2 5523
+       MPI_Comm_rank          2 5578
+       MPI_Comm_size          2 19039
+            MPI_Init          2 10091035581
+           MPI_Wtime          4 13895
+            MPI_Send        172 1526914
+            MPI_Recv        174 10813710
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 4455
+        MPI_Finalize          2 5686
+       MPI_Comm_size          2 16345
+            MPI_Init          2 10082702384
+           MPI_Wtime          4 16749
+            MPI_Recv        172 11495685
+            MPI_Send        174 38590303
+
+Time for 1: 0.322197
+Time for 0: 0.276648
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         13             568
+    distance_transfo          3           rw        306           24216
+    distance_transfo          2         spin       1702            4322
+    distance_transfo          3         spin       2053            5366
+    distance_transfo          2     adaptive       3269           18250
+    distance_transfo          3     adaptive       5704           26986
+    distance_transfo          1         spin      11649           36069
+    distance_transfo          1           rw      32544          781202
+    distance_transfo          1     adaptive     184068          520044
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         11             606
+    distance_transfo          3           rw        272           16985
+    distance_transfo          2         spin       1669            4271
+    distance_transfo          3         spin       2066            5490
+    distance_transfo          2     adaptive       3279           18468
+    distance_transfo          3     adaptive       5661           24789
+    distance_transfo          1         spin       9890           32879
+    distance_transfo          1           rw      32990          846434
+    distance_transfo          1     adaptive     187820          520867
+
+----------------Image size 1024-----------------------
+Time for 0: 1.880538
+Time for 1: 1.894836
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      21840
+               setup     1          1   13197266
+          load_image     1          1   14108803
+          initialize     1          1   14279281
+                main     1          1 3253043179
+           transform     1        168 1534444212
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      23470
+                main     1          1 3396135316
+           transform     1        194 1826585071
+
+Time for 1: 1.912536
+Time for 0: 1.897608
+            MPI Func      Calls Time Spent
+,        MPI_Finalize          2 6081
+       MPI_Comm_rank          2 8425
+       MPI_Comm_size          2 33011
+            MPI_Init          2 10479549971
+           MPI_Wtime          4 18714
+            MPI_Send        338 5038865
+            MPI_Recv        340 53655927
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 4855
+        MPI_Finalize          2 6806
+       MPI_Comm_size          2 17895
+            MPI_Init          2 10471138421
+           MPI_Wtime          4 23572
+            MPI_Recv        338 84021181
+            MPI_Send        340 275793835
+
+Time for 0: 2.009936
+Time for 1: 2.154171
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         13             604
+    distance_transfo          3           rw        304           17497
+    distance_transfo          2         spin       1704            4272
+    distance_transfo          3         spin       2071            5285
+    distance_transfo          2     adaptive       3278           18575
+    distance_transfo          3     adaptive       5692           24438
+    distance_transfo          1         spin      11219           31214
+    distance_transfo          1           rw      34197          925285
+    distance_transfo          1     adaptive     195320          543794
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         11             658
+    distance_transfo          3           rw        280           19737
+    distance_transfo          2         spin       1701            4326
+    distance_transfo          3         spin       2079            5677
+    distance_transfo          2     adaptive       3245           18662
+    distance_transfo          3     adaptive       5630           26138
+    distance_transfo          1         spin       9367           30631
+    distance_transfo          1           rw      37615         1115709
+    distance_transfo          1     adaptive     219951          610801
+
+----------------Image size 2048-----------------------
+Time for 1: 14.920196
+Time for 0: 14.854853
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      27705
+                main     1          1 16277935313
+           transform     1        386 14694147979
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      24453
+               setup     1          1   64406081
+          load_image     1          1   65796315
+          initialize     1          1   65964870
+                main     1          1 16308941924
+           transform     1        334 12159099162
+
+Time for 0: 15.317079
+Time for 1: 15.373383
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 4807
+        MPI_Finalize          2 7159
+       MPI_Comm_size          2 16662
+            MPI_Init          2 10417430012
+           MPI_Wtime          4 12901
+            MPI_Send        670 10011693
+            MPI_Recv        672 151972067
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 5144
+        MPI_Finalize          2 7067
+       MPI_Comm_size          2 17503
+            MPI_Init          2 10476818746
+           MPI_Wtime          4 24725
+            MPI_Recv        670 713731852
+            MPI_Send        672 2138306340
+
+Time for 1: 15.590954
+Time for 0: 15.017781
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         13             676
+    distance_transfo          3           rw        294           16924
+    distance_transfo          2         spin       1722            4218
+    distance_transfo          3         spin       2063            5189
+    distance_transfo          2     adaptive       3159           17358
+    distance_transfo          3     adaptive       5669           24139
+    distance_transfo          1         spin      10257           29821
+    distance_transfo          1           rw      41214         1324048
+    distance_transfo          1     adaptive     244678          663300
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         11             654
+    distance_transfo          3           rw        298           20109
+    distance_transfo          2         spin       1763            4514
+    distance_transfo          3         spin       2065            5621
+    distance_transfo          2     adaptive       3274           19321
+    distance_transfo          3     adaptive       5650           26013
+    distance_transfo          1         spin       9678           29550
+    distance_transfo          1           rw      55531         2118373
+    distance_transfo          1     adaptive     344969          947516
+
+----------------Image size 4096-----------------------
+Time for 0: 118.377067
+Time for 1: 118.608054
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      24756
+                main     1          1 119994802034
+           transform     1        770 117915388017
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      27250
+               setup     1          1  225569866
+          load_image     1          1  231281974
+          initialize     1          1  231596607
+                main     1          1 120098083389
+           transform     1        666 96886252677
+
+Time for 1: 120.997024
+Time for 0: 120.778450
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 4577
+       MPI_Comm_size          2 15962
+        MPI_Finalize          2 245756
+            MPI_Init          2 10221021515
+           MPI_Wtime          4 15801
+            MPI_Send       1334 27128613
+            MPI_Recv       1336 659057579
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 8479
+       MPI_Comm_size          2 29335
+        MPI_Finalize          2 207609
+            MPI_Init          2 10283353343
+           MPI_Wtime          4 25800
+            MPI_Recv       1334 5443798435
+            MPI_Send       1336 16800701431
+
+Time for 1: 125.094546
+Time for 0: 122.902682
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         13             615
+    distance_transfo          3           rw        306           26146
+    distance_transfo          2         spin       1699            4230
+    distance_transfo          3         spin       2074            5555
+    distance_transfo          2     adaptive       3259           18234
+    distance_transfo          3     adaptive       5712           27936
+    distance_transfo          1         spin      16687           51278
+    distance_transfo          1           rw      70272         3203779
+    distance_transfo          1     adaptive     447091         1172113
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         11             598
+    distance_transfo          3           rw        272           17385
+    distance_transfo          2         spin       1672            4400
+    distance_transfo          3         spin       2079            5501
+    distance_transfo          2     adaptive       3236           18644
+    distance_transfo          3     adaptive       5651           24569
+    distance_transfo          1         spin      20507           65467
+    distance_transfo          1           rw     127208         6412336
+    distance_transfo          1     adaptive     841658         2221647
+
+-----------------Thread size 4----------------------
+----------------Image size 256-----------------------
+Time for 1: 0.023334
+Time for 2: 0.024376
+Time for 3: 0.024580
+Time for 0: 0.023215
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      33252
+                main     1          1 2957839130
+           transform     1         43   14985375
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      29122
+                main     1          1 2196611180
+           transform     1         50   19676426
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      27997
+                main     1          1 2142200935
+           transform     1         44   14098299
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      28494
+          load_image     1          1    1355513
+          initialize     1          1    1532000
+               setup     1          1    2148263
+                main     1          1 2970386568
+           transform     1         32   10320937
+
+Time for 1: 0.033400
+Time for 2: 0.028723
+Time for 0: 0.026459
+Time for 3: 0.028508
+            MPI Func      Calls Time Spent
+,        MPI_Finalize          2 7095
+       MPI_Comm_rank          2 10161
+       MPI_Comm_size          2 32324
+            MPI_Init          2 20018015683
+           MPI_Wtime          4 20647
+            MPI_Send        152 3119417
+            MPI_Recv        154 12458091
+
+            MPI Func      Calls Time Spent
+,        MPI_Finalize          2 5529
+       MPI_Comm_rank          2 6439
+       MPI_Comm_size          2 20555
+            MPI_Init          2 19999712899
+           MPI_Wtime          4 15175
+            MPI_Recv         70 6015001
+            MPI_Send         76 5613446
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 5525
+        MPI_Finalize          2 7607
+       MPI_Comm_size          2 35984
+            MPI_Init          2 20005250427
+           MPI_Wtime          4 16075
+            MPI_Send         90 1417138
+            MPI_Recv         92 12426632
+
+            MPI Func      Calls Time Spent
+,        MPI_Finalize          2 8085
+       MPI_Comm_rank          2 14976
+       MPI_Comm_size          2 19869
+            MPI_Init          2 20021210959
+           MPI_Wtime          4 13681
+            MPI_Send        176 1124513
+            MPI_Recv        178 8612924
+
+Time for 1: 0.055441
+Time for 2: 0.056844
+Time for 3: 0.059506
+Time for 0: 0.042559
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         11             392
+    distance_transfo          3           rw        284           21431
+    distance_transfo          2         spin       1965           11365
+    distance_transfo          3         spin       2233           11892
+    distance_transfo          2     adaptive       3170           28460
+    distance_transfo          3     adaptive       5559           35392
+    distance_transfo          1         spin      22436          135979
+    distance_transfo          1           rw      30681         1003315
+    distance_transfo          1     adaptive     153564          595242
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         11             344
+    distance_transfo          3           rw        284           23502
+    distance_transfo          2         spin       1907           10563
+    distance_transfo          3         spin       2282           13066
+    distance_transfo          2     adaptive       3159           28661
+    distance_transfo          3     adaptive       5646           39822
+    distance_transfo          1         spin      19021          289368
+    distance_transfo          1           rw      30417         1156672
+    distance_transfo          1     adaptive     152558          560129
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         13             220
+    distance_transfo          3           rw        317           23783
+    distance_transfo          2         spin       1890           11651
+    distance_transfo          3         spin       2292           12394
+    distance_transfo          2     adaptive       3163           30122
+    distance_transfo          3     adaptive       5796           36125
+    distance_transfo          1         spin      22068          148562
+    distance_transfo          1           rw      31793         1030065
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         11             543
+    distance_transfo          3           rw        299           23149
+    distance_transfo          2         spin       1916           11689
+    distance_transfo          3         spin       2280           13973
+    distance_transfo          2     adaptive       3159           27636
+    distance_transfo          3     adaptive       5739           40105
+    distance_transfo          1         spin      22352          131835
+    distance_transfo          1           rw      30621         1766033
+    distance_transfo          1     adaptive     154051          753310
+
+    distance_transfo          1     adaptive     158803          592028
+
+----------------Image size 512-----------------------
+Time for 1: 0.152453
+Time for 2: 0.157965
+Time for 0: 0.153685
+Time for 3: 0.158516
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      29380
+          load_image     1          1    4564632
+          initialize     1          1    4735489
+               setup     1          1    4801758
+                main     1          1 3663729099
+           transform     1         62   82227841
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      28919
+                main     1          1 3455770264
+           transform     1         85  112095914
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      62467
+                main     1          1 3365520674
+           transform     1         87  104912018
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      28799
+                main     1          1 3624911845
+           transform     1         98  144683820
+
+Time for 1: 0.197217
+Time for 2: 0.200958
+Time for 3: 0.202290
+Time for 0: 0.196599
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 5733
+        MPI_Finalize          2 14774
+       MPI_Comm_size          2 18303
+            MPI_Init          2 19975563154
+           MPI_Wtime          4 13625
+            MPI_Send        176 8978093
+            MPI_Recv        178 57181503
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 4646
+        MPI_Finalize          2 7195
+       MPI_Comm_size          2 17290
+            MPI_Init          2 19938397846
+           MPI_Wtime          4 12649
+            MPI_Send        346 31726651
+            MPI_Recv        348 9845476
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 5752
+        MPI_Finalize          2 6739
+       MPI_Comm_size          2 22323
+            MPI_Init          2 19890976568
+           MPI_Wtime          4 14600
+            MPI_Send        296 41423286
+            MPI_Recv        298 41659111
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 4824
+        MPI_Finalize          2 6393
+       MPI_Comm_size          2 17186
+            MPI_Init          2 20010817552
+           MPI_Wtime          4 20113
+            MPI_Recv        130 88191502
+            MPI_Send        136 27728218
+
+Time for 1: 0.236438
+Time for 2: 0.244742
+Time for 3: 0.251264
+Time for 0: 0.201333
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         11             369
+    distance_transfo          3           rw        281           19236
+    distance_transfo          2         spin       1908           12347
+    distance_transfo          3         spin       2343           12583
+    distance_transfo          2     adaptive       3146           28858
+    distance_transfo          3     adaptive       5664           37280
+    distance_transfo          1         spin      10913          100939
+    distance_transfo          1           rw      29870         2064667
+    distance_transfo          1     adaptive     154353          910412
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         11             503
+    distance_transfo          3           rw        281           19516
+    distance_transfo          2         spin       1863           12563
+    distance_transfo          3         spin       2332           12924
+    distance_transfo          2     adaptive       3158           28595
+    distance_transfo          3     adaptive       5668           37599
+    distance_transfo          1         spin      11749          246974
+    distance_transfo          1           rw      29919          987932
+    distance_transfo          1     adaptive     156863          607344
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         13             180
+    distance_transfo          3           rw        318           23161
+    distance_transfo          2         spin       1908           11008
+    distance_transfo          3         spin       2282           13188
+    distance_transfo          2     adaptive       3174           28341
+    distance_transfo          3     adaptive       5779           39295
+    distance_transfo          1         spin      13694          334941
+    distance_transfo          1           rw      31881         1235291
+    distance_transfo          1     adaptive     171759          982325
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         11             186
+    distance_transfo          3           rw        281           19936
+    distance_transfo          2         spin       1871           10538
+    distance_transfo          3         spin       2300           13452
+    distance_transfo          2     adaptive       3155           27791
+    distance_transfo          3     adaptive       5602           37389
+    distance_transfo          1         spin      11151          170672
+    distance_transfo          1           rw      30073         2047378
+    distance_transfo          1     adaptive     155818          833046
+
+----------------Image size 1024-----------------------
+Time for 1: 1.179614
+Time for 2: 1.217969
+Time for 3: 1.219352
+Time for 0: 1.198666
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      29073
+                main     1          1 3992556039
+           transform     1        194 1153467651
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      49387
+                main     1          1 4068213255
+           transform     1        172  818956521
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      32459
+          load_image     1          1   20661102
+          initialize     1          1   20955758
+               setup     1          1   22138179
+                main     1          1 4133586682
+           transform     1        123  622024213
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      29860
+                main     1          1 4218760731
+           transform     1        168  910965546
+
+Time for 1: 1.318196
+Time for 2: 1.381310
+Time for 0: 1.364106
+Time for 3: 1.382108
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 5093
+        MPI_Finalize          2 11604
+       MPI_Comm_size          2 22720
+            MPI_Init          2 19240495044
+           MPI_Wtime          4 22025
+            MPI_Recv        252 408991833
+            MPI_Send        258 230858882
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 4514
+        MPI_Finalize          2 7257
+       MPI_Comm_size          2 17802
+            MPI_Init          2 19245475937
+           MPI_Wtime          4 13002
+            MPI_Send        584 232351563
+            MPI_Recv        586 69644275
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 5565
+        MPI_Finalize          2 7662
+       MPI_Comm_size          2 22093
+            MPI_Init          2 19233092684
+           MPI_Wtime          4 16911
+            MPI_Send        682 37140139
+            MPI_Recv        684 62851463
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 4785
+        MPI_Finalize          2 6466
+       MPI_Comm_size          2 16542
+            MPI_Init          2 19240223991
+           MPI_Wtime          4 12666
+            MPI_Send        346 58898404
+            MPI_Recv        348 390619904
+
+Time for 1: 2.198023
+Time for 2: 2.274529
+Time for 3: 2.281909
+Time for 0: 2.099933
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         11             527
+    distance_transfo          3           rw        284           24721
+    distance_transfo          2         spin       1919           11016
+    distance_transfo          3         spin       2272           13756
+    distance_transfo          2     adaptive       3156           30906
+    distance_transfo          3     adaptive       5663           38728
+    distance_transfo          1         spin      15316          169492
+    distance_transfo          1           rw      30808         1221265
+    distance_transfo          1     adaptive     161869          677059
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         11             294
+    distance_transfo          3           rw        284           20762
+    distance_transfo          2         spin       1921           11253
+    distance_transfo          3         spin       2274           13901
+    distance_transfo          2     adaptive       3159           29197
+    distance_transfo          3     adaptive       5635           36819
+    distance_transfo          1         spin      12991           80328
+    distance_transfo          1           rw      31118         2084797
+    distance_transfo          1     adaptive     162287          815728
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         11             621
+    distance_transfo          3           rw        285           24065
+    distance_transfo          2         spin       1931           11503
+    distance_transfo          3         spin       2306           13803
+    distance_transfo          2     adaptive       3168           29740
+    distance_transfo          3     adaptive       5627           43526
+    distance_transfo          1         spin      11817          143989
+    distance_transfo          1           rw      30668         1107405
+    distance_transfo          1     adaptive     160109          624917
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         13             244
+    distance_transfo          3           rw        318           23979
+    distance_transfo          2         spin       1918           11133
+    distance_transfo          3         spin       2292           13531
+    distance_transfo          2     adaptive       3135           30298
+    distance_transfo          3     adaptive       5803           39973
+    distance_transfo          1         spin      14303          392812
+    distance_transfo          1           rw      35239         1562026
+    distance_transfo          1     adaptive     183589         1160851
+
+----------------Image size 2048-----------------------
+Time for 1: 11.652686
+Time for 2: 12.000560
+Time for 0: 11.898958
+Time for 3: 12.001496
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      24550
+                main     1          1 15320708559
+           transform     1        386 11657342478
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      30581
+                main     1          1 15562339550
+           transform     1        334 9511179425
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      29731
+               setup     1          1   57847435
+          load_image     1          1  103559556
+          initialize     1          1  103917281
+                main     1          1 15555299215
+           transform     1        246 6396632999
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      27270
+                main     1          1 15563958920
+           transform     1        343 8630790115
+
+Time for 1: 10.963149
+Time for 2: 11.349965
+Time for 0: 11.285768
+Time for 3: 11.350997
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 4502
+        MPI_Finalize          2 7165
+       MPI_Comm_size          2 18222
+            MPI_Init          2 22509609539
+           MPI_Wtime          4 24331
+            MPI_Recv        498 1749706290
+            MPI_Send        504 3639681521
+
+            MPI Func      Calls Time Spent
+,        MPI_Finalize          2 6478
+       MPI_Comm_rank          2 10168
+       MPI_Comm_size          2 37703
+            MPI_Init          2 22508281532
+           MPI_Wtime          4 22563
+            MPI_Send       1356 107598237
+            MPI_Recv       1358 430507500
+
+            MPI Func      Calls Time Spent
+,        MPI_Finalize          2 6178
+       MPI_Comm_rank          2 9241
+       MPI_Comm_size          2 34535
+            MPI_Init          2 22505010112
+           MPI_Wtime          4 20440
+            MPI_Send        688 320048485
+            MPI_Recv        690 3395935352
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 4833
+        MPI_Finalize          2 7243
+       MPI_Comm_size          2 17728
+            MPI_Init          2 22510469734
+           MPI_Wtime          4 13393
+            MPI_Send       1162 2122977829
+            MPI_Recv       1164 253069967
+
+Time for 1: 13.034325
+Time for 2: 13.564415
+Time for 0: 12.612208
+Time for 3: 13.580942
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         13             325
+    distance_transfo          3           rw        301           23976
+    distance_transfo          2         spin       1885           10590
+    distance_transfo          3         spin       2279           12707
+    distance_transfo          2     adaptive       3162           28527
+    distance_transfo          3     adaptive       5727           37492
+    distance_transfo          1         spin      26419          164082
+    distance_transfo          1           rw      36257         1752169
+    distance_transfo          1     adaptive     180636          856078
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         11             294
+    distance_transfo          3           rw        284           23221
+    distance_transfo          2         spin       1944           11311
+    distance_transfo          3         spin       2244           12062
+    distance_transfo          2     adaptive       3167           30509
+    distance_transfo          3     adaptive       5599           35909
+    distance_transfo          1         spin      26572          159868
+    distance_transfo          1           rw      34326         2068454
+    distance_transfo          1     adaptive     173590          688956
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         11             239
+    distance_transfo          3           rw        284           24226
+    distance_transfo          2         spin       1900           10819
+    distance_transfo          3         spin       2270           16092
+    distance_transfo          2     adaptive       3171           28977
+    distance_transfo          3     adaptive       5640           41728
+    distance_transfo          1         spin      24966          566510
+    distance_transfo          1           rw      34423         1366369
+    distance_transfo          1     adaptive     174814         1168115
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         11             493
+    distance_transfo          3           rw        313           24405
+    distance_transfo          2         spin       1918           14415
+    distance_transfo          3         spin       2300           12459
+    distance_transfo          2     adaptive       3163           32863
+    distance_transfo          3     adaptive       5746           38677
+    distance_transfo          1         spin      27251          173968
+    distance_transfo          1           rw      47559         3352110
+    distance_transfo          1     adaptive     241078          917834
+
+----------------Image size 4096-----------------------
+Time for 1: 84.838614
+Time for 2: 87.629711
+Time for 3: 87.634157
+Time for 0: 87.194950
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      33391
+               setup     1          1  256725252
+          load_image     1          1  438195175
+          initialize     1          1  438517729
+                main     1          1 90568139024
+           transform     1        490 50041325101
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      27155
+                main     1          1 90258816286
+           transform     1        685 63231507681
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      39978
+                main     1          1 90366066514
+           transform     1        666 70145758513
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      38897
+                main     1          1 90285141957
+           transform     1        770 86531941855
+
+Time for 1: 78.346718
+Time for 2: 81.669375
+Time for 0: 81.235073
+Time for 3: 81.676763
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 4322
+        MPI_Finalize          2 6886
+       MPI_Comm_size          2 19490
+            MPI_Init          2 16016764363
+           MPI_Wtime          4 24442
+            MPI_Recv        986 14247755106
+            MPI_Send        992 22993099179
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 5009
+        MPI_Finalize          2 7838
+       MPI_Comm_size          2 18627
+            MPI_Init          2 15973671717
+           MPI_Wtime          4 14920
+            MPI_Send       1372 2627372144
+            MPI_Recv       1374 21218615262
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 5039
+       MPI_Comm_size          2 17591
+        MPI_Finalize          2 951652
+            MPI_Init          2 16037836341
+           MPI_Wtime          4 15452
+            MPI_Send       2704 103073007
+            MPI_Recv       2706 841295851
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 5695
+        MPI_Finalize          2 8161
+       MPI_Comm_size          2 20283
+            MPI_Init          2 15949057645
+           MPI_Wtime          4 16382
+            MPI_Send       2314 13531571503
+            MPI_Recv       2316 699256694
+
+Time for 1: 86.703582
+Time for 2: 90.452370
+Time for 3: 90.472794
+Time for 0: 87.626493
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         13             306
+    distance_transfo          3           rw        318           30754
+    distance_transfo          2         spin       1901           11038
+    distance_transfo          3         spin       2284          164134
+    distance_transfo          2     adaptive       3133           29216
+    distance_transfo          3     adaptive       5712          336744
+    distance_transfo          1         spin      28040          211131
+    distance_transfo          1           rw     104428         7168015
+    distance_transfo          1     adaptive     544768         1929651
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         11             237
+    distance_transfo          3           rw        281           19296
+    distance_transfo          2         spin       1905           11445
+    distance_transfo          3         spin       2279           13296
+    distance_transfo          2     adaptive       3149           29596
+    distance_transfo          3     adaptive       5540           36750
+    distance_transfo          1         spin      37266          200145
+    distance_transfo          1           rw      43068         2208137
+    distance_transfo          1     adaptive     242298         1226673
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         11             371
+    distance_transfo          3           rw        281           19871
+    distance_transfo          2         spin       1914           10701
+    distance_transfo          3         spin       2303           12634
+    distance_transfo          2     adaptive       3149           32535
+    distance_transfo          3     adaptive       5696           36652
+    distance_transfo          1         spin      24331          248863
+    distance_transfo          1           rw      48383         2545003
+    distance_transfo          1     adaptive     255995         1055239
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         11             349
+    distance_transfo          3           rw        281           22266
+    distance_transfo          2         spin       1922           11384
+    distance_transfo          3         spin       2238           12707
+    distance_transfo          2     adaptive       3154           29552
+    distance_transfo          3     adaptive       5571           36381
+    distance_transfo          1         spin      18317          206859
+    distance_transfo          1           rw      43333         2370601
+    distance_transfo          1     adaptive     229543          829190
+
+-----------------Thread size 8----------------------
+----------------Image size 256-----------------------
+Time for 1: 0.961743
+Time for 2: 0.962637
+Time for 3: 0.963479
+Time for 4: 0.963909
+Time for 5: 0.963815
+Time for 6: 0.964047
+Time for 0: 0.962450
+Time for 7: 0.964216
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      27768
+                main     1          1 16083024555
+           transform     1         43    9884806
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      28124
+                main     1          1 11512978639
+           transform     1         29    5752316
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      34488
+                main     1          1 15788485154
+           transform     1         37    8210490
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      26577
+          load_image     1          1    1398267
+          initialize     1          1    1569244
+               setup     1          1   70324771
+                main     1          1 15696879401
+           transform     1         24    4712824
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      73327
+                main     1          1 4345810251
+           transform     1         44    9515585
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      28343
+                main     1          1 14731803525
+           transform     1         50   13867855
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      72619
+                main     1          1 4390965674
+           transform     1         49   10759651
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      29549
+                main     1          1 15998984300
+           transform     1         32    8002502
+
+Time for 1: 2.189533
+Time for 2: 2.222433
+Time for 4: 2.222783
+Time for 3: 2.221897
+Time for 5: 2.223544
+Time for 6: 2.223426
+Time for 0: 2.220821
+Time for 7: 2.223786
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 5141
+        MPI_Finalize          2 7088
+       MPI_Comm_size          2 21654
+            MPI_Init          2 69380224499
+           MPI_Wtime          4 15005
+            MPI_Send        186 29034529
+            MPI_Recv        188 2179096704
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 5394
+        MPI_Finalize          2 7028
+       MPI_Comm_size          2 25628
+            MPI_Init          2 69055399323
+           MPI_Wtime          4 16536
+            MPI_Send        188 1735844135
+            MPI_Recv        190 474406742
+
+            MPI Func      Calls Time Spent
+,        MPI_Finalize          2 6315
+       MPI_Comm_rank          2 10509
+       MPI_Comm_size          2 42758
+            MPI_Init          2 68505268225
+           MPI_Wtime          4 23823
+            MPI_Send        148 40052979
+            MPI_Recv        150 2165967871
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 5110
+        MPI_Finalize          2 9207
+       MPI_Comm_size          2 21619
+            MPI_Init          2 68597722383
+           MPI_Wtime          4 12326
+            MPI_Send         60 194730417
+            MPI_Recv         62 2016036791
+
+            MPI Func      Calls Time Spent
+,        MPI_Finalize          2 8956
+       MPI_Comm_rank          2 9454
+       MPI_Comm_size          2 42418
+            MPI_Init          2 70166738591
+           MPI_Wtime          4 22772
+            MPI_Recv         62 2183329396
+            MPI_Send         76 31393360
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 5315
+        MPI_Finalize          2 6621
+       MPI_Comm_size          2 21123
+            MPI_Init          2 68476458164
+           MPI_Wtime          4 14501
+            MPI_Send        114 168338364
+            MPI_Recv        116 2013438708
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 5235
+        MPI_Finalize          2 6748
+       MPI_Comm_size          2 24092
+            MPI_Init          2 69235745810
+           MPI_Wtime          4 16391
+            MPI_Send        140 319904812
+            MPI_Recv        142 1894534219
+
+            MPI Func      Calls Time Spent
+,        MPI_Finalize          2 7536
+       MPI_Comm_rank          2 15587
+       MPI_Comm_size          2 32978
+            MPI_Init          2 70544756031
+           MPI_Wtime          4 20945
+            MPI_Send        162 49233606
+            MPI_Recv        164 2161728659
+
+Time for 1: 2.461604
+Time for 2: 2.467517
+Time for 3: 2.469024
+Time for 4: 2.470060
+Time for 5: 2.471014
+Time for 6: 2.472440
+Time for 7: 2.474227
+Time for 0: 2.453952
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         27             586
+    distance_transfo          3           rw        339          163104
+    distance_transfo          2         spin       1930            9604
+    distance_transfo          3         spin       2593           13028
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         14             835
+    distance_transfo          3           rw        295           26781
+    distance_transfo          2         spin       1959            9419
+    distance_transfo          3         spin       2769           62409
+    distance_transfo          2     adaptive       3190           31201
+    distance_transfo          3     adaptive       6773           45942
+    distance_transfo          1           rw      29743         1433617
+    distance_transfo          1         spin      39327          262847
+    distance_transfo          1     adaptive     187579         1439045
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         17            1166
+    distance_transfo          3           rw        289           24475
+    distance_transfo          2         spin       1973            9886
+    distance_transfo          3         spin       2613           12682
+    distance_transfo          2     adaptive       3195          167705
+    distance_transfo          3     adaptive       6375           43771
+    distance_transfo          1           rw      29630         1336387
+    distance_transfo          1         spin      33215          158221
+    distance_transfo          1     adaptive     182088         1133694
+
+    distance_transfo          2     adaptive       3233           31204
+    distance_transfo          3     adaptive       6480           89867
+    distance_transfo          1           rw      32206         1909983
+    distance_transfo          1         spin      40351          190256
+    distance_transfo          1     adaptive     202655         1436380
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         11             400
+    distance_transfo          3           rw        274           23388
+    distance_transfo          2         spin       1992           10227
+    distance_transfo          3         spin       2714           13241
+    distance_transfo          2     adaptive       3123           29448
+    distance_transfo          3     adaptive       6091           44120
+    distance_transfo          1         spin      10545           50450
+    distance_transfo          1           rw      30101         1983481
+    distance_transfo          1     adaptive     161635          795033
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         11             342
+    distance_transfo          3           rw        277           24997
+    distance_transfo          2         spin       1953           13116
+    distance_transfo          3         spin       2709           13627
+    distance_transfo          2     adaptive       3198           63038
+    distance_transfo          3     adaptive       6476           98309
+    distance_transfo          1         spin      13356          333716
+    distance_transfo          1           rw      29774         2094067
+    distance_transfo          1     adaptive     162268          881793
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         11             353
+    distance_transfo          3           rw        274           24518
+    distance_transfo          2         spin       2033            9698
+    distance_transfo          3         spin       2672           13368
+    distance_transfo          2     adaptive       3163           31774
+    distance_transfo          3     adaptive       6295           45017
+    distance_transfo          1         spin      12163          280042
+    distance_transfo          1           rw      30016         2009725
+    distance_transfo          1     adaptive     167607         1183426
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         11             377
+    distance_transfo          3           rw        280           24000
+    distance_transfo          2         spin       1978           10568
+    distance_transfo          3         spin       2675           13380
+    distance_transfo          2     adaptive       3177           31991
+    distance_transfo          3     adaptive       6379           46303
+    distance_transfo          1           rw      29422         2835537
+    distance_transfo          1         spin      31275          148478
+    distance_transfo          1     adaptive     177550         1366756
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         11             893
+    distance_transfo          3           rw        286           74412
+    distance_transfo          2         spin       1969            9636
+    distance_transfo          3         spin       2646           13015
+    distance_transfo          2     adaptive       3210           29988
+    distance_transfo          3     adaptive       6408           46934
+    distance_transfo          1           rw      29565         1885082
+    distance_transfo          1         spin      35243          381698
+    distance_transfo          1     adaptive     181711         1456488
+
+----------------Image size 512-----------------------
+Time for 1: 2.854086
+Time for 2: 2.860178
+Time for 3: 2.864979
+Time for 4: 2.867920
+Time for 5: 2.863528
+Time for 6: 2.868584
+Time for 7: 2.868948
+Time for 0: 2.864816
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      47235
+                main     1          1 7399695376
+           transform     1         87   75106248
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      26419
+                main     1          1 7009966968
+           transform     1         62   46865521
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      26878
+                main     1          1 7281215652
+           transform     1         98   80879446
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      24847
+                main     1          1 7174597627
+           transform     1         85   65300445
+
+            FUNCTION   TID      CALLS TIME SPENT
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      30754
+              _start     1          1          0
+         __start_crt     1          1      52320
+                main     1          1 5792571288
+           transform     1         57   38863409
+
+          load_image     1          1    4417830
+          initialize     1          1    4642683
+               setup     1          1   21117988
+                main     1          1 7642807718
+           transform     1         48   32215668
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      36648
+                main     1          1 7432825277
+           transform     1         73   56464712
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      50608
+                main     1          1 5602901388
+           transform     1         96   77805808
+
+Time for 1: 0.310753
+Time for 2: 0.333004
+Time for 3: 0.338535
+Time for 4: 0.341723
+Time for 5: 0.341884
+Time for 6: 0.342368
+Time for 7: 0.342051
+Time for 0: 0.337679
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 6928
+        MPI_Finalize          2 10583
+       MPI_Comm_size          2 27987
+            MPI_Init          2 45471210391
+           MPI_Wtime          4 21883
+            MPI_Recv        110 282778789
+            MPI_Send        124 19616155
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 5478
+        MPI_Finalize          2 7107
+       MPI_Comm_size          2 21843
+            MPI_Init          2 45315344992
+           MPI_Wtime          4 14751
+            MPI_Send        290 9869580
+            MPI_Recv        292 267105906
+
+            MPI Func      Calls Time Spent
+,        MPI_Finalize          2 6634
+       MPI_Comm_rank          2 9158
+       MPI_Comm_size          2 34623
+            MPI_Init          2 45319288608
+           MPI_Wtime          4 20468
+            MPI_Send        272 226923677
+            MPI_Recv        274 48112632
+
+            MPI Func      Calls Time Spent
+,        MPI_Finalize          2 6040
+       MPI_Comm_rank          2 7566
+       MPI_Comm_size          2 29943
+            MPI_Init          2 44613610679
+           MPI_Wtime          4 17647
+            MPI_Send        116 21131845
+            MPI_Recv        118 277375241
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 5133
+        MPI_Finalize          2 6427
+       MPI_Comm_size          2 16909
+            MPI_Init          2 46116199595
+           MPI_Wtime          4 12982
+            MPI_Send        222 204845022
+            MPI_Recv        224 58605205
+
+            MPI Func      Calls Time Spent
+,        MPI_Finalize          2 5503
+       MPI_Comm_rank          2 9609
+       MPI_Comm_size          2 38767
+            MPI_Init          2 45919981718
+           MPI_Wtime          4 21815
+            MPI_Send        318 8199869
+            MPI_Recv        320 262552084
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 6532
+        MPI_Finalize          2 7163
+       MPI_Comm_size          2 31060
+            MPI_Init          2 45045580590
+           MPI_Wtime          4 16456
+            MPI_Send        364 4280777
+            MPI_Recv        366 260521515
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 6038
+        MPI_Finalize          2 6728
+       MPI_Comm_size          2 23601
+            MPI_Init          2 45323218639
+           MPI_Wtime          4 14358
+            MPI_Send        368 1741875
+            MPI_Recv        370 259951869
+
+Time for 1: 1.614010
+Time for 2: 1.727599
+Time for 3: 1.729544
+Time for 4: 1.734414
+Time for 5: 1.633663
+Time for 6: 1.741912
+Time for 0: 1.675063
+Time for 7: 1.746481
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         11             424
+    distance_transfo          3           rw        286           25490
+    distance_transfo          2         spin       1930           10638
+    distance_transfo          3         spin       2522           12692
+    distance_transfo          2     adaptive       3160           30326
+    distance_transfo          3     adaptive       6091           42223
+    distance_transfo          1           rw      29831         1107026
+    distance_transfo          1         spin      40656          194849
+    distance_transfo          1     adaptive     188809         1076828
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw          8             340
+    distance_transfo          3           rw        265           24785
+    distance_transfo          2         spin       1987           10093
+    distance_transfo          3         spin       2715           13397
+    distance_transfo          2     adaptive       3167           31207
+    distance_transfo          3     adaptive       6485           47245
+    distance_transfo          1         spin      26597          170056
+    distance_transfo          1           rw      31207         1333066
+    distance_transfo          1     adaptive     159966          753737
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         16             288
+    distance_transfo          3           rw        371           28182
+    distance_transfo          2         spin       1938            9105
+    distance_transfo          3         spin       2626           11564
+    distance_transfo          2     adaptive       3179           27982
+    distance_transfo          3     adaptive       6764           38853
+    distance_transfo          1           rw      31222          981090
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw          8             200
+    distance_transfo          3           rw        265           27915
+    distance_transfo          2         spin       1946            9832
+    distance_transfo          3         spin       2716           15188
+    distance_transfo          2     adaptive       3157           29646
+    distance_transfo          3     adaptive       6532           50193
+    distance_transfo          1         spin      27012          175689
+    distance_transfo          1         spin      58742          283774
+    distance_transfo          1     adaptive     213595         1251145
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw          8             151
+    distance_transfo          3           rw        265           25559
+    distance_transfo          2         spin       1914            9825
+    distance_transfo          3         spin       2655           13912
+    distance_transfo          2     adaptive       3143           30438
+    distance_transfo          3     adaptive       6272           45378
+    distance_transfo          1         spin      27835          189255
+    distance_transfo          1           rw      31093         1409408
+    distance_transfo          1     adaptive     156403          736583
+
+    distance_transfo          1           rw      32553         1547810
+    distance_transfo          1     adaptive     165523          806622
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         11             133
+    distance_transfo          3           rw        298           23531
+    distance_transfo          2         spin       1877            8512
+    distance_transfo          3         spin       2830           12626
+    distance_transfo          2     adaptive       3148           26808
+    distance_transfo          3     adaptive       6832           44190
+    distance_transfo          1           rw      30314         1018441
+    distance_transfo          1         spin      55913          266314
+    distance_transfo          1     adaptive     210663         1207661
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw          8             489
+    distance_transfo          3           rw        265           26222
+    distance_transfo          2         spin       1926           10523
+    distance_transfo          3         spin       2646           14995
+    distance_transfo          2     adaptive       3133           30652
+    distance_transfo          3     adaptive       6330           47105
+    distance_transfo          1         spin      26984          212955
+    distance_transfo          1           rw      31137         1295648
+    distance_transfo          1     adaptive     157128          735763
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         11             491
+    distance_transfo          3           rw        292           22808
+    distance_transfo          2         spin       1992           10857
+    distance_transfo          3         spin       2628           12734
+    distance_transfo          2     adaptive       3174           33431
+    distance_transfo          3     adaptive       6329           42318
+    distance_transfo          1           rw      30071         1090542
+    distance_transfo          1         spin      43008          203314
+    distance_transfo          1     adaptive     190658         1087049
+
+----------------Image size 1024-----------------------
+Time for 1: 2.432287
+Time for 2: 2.492898
+Time for 3: 2.531742
+Time for 4: 2.555902
+Time for 5: 2.559489
+Time for 6: 2.560007
+Time for 7: 2.560652
+Time for 0: 2.405137
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      25258
+                main     1          1 4686711370
+           transform     1        190  920156626
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      25878
+                main     1          1 5107788411
+           transform     1        123  369266772
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      25136
+                main     1          1 4904798413
+           transform     1        167  527755652
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      27656
+          load_image     1          1   16115592
+          initialize     1          1   16289155
+               setup     1          1  459351449
+                main     1          1 5199794508
+           transform     1         94  256155692
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      39079
+                main     1          1 5415594439
+           transform     1        195  655167081
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      48138
+                main     1          1 4682255487
+           transform     1        113  449090576
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      29168
+                main     1          1 5119999738
+           transform     1        173  510695787
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      30917
+                main     1          1 5454177200
+           transform     1        147  436887516
+
+Time for 1: 1.178204
+Time for 2: 1.237205
+Time for 3: 1.270949
+Time for 4: 1.264948
+Time for 5: 1.296901
+Time for 6: 1.297872
+Time for 0: 1.280127
+Time for 7: 1.299004
+            MPI Func      Calls Time Spent
+,        MPI_Finalize          2 5965
+       MPI_Comm_rank          2 9490
+       MPI_Comm_size          2 31318
+            MPI_Init          2 41919381123
+           MPI_Wtime          4 17388
+            MPI_Send        436 53499129
+            MPI_Recv        438 750204505
+
+            MPI Func      Calls Time Spent
+,        MPI_Finalize          2 5917
+       MPI_Comm_rank          2 9588
+       MPI_Comm_size          2 28552
+            MPI_Init          2 43953861490
+           MPI_Wtime          4 18973
+            MPI_Send        542 80846711
+            MPI_Recv        544 713902072
+
+            MPI Func      Calls Time Spent
+,        MPI_Finalize          2 6320
+       MPI_Comm_rank          2 9256
+       MPI_Comm_size          2 35407
+            MPI_Init          2 40139000950
+           MPI_Wtime          4 22035
+            MPI_Send        728 80408425
+            MPI_Recv        730 589433228
+
+            MPI Func      Calls Time Spent
+,        MPI_Finalize          2 6212
+       MPI_Comm_rank          2 9272
+       MPI_Comm_size          2 37755
+            MPI_Init          2 42473192079
+           MPI_Wtime          4 21014
+            MPI_Send        574 54993190
+            MPI_Recv        576 719387104
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 4302
+        MPI_Finalize          2 6160
+       MPI_Comm_size          2 20268
+            MPI_Init          2 43561447869
+           MPI_Wtime          4 13521
+            MPI_Send        228 151389646
+            MPI_Recv        230 827203467
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 5380
+        MPI_Finalize          2 6938
+       MPI_Comm_size          2 19182
+            MPI_Init          2 41958819649
+           MPI_Wtime          4 12466
+            MPI_Send        630 504958242
+            MPI_Recv        632 230619843
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 5722
+        MPI_Finalize          2 7370
+       MPI_Comm_size          2 17945
+            MPI_Init          2 43216831572
+           MPI_Wtime          4 14031
+            MPI_Send        716 27177753
+            MPI_Recv        718 264782912
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 5233
+        MPI_Finalize          2 5912
+       MPI_Comm_size          2 20999
+            MPI_Init          2 42472169932
+           MPI_Wtime          4 21048
+            MPI_Recv        202 850502075
+            MPI_Send        216 162479920
+
+Time for 1: 2.979035
+Time for 2: 2.987549
+Time for 3: 2.999212
+Time for 4: 3.023979
+Time for 5: 3.032217
+Time for 6: 3.038876
+Time for 0: 2.833293
+Time for 7: 3.047786
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         11             688
+    distance_transfo          3           rw        289           25996
+    distance_transfo          2         spin       1899            8874
+    distance_transfo          3         spin       2750           13049
+    distance_transfo          2     adaptive       3147           28922
+    distance_transfo          3     adaptive       6718           46526
+    distance_transfo          1           rw      30407         1067119
+    distance_transfo          1         spin      54991          296168
+    distance_transfo          1     adaptive     208159         1323264
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         11             265
+    distance_transfo          3           rw        283           24824
+    distance_transfo          2         spin       1909            9560
+    distance_transfo          3         spin       2606           13370
+    distance_transfo          2     adaptive       3067           29010
+    distance_transfo          3     adaptive       6195           45459
+    distance_transfo          1           rw      30844         1170399
+    distance_transfo          1         spin      39527          199575
+    distance_transfo          1     adaptive     202012         1213662
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw          8             348
+    distance_transfo          3           rw        268           25044
+    distance_transfo          2         spin       1987           10461
+    distance_transfo          3         spin       2788           17583
+    distance_transfo          2     adaptive       3169           32774
+    distance_transfo          3     adaptive       6459           53932
+    distance_transfo          1         spin      19792          100587
+    distance_transfo          1           rw      34797         1625063
+    distance_transfo          1     adaptive     197907          996167
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw          8             323
+    distance_transfo          3           rw        265           28022
+    distance_transfo          2         spin       1872            9893
+    distance_transfo          3         spin       2726           14859
+    distance_transfo          2     adaptive       3130           31156
+    distance_transfo          3     adaptive       6481           49699
+    distance_transfo          1         spin      17111           89101
+    distance_transfo          1           rw      30435         1197627
+    distance_transfo          1     adaptive     174566          895404
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         14             955
+    distance_transfo          3           rw        286           25053
+    distance_transfo          2         spin       1873            9468
+    distance_transfo          3         spin       2698           13550
+    distance_transfo          2     adaptive       3214           29663
+    distance_transfo          3     adaptive       6374           45891
+    distance_transfo          1           rw      30349         1148657
+    distance_transfo          1         spin      44572          221258
+    distance_transfo          1     adaptive     197415         1190232
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         11             311
+    distance_transfo          3           rw        289           25455
+    distance_transfo          2         spin       1934            9740
+    distance_transfo          3         spin       2623           13090
+    distance_transfo          2     adaptive       3176           29795
+    distance_transfo          3     adaptive       6364           44714
+    distance_transfo          1           rw      30423         1181408
+    distance_transfo          1         spin      45409          221782
+    distance_transfo          1     adaptive     198604         1207130
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         13             571
+    distance_transfo          3           rw        329           26135
+    distance_transfo          2         spin       1976            9564
+    distance_transfo          3         spin       2620           12304
+    distance_transfo          2     adaptive       3170           30843
+    distance_transfo          3     adaptive       6555           46143
+    distance_transfo          1           rw      31444         1124057
+    distance_transfo          1         spin      54187          263944
+    distance_transfo          1     adaptive     213910         1285557
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw          8             216
+    distance_transfo          3           rw        265           26283
+    distance_transfo          2         spin       1965           10445
+    distance_transfo          3         spin       2785           14793
+    distance_transfo          2     adaptive       3149           31476
+    distance_transfo          3     adaptive       6507           51882
+    distance_transfo          1         spin       9068           44774
+    distance_transfo          1           rw      30362         1268841
+    distance_transfo          1     adaptive     160717          766511
+
+----------------Image size 2048-----------------------
+Time for 1: 14.050041
+Time for 2: 14.198885
+Time for 3: 14.450485
+Time for 4: 14.667944
+Time for 5: 14.686945
+Time for 6: 14.687484
+Time for 0: 14.614500
+Time for 7: 14.688803
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      31312
+                main     1          1 16618983696
+           transform     1        291 4076859611
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      39185
+          load_image     1          1   73972939
+          initialize     1          1   74274267
+               setup     1          1  254889530
+                main     1          1 18395697261
+           transform     1        190 2611942413
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      51038
+                main     1          1 17545178613
+           transform     1        246 3290068137
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      36108
+                main     1          1 17790834653
+           transform     1        380 5497290087
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      47565
+                main     1          1 17884364579
+           transform     1        333 4424626817
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      31799
+                main     1          1 16923046998
+           transform     1        224 2598114593
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      36942
+                main     1          1 17530425686
+           transform     1        387 5633317815
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      41797
+                main     1          1 18155359450
+           transform     1        344 4758262257
+
+Time for 1: 12.299047
+Time for 2: 12.739358
+Time for 3: 13.033987
+Time for 4: 13.226814
+Time for 5: 13.244885
+Time for 6: 13.246223
+Time for 0: 13.179983
+Time for 7: 13.248798
+            MPI Func      Calls Time Spent
+,        MPI_Finalize          2 7801
+       MPI_Comm_rank          2 9148
+       MPI_Comm_size          2 36430
+            MPI_Init          2 73166544203
+           MPI_Wtime          4 21185
+            MPI_Send       1250 5305242125
+            MPI_Recv       1252 3231585085
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 7666
+        MPI_Finalize          2 8699
+       MPI_Comm_size          2 23493
+            MPI_Init          2 72149722373
+           MPI_Wtime          4 19951
+            MPI_Send       1138 759324392
+            MPI_Recv       1140 7604130888
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 6143
+        MPI_Finalize          2 8242
+       MPI_Comm_size          2 32466
+            MPI_Init          2 71025991678
+           MPI_Wtime          4 16586
+            MPI_Send        874 7286015885
+            MPI_Recv        876 1908428218
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 8768
+        MPI_Finalize          2 22942
+       MPI_Comm_size          2 33130
+            MPI_Init          2 74108105993
+           MPI_Wtime          4 30095
+            MPI_Recv        394 2860199911
+            MPI_Send        408 7820216317
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 6936
+        MPI_Finalize          2 8610
+       MPI_Comm_size          2 31396
+            MPI_Init          2 72657530013
+           MPI_Wtime          4 20638
+            MPI_Send        450 1780204496
+            MPI_Recv        452 8949186256
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 6440
+        MPI_Finalize          2 9020
+       MPI_Comm_size          2 25488
+            MPI_Init          2 73999944756
+           MPI_Wtime          4 17658
+            MPI_Send       1428 3497207484
+            MPI_Recv       1430 4555732361
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 6315
+        MPI_Finalize          2 7633
+       MPI_Comm_size          2 23149
+            MPI_Init          2 72428985660
+           MPI_Wtime          4 14370
+            MPI_Send       1076 6092888042
+            MPI_Recv       1078 2523178570
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 8923
+        MPI_Finalize          2 9577
+       MPI_Comm_size          2 72130
+            MPI_Init          2 72130479144
+           MPI_Wtime          4 23948
+            MPI_Send       1450 1810230685
+            MPI_Recv       1452 5661305759
+
+Time for 1: 20.105982
+Time for 2: 20.425935
+Time for 3: 20.720282
+Time for 4: 20.920694
+Time for 5: 20.940462
+Time for 6: 20.949199
+Time for 0: 20.054201
+Time for 7: 20.959313
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         27             645
+    distance_transfo          3           rw        390           42709
+    distance_transfo          2         spin       1817            8879
+    distance_transfo          3         spin       2763           13970
+    distance_transfo          2     adaptive       3208           28686
+    distance_transfo          3     adaptive       7030           51308
+    distance_transfo          1           rw      48053         2965603
+    distance_transfo          1         spin      91843          438125
+    distance_transfo          1     adaptive     323100         2016071
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         20             733
+    distance_transfo          3           rw        314           25539
+    distance_transfo          2         spin       1886            9858
+    distance_transfo          3         spin       2638           13807
+    distance_transfo          2     adaptive       3187           30656
+    distance_transfo          3     adaptive       6368           46217
+    distance_transfo          1           rw      33253         1502556
+    distance_transfo          1         spin      89877          543644
+    distance_transfo          1     adaptive     253132         1678730
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         14             464
+    distance_transfo          3           rw        295           27371
+    distance_transfo          2         spin       1862            9767
+    distance_transfo          3         spin       2707           14022
+    distance_transfo          2     adaptive       3178           29504
+    distance_transfo          3     adaptive       6419           46764
+    distance_transfo          1           rw      32138         1334223
+    distance_transfo          1         spin      69452          346346
+    distance_transfo          1     adaptive     226447         1462413
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         14             471
+    distance_transfo          3           rw        369           30991
+    distance_transfo          2         spin       1902            9528
+    distance_transfo          3         spin       2627           12997
+    distance_transfo          2     adaptive       3157           30130
+    distance_transfo          3     adaptive       6713           45955
+    distance_transfo          1           rw      34071         1452408
+    distance_transfo          1         spin      89627          440984
+    distance_transfo          1     adaptive     268641         1755730
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw          8              73
+    distance_transfo          3           rw        275           28559
+    distance_transfo          2         spin       1954           12348
+    distance_transfo          3         spin       2583           16468
+    distance_transfo          2     adaptive       3155           34914
+    distance_transfo          3     adaptive       6101           50701
+    distance_transfo          1         spin      16116           88778
+    distance_transfo          1           rw      31927         1357988
+    distance_transfo          1     adaptive     175334          807693
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         18             806
+    distance_transfo          3           rw        329           27490
+    distance_transfo          2         spin       1855            9614
+    distance_transfo          3         spin       2605           14361
+    distance_transfo          2     adaptive       3134           29737
+    distance_transfo          3     adaptive       6472           45835
+    distance_transfo          1           rw      32270         1266619
+    distance_transfo          1         spin      85861          437425
+    distance_transfo          1     adaptive     243050         1675072
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw          8             326
+    distance_transfo          3           rw        277           26569
+    distance_transfo          2         spin       1952           10795
+    distance_transfo          3         spin       2507           15322
+    distance_transfo          2     adaptive       3136           33681
+    distance_transfo          3     adaptive       6000           47785
+    distance_transfo          1         spin      20075          104786
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         11             851
+    distance_transfo          3           rw        268           25813
+    distance_transfo          2         spin       1992           13454
+    distance_transfo          3         spin       2568           16114
+    distance_transfo          2     adaptive       3159           34938
+    distance_transfo          3     adaptive       5991           46397
+    distance_transfo          1         spin      18276          331354
+    distance_transfo          1           rw      31628         1386613
+    distance_transfo          1     adaptive     169734          801159
+
+    distance_transfo          1           rw      31803         1351612
+    distance_transfo          1     adaptive     173443          822290
+
+----------------Image size 4096-----------------------
+Time for 1: 79.202607
+Time for 2: 84.809437
+Time for 3: 89.552683
+Time for 4: 91.964463
+Time for 5: 92.342327
+Time for 6: 92.350985
+Time for 7: 92.355422
+Time for 0: 92.035600
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      31081
+                main     1          1 94958929861
+           transform     1        491 29576707317
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      36061
+                main     1          1 95163404657
+           transform     1        686 44125782249
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      36954
+                main     1          1 95249401067
+           transform     1        580 33767009094
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      27504
+                main     1          1 94986277702
+           transform     1        771 57116125310
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      65794
+                main     1          1 94797235567
+           transform     1        665 43018109861
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      46227
+                main     1          1 95533792714
+           transform     1        447 24032003957
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      43326
+               setup     1          1  265876869
+          load_image     1          1  319876886
+          initialize     1          1  320158984
+                main     1          1 95711698137
+           transform     1        378 20087439715
+
+            FUNCTION   TID      CALLS TIME SPENT
+              _start     1          1          0
+         __start_crt     1          1      40262
+                main     1          1 95512243977
+           transform     1        756 53508379828
+
+Time for 1: 74.197659
+Time for 2: 77.393315
+Time for 3: 79.701698
+Time for 4: 81.171421
+Time for 5: 81.332244
+Time for 6: 81.328401
+Time for 0: 81.056059
+Time for 7: 81.336418
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 5221
+        MPI_Finalize          2 7507
+       MPI_Comm_size          2 20406
+            MPI_Init          2 58857873278
+           MPI_Wtime          4 14763
+            MPI_Send       2144 27864231567
+            MPI_Recv       2146 15656060751
+
+            MPI Func      Calls Time Spent
+,        MPI_Finalize          2 8050
+       MPI_Comm_rank          2 10499
+       MPI_Comm_size          2 41440
+            MPI_Init          2 55097232789
+           MPI_Wtime          4 37928
+            MPI_Send       2844 17385669145
+            MPI_Recv       2846 17802864804
+
+            MPI Func      Calls Time Spent
+,        MPI_Finalize          2 6063
+       MPI_Comm_rank          2 8309
+       MPI_Comm_size          2 30684
+            MPI_Init          2 57368498561
+           MPI_Wtime          4 40936
+            MPI_Send        896 11444812323
+            MPI_Recv        898 44084303628
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 4957
+        MPI_Finalize          2 6598
+       MPI_Comm_size          2 20820
+            MPI_Init          2 58833187584
+           MPI_Wtime          4 23388
+            MPI_Recv        770 18776699732
+            MPI_Send        784 38973897853
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 4728
+        MPI_Finalize          2 7389
+       MPI_Comm_size          2 19962
+            MPI_Init          2 55571969214
+           MPI_Wtime          4 17336
+            MPI_Send       2886 14086061256
+            MPI_Recv       2888 19890745815
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 6378
+        MPI_Finalize          2 8649
+       MPI_Comm_size          2 21759
+            MPI_Init          2 57920419957
+           MPI_Wtime          4 27626
+            MPI_Send       1740 33904926824
+            MPI_Recv       1742 7886015035
+
+            MPI Func      Calls Time Spent
+,       MPI_Comm_rank          2 5209
+        MPI_Finalize          2 8413
+       MPI_Comm_size          2 20852
+            MPI_Init          2 58320923835
+           MPI_Wtime          4 14875
+            MPI_Send       2492 22844484279
+            MPI_Recv       2494 16353206377
+
+            MPI Func      Calls Time Spent
+,        MPI_Finalize          2 7204
+       MPI_Comm_rank          2 8556
+       MPI_Comm_size          2 18590
+            MPI_Init          2 59058576492
+           MPI_Wtime          4 23219
+            MPI_Send       2268 7685825597
+            MPI_Recv       2270 31562372590
+
+Time for 1: 77.394516
+Time for 2: 80.594133
+Time for 3: 82.898762
+Time for 4: 84.404519
+Time for 5: 84.577873
+Time for 6: 84.588774
+Time for 0: 81.265521
+Time for 7: 84.600308
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         11             223
+    distance_transfo          3           rw        324           24686
+    distance_transfo          2         spin       1935            9241
+    distance_transfo          3         spin       2638           12383
+    distance_transfo          2     adaptive       3098           27768
+    distance_transfo          3     adaptive       6524           42464
+    distance_transfo          1           rw      36857         1744058
+    distance_transfo          1         spin      70868          309359
+    distance_transfo          1     adaptive     247682         1332513
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         20             798
+    distance_transfo          3           rw        367           29416
+    distance_transfo          2         spin       1970            9249
+    distance_transfo          3         spin       2671           12746
+    distance_transfo          2     adaptive       3184           29112
+    distance_transfo          3     adaptive       6788           44411
+    distance_transfo          2           rw          8             260
+    distance_transfo          3           rw        268           25767
+    distance_transfo          2         spin       1928            9473
+    distance_transfo          3         spin       2764           13330
+    distance_transfo          2     adaptive       3141           29425
+    distance_transfo          3     adaptive       6619           47518
+    distance_transfo          1           rw      42494         2367526
+    distance_transfo          1         spin      54903          300247
+    distance_transfo          1     adaptive     228725         1062262
+    distance_transfo          1           rw      37104         1680374
+    distance_transfo          1         spin     102479          452925
+    distance_transfo          1     adaptive     278001         1676637
+
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw          8             352
+    distance_transfo          3           rw        268           26443
+    distance_transfo          2         spin       1974           10023
+    distance_transfo          3         spin       2666           13574
+    distance_transfo          2     adaptive       3114           29800
+    distance_transfo          3     adaptive       6418           47349
+    distance_transfo          1           rw      39836         2162750
+    distance_transfo          1         spin      93867          480770
+    distance_transfo          1     adaptive     255811         1500500
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw          8             415
+    distance_transfo          3           rw        268           25689
+    distance_transfo          2         spin       1980            9659
+    distance_transfo          3         spin       2604           13666
+    distance_transfo          2     adaptive       3154           29742
+    distance_transfo          3     adaptive       6255           46401
+    distance_transfo          1           rw      37428         1910983
+    distance_transfo          1         spin      64583          322160
+    distance_transfo          1     adaptive     219425         1114791
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw         13             334
+    distance_transfo          3           rw        364           27331
+    distance_transfo          2         spin       1896            8940
+    distance_transfo          3         spin       2755           12840
+    distance_transfo          2     adaptive       3157           26802
+    distance_transfo          3     adaptive       6914           46065
+    distance_transfo          1         spin      87670          389570
+    distance_transfo          1           rw      95775         7329323
+    distance_transfo          1     adaptive     567718         2638398
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw          8             252
+    distance_transfo          3           rw        271           25733
+    distance_transfo          2         spin       1861            8862
+    distance_transfo          3         spin       2727           13615
+    distance_transfo          2     adaptive       3138           28118
+    distance_transfo          3     adaptive       6461           47152
+    distance_transfo          1         spin      38671          199747
+    distance_transfo          1           rw      40932         2017115
+    distance_transfo          1     adaptive     252002         1104474
+
+            FUNCTION        TID    PROBENAME      CALLS       TIMESPENT
+    distance_transfo          2           rw          8             241
+    distance_transfo          3           rw        268           25507
+    distance_transfo          2         spin       1892            9226
+    distance_transfo          3         spin       2723           14277
+    distance_transfo          2     adaptive       3149           28225
+    distance_transfo          3     adaptive       6483           46535
+    distance_transfo          1           rw      38208         2018994
+    distance_transfo          1         spin      48491          277070
+    distance_transfo          1     adaptive     203472          950231
+
+-----------------Thread size 12----------------------
+----------------Image size 256-----------------------
+----------------Image size 512-----------------------
+----------------Image size 1024-----------------------
+----------------Image size 2048-----------------------
+----------------Image size 4096-----------------------

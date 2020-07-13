@@ -4,7 +4,7 @@
 #include <omp.h>
 
 #define MAX_VALUE (unsigned short)65535     /* PGM file format only supports maximum of 16 bits */
-#define REP 100
+#define REP 1
 
 
 unsigned int height = 0, width = 0;
