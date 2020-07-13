@@ -1,3 +1,7 @@
+#pragma D option dynvarsize=800000
+#pragma D option cleanrate=50hz
+#pragma D option bufpolicy=ring
+
 lockstat:::adaptive-acquire
 /pid == $target/
 {
