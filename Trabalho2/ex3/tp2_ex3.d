@@ -32,16 +32,15 @@ syscall:::return
 
 END
 {
-	printf("%% %4s %8s %10s %5s %6s %-s\n","time","seconds","usecs/call","calls",
+    printf("%% %4s %12s %10s %5s %6s %-s\n","time","nanoseconds","usecs/call","calls",
 "errors","syscall");
-	runtime = timestamp - runtime;
-	printf("%d\n",runtime);
-	normalize(@avgtime,1);
-	normalize(@totaltime,1);
-	normalize(@percentage,runtime/100);
-	printa("%6@u %@8u %@10u %@5u %@6u %-s\n", @percentage,
-@totaltime,@avgtime, @counts,@errors,@totaltime);
-	printf("%6s %8d %10s %5u %6u %-s","100.00",runtime,"",
-totalcounts,totalerrors,"total");
+    runtime = timestamp - runtime;
+    normalize(@avgtime,1);
+    normalize(@totaltime,1000000);
+    normalize(@percentage,runtime/100);
+    printa("%6@u %@12u %@10u %@5u %@6u %-s\n", @percentage,
+		@totaltime,@avgtime, @counts,@errors,@totaltime);
+	printf("%6s %8d %10s %5u %6u %-s","100.00",(runtime/1000000),"",
+		totalcounts,totalerrors,"total");
 }
 
